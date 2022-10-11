@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Modal Delete Modal 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+			<button type=\\"button\\" class=\\"btn btn-outline-secondary\\" data-bs-toggle=\\"modal\\" data-bs-target=\\"#deleteModal\\">
+					Launch Delete Modal
+			</button> 
+			",
+    "
+",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"modal fade\\" tabindex=\\"-1\\" id=\\"deleteModal\\" aria-labelledby=\\"deleteModalLabel\\" aria-hidden=\\"true\\">
+      <div class=\\"modal-dialog modal-dialog-centered modal-fullscreen-sm-down modal-sm\\">
+        <div class=\\"modal-content\\">
+          <div class=\\"modal-header\\">
+            <h5 class=\\"modal-title\\" id=\\"deleteModalLabel\\">Delete 23 items</h5>
+            <button type=\\"button\\" class=\\"btn btn-icon\\" data-bs-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span class=\\"material-icons \\">close</span>
+        </button>
+          </div>
+          <div class=\\"modal-body\\">
+            <p class=\\"mb-0\\">
+              This action will remove the selected items permanantly from this list.
+              Are you sure you want to delete these items ?
+            </p>
+          </div>
+          <div class=\\"modal-footer\\">
+            <div class=\\"d-grid w-100 d-sm-flex flex-sm-row-reverse gap-3 align-items-center  justify-content-sm-start\\">
+              <button type=\\"button\\" class=\\"btn btn-primary\\">Delete Items</button>  
+              <button type=\\"button\\" class=\\"btn btn-tertiary\\" data-bs-dismiss=\\"modal\\">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Modal Settings Modal 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+			<button type=\\"button\\" class=\\"btn btn-outline-secondary\\" data-bs-toggle=\\"modal\\" data-bs-target=\\"#settingsModal1\\">
+				Launch Settings Modal
+			</button> 
+			",
+    "
+",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"modal\\" tabindex=\\"-1\\" id=\\"settingsModal1\\" aria-labelledby=\\"settingsModalLabel1\\" aria-hidden=\\"true\\">
+      <div class=\\"modal-dialog modal-dialog-centered modal-fullscreen-sm-down modal-sm\\">
+        <div class=\\"modal-content\\">
+          <div class=\\"modal-header align-items-center\\">
+            <h5 class=\\"modal-title mb-0\\" id=\\"settingsModalLabel1\\">Edit SMS (text) authentication</h5>
+            <button type=\\"button\\" class=\\"btn btn-icon\\" data-bs-dismiss=\\"modal\\" aria-label=\\"Close\\">
+              <span class=\\"material-icons \\">close</span>
+            </button>
+          </div>
+          <div class=\\"modal-body\\">
+            <p class=\\"mb-1 mt-n1\\">Please follow the instructions below to complete your text message authentication. </p>
+            <form class=\\"mb-3 pt-4\\">
+              <div class=\\"form-group mb-4\\">
+                <input type=\\"text\\" id=\\"floatingInput\\" placeholder=\\"Placeholder Text\\" class=\\"form-control form-control-undefined \\">
+                <label for=\\"floatingInput\\">Label</label>
+              </div>
+              <div class=\\"form-group\\">
+                <input type=\\"text\\" id=\\"floatingInput1\\" placeholder=\\"Placeholder Text\\" class=\\"form-control form-control-undefined \\">
+                <label for=\\"floatingInput1\\">Label</label>
+                <div id=\\"emailHelp\\" class=\\"form-text\\">Didn't receive a passcode? Resend passcode</div>
+              </div>
+            </form>
+            <small> This mobile number will be used to restore access to your account and receive notifications. </small>
+          </div>
+          <div class=\\"modal-footer\\">
+            <div class=\\"d-grid w-100 d-sm-flex flex-sm-row-reverse gap-3 align-items-center  justify-content-sm-start\\">
+              <button type=\\"button\\" data-bs-target=\\"#settingsModal2\\" data-bs-toggle=\\"modal\\" data-bs-dismiss=\\"modal\\" class=\\"btn btn-primary\\">Next</button>  
+              <button type=\\"button\\" class=\\"btn btn-tertiary\\" data-bs-dismiss=\\"modal\\">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class=\\"modal\\" tabindex=\\"-1\\" id=\\"settingsModal2\\" aria-labelledby=\\"settingsModalLabel2\\" aria-hidden=\\"true\\">
+      <div class=\\"modal-dialog modal-dialog-centered modal-fullscreen-sm-down modal-sm\\">
+        <div class=\\"modal-content\\">
+          <div class=\\"modal-header align-items-center\\">
+            <h5 class=\\"modal-title mb-0\\" id=\\"settingsModalLabel2\\">Edit SMS (text) authentication</h5>
+            <button type=\\"button\\" class=\\"btn btn-icon\\" data-bs-dismiss=\\"modal\\" aria-label=\\"Close\\">
+              <span class=\\"material-icons \\">close</span>
+            </button>
+          </div>
+          <div class=\\"modal-body\\">
+              <p class=\\"mt-n1\\">
+              For your security, please enter the one-time passcode that was sent to your device.
+            </p>
+            <form class=\\"pt-2\\">
+              <div class=\\"form-group\\">
+                <input type=\\"text\\" id=\\"floatingInput2\\" placeholder=\\"Placeholder Text\\" class=\\"form-control form-control-undefined \\">
+                <label for=\\"floatingInput2\\">Label</label>
+                <div id=\\"emailHelp1\\" class=\\"form-text\\">Didn't receive a passcode? Resend passcode</div>
+              </div>
+            </form>
+          </div>
+          <div class=\\"modal-footer\\">
+            <div class=\\"d-grid w-100 d-sm-flex flex-sm-row-reverse gap-3 align-items-center  justify-content-sm-start\\">
+              <button type=\\"button\\" class=\\"btn btn-primary\\">Verify passcode</button>  
+              <button type=\\"button\\" class=\\"btn btn-tertiary\\" data-bs-target=\\"#settingsModal1\\" data-bs-toggle=\\"modal\\"  data-bs-dismiss=\\"modal\\">Back</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Modal Splash Modal 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+		<button type=\\"button\\" class=\\"btn btn-outline-secondary\\" data-bs-toggle=\\"modal\\" data-bs-target=\\"#splashModal\\">
+				Launch Splash Modal
+		</button> 
+		",
+    "
+",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"modal fade\\" tabindex=\\"-1\\" id=\\"splashModal\\" aria-labelledby=\\"splashModalLabel\\" aria-hidden=\\"true\\">
+      <div class=\\"modal-dialog modal-dialog-centered modal-fullscreen-sm-down modal-sm\\">
+        <div class=\\"modal-content\\">
+          <div class=\\"modal-header align-items-start\\">
+            <div>
+              <span class=\\"material-icons text-warning md-48\\">warning_amber</span>
+                <h5 class=\\"modal-title\\" id=\\"exampleModalLabel\\">Lorem ipsum dolor</h5>
+            </div>
+            <button type=\\"button\\" class=\\"btn btn-icon\\" data-bs-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span class=\\"material-icons \\">close</span>
+        </button>
+          </div>
+          <div class=\\"modal-body\\">
+            <p>
+              The recommended browsers for Order Express are Google Chrome and Microsoft Edge.
+              If you do not use recommended browsers, you may encounter issues like slowness, JavaScript errors, navigation problems, lack of security,
+              1-800 errors, and limited use of the Order History page.
+            </p>
+            <p>
+              Internet Explorer will no longer be supported in 2022.
+              If you are using Internet Explorer today, please plan to transition to a supported browser as soon as possible.
+              You can download Google Chrome or Microsoft Edge with the links below:
+            </p>
+          </div>
+          <div class=\\"modal-footer d-flex justify-content-center\\">
+            <div class=\\"d-grid gap-3\\">
+                ",
+        "
+                ",
+        "
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+         <a href=",
+            " target=",
+            " class=\\"d-inline-flex align-items-center text-decoration-none\\">
+            <span class=\\"text-decoration-underline\\">",
+            "</span>
+            <span class=\\"material-icons ms-1 mt-1 md-16\\">open_in_new</span>
+         </a>",
+          ],
+          "values": Array [
+            "http://www.cardinalhealth.com",
+            "_self",
+            "Link action",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+         <a href=",
+            " target=",
+            " class=\\"d-inline-flex align-items-center text-decoration-none\\">
+            <span class=\\"text-decoration-underline\\">",
+            "</span>
+            <span class=\\"material-icons ms-1 mt-1 md-16\\">open_in_new</span>
+         </a>",
+          ],
+          "values": Array [
+            "http://www.cardinalhealth.com",
+            "_self",
+            "Link action",
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Modal Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+	 	<button type=\\"button\\" class=\\"btn btn-primary\\" data-bs-toggle=\\"modal\\" data-bs-target=\\"#exampleModal\\">
+			 Launch Modal
+ 		</button>
+		",
+    "
+	 ",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"modal fade\\" tabindex=\\"-1\\" id=\\"exampleModal\\" aria-labelledby=\\"exampleModalLabel\\" aria-hidden=\\"true\\">
+        <div class=",
+        ">
+          <div class=\\"modal-content\\">
+            ",
+        "
+            <div class=\\"modal-body\\">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Donec suscipit lacinia pellentesque. Maecenas a lectus in nulla condimentum accumsan finibus lobortis enim.
+                Etiam pretium efficitur dolor, sed faucibus lectus.
+                Proin non euismod tellus. Nunc id commodo enim. Duis efficitur convallis efficitur. Integer porttitor.
+              </p>
+              <div style=\\"height: 183px; background-color: #e2e9ea\\"></div>
+            </div>
+            ",
+        "
+          </div>
+        </div>
+   </div>
+   ",
+      ],
+      "values": Array [
+        "modal-dialog modal-dialog-centered modal-fullscreen-sm-down modal-sm",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+     <div class=\\"modal-header align-items-start\\">
+       <div>
+         <span class=\\"material-icons text-success md-48\\">check_circle_outline</span>
+         <h5 class=\\"modal-title\\" id=\\"exampleModalLabel\\">Lorem ipsum dolor</h5>
+       </div>
+       <button type=\\"button\\" class=\\"btn btn-icon\\" data-bs-dismiss=\\"modal\\" aria-label=\\"Close\\">
+            <span class=\\"material-icons \\">close</span>
+        </button>
+     </div>
+  ",
+          ],
+          "values": Array [],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=\\"py-3 px-4 border-top\\">
+        <div class=\\"form-check\\">
+          <input type=\\"checkbox\\" class=\\"form-check-input\\" id=\\"customCheck111-33\\" />
+          <label class=\\"form-check-label\\" for=\\"customCheck111-33\\">Don't show this again</label>
+        </div>
+    </div>
+    <div class=\\"modal-footer\\">
+        <div class=\\"d-grid w-100 gap-3 d-sm-flex align-items-sm-center  flex-sm-row-reverse justify-content-sm-between\\">
+          <div class=\\"d-grid gap-3 d-sm-flex flex-sm-row-reverse\\">
+            <button type=\\"button\\" class=\\"btn btn-primary\\">Primary</button>
+            <button type=\\"button\\" class=\\"btn btn-outline-secondary me-md-2\\">Secondary</button>
+          </div>
+          <button type=\\"button\\" data-bs-dismiss=\\"modal\\" class=\\"btn  btn-tertiary\\">Teritary Button</button>
+        </div>
+    </div>
+   ",
+          ],
+          "values": Array [],
+        },
+      ],
+    },
+  ],
+}
+`;

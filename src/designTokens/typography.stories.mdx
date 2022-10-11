@@ -1,0 +1,164 @@
+import { Meta, Typeset, Canvas } from "@storybook/addon-docs/blocks";
+
+<Meta title="DesignTokens/Typography" />
+
+export const typography = {
+  type: {
+    primary: '"Roboto", sans-serif',
+  },
+  weight: {
+    regular: "400",
+    medium: "500",
+    bold: "700",
+    black: "900",
+  },
+  size: {
+    s1: 12,
+    s2: 14,
+    s3: 16,
+    m1: 20.25,
+    m2: 25.63,
+    m3: 28.83,
+    l1: 36.49,
+    l2: 46.18,
+    l3: 51.96,
+  },
+};
+
+export const SampleText =
+  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+
+# Typography
+
+##### DESIGN SYSTEM - `16px` base
+
+**Font:** 'Roboto', sans-serif ;
+
+**Weights:** 400(regular), 500(medium), 700(bold), 900(black)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.s1),
+    Number(typography.size.s2),
+    Number(typography.size.s3),
+    Number(typography.size.m1),
+    Number(typography.size.m2),
+    Number(typography.size.m3),
+    Number(typography.size.l1),
+    Number(typography.size.l2),
+    Number(typography.size.l3),
+  ]}
+  fontWeight={typography.weight.regular}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
+
+## Heading
+
+`.h1` through `.h6` classes are also available, for when you want to match the font styling of a heading but cannot use the associated HTML element.
+
+<Canvas isColumn>
+  <p class="h1">H1 / Regular / 51.96px </p>
+  <p class="h2">H2 / Medium / 46.18px </p>
+  <p class="h3">H3 / Medium / 36.49px </p>
+  <p class="h4">H4 / Regular / 28.83px </p>
+  <p class="h5">H5 / Medium / 25.63px </p>
+  <p class="h6">H6 / Medium / 20.25px </p>
+</Canvas>
+
+## Inline text elements
+
+Styling for common inline HTML5 elements
+
+<Canvas isColumn>
+  <p>
+    You can use the mark tag to <mark>highlight</mark> text.
+  </p>
+  <p>
+    <del>This line of text is meant to be treated as deleted text.</del>
+  </p>
+  <p>
+    <s>This line of text is meant to be treated as no longer accurate.</s>
+  </p>
+  <p>
+    <ins>
+      This line of text is meant to be treated as an addition to the document.
+    </ins>
+  </p>
+  <p>
+    <u>This line of text will render as underlined.</u>
+  </p>
+  <p>
+    <small>This line of text is meant to be treated as fine print.</small>
+  </p>
+  <p>
+    <strong>This line rendered as bold text.</strong>
+  </p>
+  <p>
+    <em>This line rendered as italicized text.</em>
+  </p>
+</Canvas>
+
+## Alignment
+
+Use text utilities as needed to change the alignment of your blockquote
+
+<Canvas>
+  <figure class="text-center">
+    <blockquote class="blockquote">
+      <p>A well-known quote, contained in a blockquote element.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Someone famous in <cite title="Source Title">Source Title</cite>
+    </figcaption>
+  </figure>
+</Canvas>
+
+<Canvas>
+  <figure class="text-end">
+    <blockquote class="blockquote">
+      <p>A well-known quote, contained in a blockquote element.</p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Someone famous in <cite title="Source Title">Source Title</cite>
+    </figcaption>
+  </figure>
+</Canvas>
+
+## Text transform
+
+Transform text in components with text capitalization classes.
+
+<Canvas isColumn>
+  <p class="text-lowercase">Lowercased text.</p>
+  <p class="text-uppercase">Uppercased text.</p>
+  <p class="text-capitalize">CapiTaliZed text.</p>
+</Canvas>
+
+## Text Alignment
+
+Easily realign text to components with text alignment classes.
+For start, end, and center alignment, responsive classes are available that use the same viewport width breakpoints as the grid system.
+
+<Canvas isColumn>
+  <p class="text-start">Start aligned text on all viewport sizes.</p>
+  <p class="text-center">Center aligned text on all viewport sizes.</p>
+  <p class="text-end">End aligned text on all viewport sizes.</p>
+</Canvas>
+
+## Font Weight and Italics
+
+Quickly change the `font-weight` or `font-style` of text with these utilities.
+`font-style` utilities are abbreviated as `.fst-*` and font-weight utilities are abbreviated as `.fw-*`.
+
+<Canvas isColumn>
+  <p class="fw-bold">Bold text.</p>
+  <p class="fw-bolder">Bolder weight text (relative to the parent element).</p>
+  <p class="fw-normal">Normal weight text.</p>
+  <p class="fw-light">Light weight text.</p>
+  <p class="fw-lighter">
+    Lighter weight text (relative to the parent element).
+  </p>
+  <p class="fst-italic">Italic text.</p>
+  <p class="fst-normal">Text with normal font style</p>
+</Canvas>

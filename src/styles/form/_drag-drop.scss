@@ -1,0 +1,25 @@
+.drag-drop-container {
+  max-width: toRem(256);
+
+  .drop-container {
+    display:flex;
+    align-items: center;
+    padding: toRem(30) toRem(16);
+    border: 1px dashed $black;
+
+    &--over {
+       border-style: solid;
+    }
+
+    &--disabled {
+       opacity: 0.5;
+    }
+
+    &:focus {
+      box-shadow: none;
+      outline: 2px dotted $dark;
+      outline-offset: 2px;
+      cursor: crosshair;
+    }
+  }
+}

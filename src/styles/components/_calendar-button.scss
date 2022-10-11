@@ -1,0 +1,77 @@
+.calendar-btn-wrapper {
+  display:inline-block;
+  
+  >.btn-check {
+      // Checked
+      &:checked + .btn, &:checked:disabled + .btn {
+          background-color: $black;
+          border-color: $black;
+          color: $white;
+
+          .icon {
+              display: block;
+          }
+      }
+
+
+  
+       //Default
+       &:not(:checked) + .btn {
+        &:hover:not(.disabled) {
+          background-color: $dark-red;
+          border-color: $dark-red;
+          color: $white;
+        }
+       }
+  
+       //Focus
+       &:focus + .btn {
+        box-shadow: none;
+        outline: 2px dotted $dark;
+        outline-offset: 2px;
+       }
+
+       //Disabled
+       &:disabled + .btn {
+          background-color: $white;
+          border-color: $gray-400;
+          opacity: 0.5;
+       }
+  }
+
+  .btn {
+      border: 1px solid $black;
+      padding: toRem(6) toRem(13);
+      height:toRem(60);
+      width:toRem(44);
+      display: flex;
+      align-items: flex-end; 
+
+      .icon {
+          display: none;
+          font-size: toRem(16);
+          margin-bottom:2px;
+      }
+  
+      .day {
+          font-size: toRem(8);
+          text-transform: uppercase;
+          font-weight: 500;
+      }
+  }
+
+  &.current-day {
+      position: relative;
+      display: inline-flex;
+      width: initial;
+  
+      .today-indicator {
+          position: absolute;
+          top: -9%;
+          left: 25%;
+          font-size: 1rem;
+          transform: translate(25%, -9%);
+          z-index:1;
+      }
+  }
+}

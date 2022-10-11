@@ -1,0 +1,92 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+# Link
+
+## Usage
+
+Links are used as navigational elements and can be used on their own or inline with text.
+
+Use links when you want users to:
+
+- Navigate to a different page within the application
+- Navigate to an entirely different site
+- Jump to an element on the same page
+- Link to emails or phone numbers
+
+We recommend links be three words or fewer. Because links take users to a new location,
+it is important that their labels accurately reflect the content users will find at the link destination.
+Use meaningful labels for links and avoid terms like “click here” or the web address itself.
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Variant</th>
+      <th scope="col">Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Standalone</td>
+      <td>
+        Standalone links are used on their own directly following content. They
+        should not be used within sentences or paragraphs. Standalone links
+        replace the current page but the user stays within the same browser tab
+      </td>
+    </tr>
+    <tr>
+      <td>Standalone with icon</td>
+      <td>
+        Opens a new browser tab to either go to another page within the same
+        site or go to an entirely new site. Strive to pull these out from body
+        copy for easy scan-ability.
+      </td>
+    </tr>
+    <tr>
+      <td>Inline</td>
+      <td>
+        Inline links are used in sentences or paragraphs of text. Inline links
+        should not be used on their own and should not be paired with icons.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Link Formatting & Interactions
+
+<br />
+<br />
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h5>Link - Standalone</h5>
+      <Story id="components-link--standalone" name="StandAlone" />
+    </div>
+    <div class="col">
+      <h5>Link - with Icon</h5>
+      <Story
+        id="components-link--standalone-with-icon"
+        name="StandAlone with Icon"
+      />
+    </div>
+    <div class="col">
+      <h5>Link - inline</h5>
+      <Story id="components-link--inline" name="Inline" />
+    </div>
+  </div>
+</div>
+
+<br />
+<br />
+
+## Colored Links
+
+<p>
+  You can use the <code>.link-_</code> classes to colorize links. Unlike the{" "}
+  <code>.text-_</code> classes, these classes have a <code>:hover</code> and{" "}
+  <code>:focus</code> state.
+</p>
+
+<Canvas>
+  <Story id="components-link--colored-links"></Story>
+</Canvas>

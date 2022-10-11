@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Slider Range Slider 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+        <div class=\\"slider ",
+    "\\">
+            <label for=\\"rangeSlider\\" class=\\"form-label\\">Slider label</label>
+            <div class=\\"d-flex align-items-center\\">
+                <p class=\\"left-label\\">0</p>
+                <input type=\\"range\\" class=\\"form-range\\" id=\\"rangeSlider\\">
+                <p>100</p>
+                ",
+    "
+            </div>
+        </div>
+    ",
+  ],
+  "values": Array [
+    "",
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "<div class=\\"textInput\\">",
+        "</div>
+                <div class=\\"textInput\\">",
+        "</div>
+                ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+      <div class=\\"form-group ",
+            "\\">
+        <input type=\\"text\\"
+        class=",
+            " 
+        ?disabled=",
+            " id=\\"floatingInput\\" placeholder=\\"",
+            "\\">
+        <label for=\\"floatingInput\\">",
+            "</label>
+        ",
+            "
+        ",
+            "
+        ",
+            "
+      </div>
+  ",
+          ],
+          "values": Array [
+            "",
+            "form-control form-control-undefined ",
+            false,
+            "0",
+            "Min",
+            "",
+            "",
+            "",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+      <div class=\\"form-group ",
+            "\\">
+        <input type=\\"text\\"
+        class=",
+            " 
+        ?disabled=",
+            " id=\\"floatingInput\\" placeholder=\\"",
+            "\\">
+        <label for=\\"floatingInput\\">",
+            "</label>
+        ",
+            "
+        ",
+            "
+        ",
+            "
+      </div>
+  ",
+          ],
+          "values": Array [
+            "",
+            "form-control form-control-undefined ",
+            false,
+            "100",
+            "Max",
+            "",
+            "",
+            "",
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Slider Value Slider 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+        <div class=\\"slider ",
+    "\\">
+            <label for=\\"rangeSlider\\" class=\\"form-label\\">Slider label</label>
+            <div class=\\"d-flex align-items-center\\">
+                <p class=\\"left-label\\">0</p>
+                <input type=\\"range\\" class=\\"form-range\\" id=\\"rangeSlider\\">
+                <p>100</p>
+                ",
+    "
+            </div>
+        </div>
+    ",
+  ],
+  "values": Array [
+    "",
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "<div class=\\"textInput\\">",
+        "</div>
+                ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+      <div class=\\"form-group ",
+            "\\">
+        <input type=\\"text\\"
+        class=",
+            " 
+        ?disabled=",
+            " id=\\"floatingInput\\" placeholder=\\"",
+            "\\">
+        <label for=\\"floatingInput\\">",
+            "</label>
+        ",
+            "
+        ",
+            "
+        ",
+            "
+      </div>
+  ",
+          ],
+          "values": Array [
+            "",
+            "form-control form-control-undefined ",
+            false,
+            "0",
+            "Qty",
+            "",
+            "",
+            "",
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;

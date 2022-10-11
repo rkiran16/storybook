@@ -1,0 +1,107 @@
+$accordion-icon-width-sm: 1rem;
+
+.accordion {
+  .accordion-button {
+
+    border-bottom: 1px solid rgba(184, 187, 186, 0.5);
+    font-size: inherit;
+    font-weight: inherit;
+    padding-left: .5rem;
+
+    &.collapsed {
+      color : $black;
+      background-color: $white;
+    }
+
+    &:not(.collapsed) {
+      color: $black;
+      background-color: $white;
+
+      &::before {
+        background-image: escape-svg($accordion-button-icon);
+        transform: $accordion-icon-transform;
+      }
+    }
+
+    &:hover:not(:disabled) {
+      background-color: $gray-100;
+    }
+
+    &:disabled {
+      color: $gray-600;
+
+      &::before {
+        background-color: $gray-600;
+
+        //we're going to use a mask instead of background image to achieve the disabled color for the svg icon
+        background-image: none;
+        mask-image: escape-svg($accordion-button-icon);
+        mask-size: 2rem;
+        -webkit-mask-image: escape-svg($accordion-button-icon);
+        -webkit-mask-size: 2rem;
+      }
+    }
+
+    &::before {
+      content: "";
+      flex-shrink: 0;
+      width: $accordion-icon-width;
+      height: $accordion-icon-width;
+      background-image: escape-svg($accordion-button-icon);
+      background-repeat: no-repeat;
+      background-size: $accordion-icon-width;
+      margin-right: toRem(8);
+
+      @include transition($accordion-icon-transition);
+    }
+    &::after {
+      content: none;
+    }
+
+    &:focus {
+      outline: 2px dotted $dark;
+      outline-offset: 1px;
+      border-bottom: none;
+    }
+  }
+
+  .accordion-body {
+    padding-left: 3rem;
+  }
+
+  &-small {
+    .accordion-button {
+      font-size: $font-size-base;
+      padding-top: .75rem;
+      padding-bottom: .75rem;
+      
+      &::before {
+        margin-right: toRem(8);
+        
+        width: $accordion-icon-width-sm;
+        height: $accordion-icon-width-sm;
+        background-size: $accordion-icon-width-sm;
+      }
+    }
+
+    .accordion-body {
+      padding-left: 2rem;
+    }
+  }
+
+  &-no-border {
+     .accordion-button {
+       border:none;
+       width:auto;
+       padding: 0;
+
+       &:hover:not(:disabled) {
+        background-color: transparent;
+      }
+  
+       &:focus {
+        outline-offset: 4px;
+       }
+     }
+  }
+}

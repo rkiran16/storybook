@@ -1,0 +1,25 @@
+.card {
+   border-top: 4px solid $gray-600;
+   border-radius: 0 0 12px 12px;
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15);
+   padding: toRem(24) toRem(24);
+
+   .card-footer, .card-header {
+       background-color: $white;
+       border-color: $gray-600;
+       padding: 0;
+   }
+
+   .card-header {
+        padding-bottom: toRem(24);
+    }
+
+    .card-body {
+        padding: toRem(24) toRem(0);
+    }
+
+   .card-footer {
+        padding-top: toRem(12);
+   }
+
+}

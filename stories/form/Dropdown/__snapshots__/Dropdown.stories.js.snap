@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Forms/Dropdown Disabled 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "",
+    "",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+   <div class=",
+        ">
+       <label for=\\"standardDropDown\\">Label</label>
+       <select name=\\"standardDropDown\\" id=\\"standardDropDown\\" disabled aria-label=\\"Standard DropDown\\">
+         <option value=\\"\\">Placeholder Text</option>
+         <option>Option 1</option>
+         <option>Option 2</option>
+         <option>Option 3</option>
+         <option>Option 4</option>
+         <option>Option 5</option>
+         <option>Option 6</option>
+       </select>
+       <span class=\\"error-text\\">
+          <span class=\\"material-icons md-16 me-2\\">error_outline</span>
+          Error message here
+       </span>
+   </div>
+  ",
+      ],
+      "values": Array [
+        "ch-drop-down ",
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Forms/Dropdown Organized Dropdown 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "",
+    "",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=",
+        ">
+        <label for=\\"organizedDropDown\\">Label</label>
+        <select name=\\"organizedDropDown\\" id=\\"organizedDropDown\\"  aria-label=\\"organized DropDown\\">
+          <option value=\\"\\">Placeholder Text</option>
+          <optgroup label=\\"Swedish Cars\\">
+            <option value=\\"volvo\\">Volvo</option>
+            <option value=\\"saab\\">Saab</option>
+          </optgroup>
+          <optgroup label=\\"German Cars\\">
+            <option value=\\"mercedes\\">Mercedes</option>
+            <option value=\\"audi\\">Audi</option>
+          </optgroup>
+        </select>
+        <span class=\\"error-text\\">
+          <span class=\\"material-icons md-16 me-2\\">error_outline</span>
+          Error message here
+        </span>
+    </div>
+  ",
+      ],
+      "values": Array [
+        "ch-drop-down ",
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Forms/Dropdown Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "",
+    "",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=",
+        ">
+        <label for=\\"standardDropDown\\">Label</label>
+        <select name=\\"standardDropDown\\" id=\\"standardDropDown\\" aria-label=\\"Standard DropDown\\">
+          <option value=\\"\\">Placeholder Text</option>
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+          <option>Option 4</option>
+          <option>Option 5</option>
+          <option>Option 6</option>
+        </select>
+        <span class=\\"error-text\\">
+           <span class=\\"material-icons md-16 me-2\\">error_outline</span>
+           Error message here
+        </span>
+    </div>
+   ",
+      ],
+      "values": Array [
+        "ch-drop-down ",
+      ],
+    },
+  ],
+}
+`;

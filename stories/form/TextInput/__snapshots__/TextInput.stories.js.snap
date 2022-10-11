@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Forms/TextInput Disabled 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+      <div class=\\"form-group ",
+    "\\">
+        <input type=\\"text\\"
+        class=",
+    " 
+        ?disabled=",
+    " id=\\"floatingInput\\" placeholder=\\"",
+    "\\">
+        <label for=\\"floatingInput\\">",
+    "</label>
+        ",
+    "
+        ",
+    "
+        ",
+    "
+      </div>
+  ",
+  ],
+  "values": Array [
+    "",
+    "form-control form-control-undefined ",
+    true,
+    "Placeholder Text",
+    "Label",
+    "",
+    "",
+    "",
+  ],
+}
+`;
+
+exports[`Storyshots Forms/TextInput Error State 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+      <div class=\\"form-group ",
+    "\\">
+        <input type=\\"text\\"
+        class=",
+    " 
+        ?disabled=",
+    " id=\\"floatingInput\\" placeholder=\\"",
+    "\\">
+        <label for=\\"floatingInput\\">",
+    "</label>
+        ",
+    "
+        ",
+    "
+        ",
+    "
+      </div>
+  ",
+  ],
+  "values": Array [
+    "",
+    "form-control form-control-undefined is-invalid",
+    false,
+    "Placeholder Text",
+    "Label",
+    "",
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "<div class=\\"invalid-feedback\\"><span class=\\"material-icons md-16 me-2\\">info_outline</span>Error message goes here.</div>",
+      ],
+      "values": Array [],
+    },
+    "",
+  ],
+}
+`;
+
+exports[`Storyshots Forms/TextInput Helper State 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+      <div class=\\"form-group ",
+    "\\">
+        <input type=\\"text\\"
+        class=",
+    " 
+        ?disabled=",
+    " id=\\"floatingInput\\" placeholder=\\"",
+    "\\">
+        <label for=\\"floatingInput\\">",
+    "</label>
+        ",
+    "
+        ",
+    "
+        ",
+    "
+      </div>
+  ",
+  ],
+  "values": Array [
+    "",
+    "form-control form-control-undefined ",
+    false,
+    "Placeholder Text",
+    "Label",
+    "",
+    "",
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "<div id=\\"emailHelp\\" class=\\"form-text\\">Helper Text</div>",
+      ],
+      "values": Array [],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Forms/TextInput Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+      <div class=\\"form-group ",
+    "\\">
+        <input type=\\"text\\"
+        class=",
+    " 
+        ?disabled=",
+    " id=\\"floatingInput\\" placeholder=\\"",
+    "\\">
+        <label for=\\"floatingInput\\">",
+    "</label>
+        ",
+    "
+        ",
+    "
+        ",
+    "
+      </div>
+  ",
+  ],
+  "values": Array [
+    "",
+    "form-control form-control-undefined ",
+    false,
+    "Placeholder Text",
+    "Label",
+    "",
+    "",
+    "",
+  ],
+}
+`;

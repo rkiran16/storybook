@@ -1,0 +1,102 @@
+.input-spinner {
+    display: inline-flex;
+    box-shadow: 0 0 0 1px $gray-600;
+    border-radius: 4px;
+    position: relative;
+    justify-content:space-between;
+    width:100%;
+
+    &:focus-within {
+        box-shadow: 0 0 0 2px $black;
+    }
+
+    &:hover {
+        box-shadow: 0 0 0 2px $black;
+    }
+
+    &.disabled {
+        //background-color: $gray-100;
+        box-shadow: 0 0 0 1px $gray-400;
+    }
+
+    input[type="number"] {
+        -webkit-appearance: textfield;
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+
+    label {
+        position: absolute;
+        top: -.5rem;
+        left: .5rem;
+        padding: 1px .375rem 0;
+        background-color: $white;
+        color: $gray-600;
+        z-index: 10; //make sure the button background color doesn't cover the label text
+        line-height: 1; //reduce element height so label doesn't cover button focus state
+        border-radius: 4px;
+    }
+      
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+    }
+
+    .quantity {
+        padding: .6875rem 0;
+        width:100%;
+        //max-width: 4.25rem;
+        display: flex;
+        text-align: center;
+        border: none;
+        border-radius: 4px;
+
+        &:focus {
+            outline: dotted 2px $black;
+            outline-offset: -12px;
+        }
+
+        &:disabled {
+            color: $gray-400;
+            background-color: $gray-100;
+            opacity: unset;
+        }
+    }
+
+    .icon-button {
+        padding: toRem(10);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        border: none;
+        background-color: $white;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+        &:focus {
+            outline: dotted 2px $black;
+            outline-offset: -12px;
+            z-index: 10;
+        }
+
+        &:disabled {
+            opacity: unset;
+            background-color: $gray-100;
+
+            .material-icons {
+                color: $gray-600;
+            }
+        }
+
+        &.left {
+            margin-right: -5px;
+        }
+
+        &.right {
+            margin-left: -5px
+        }
+    }
+}

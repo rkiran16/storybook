@@ -1,0 +1,587 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Tabs Disabled 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+        <script>",
+    "</script>
+        <ul class=",
+    " id=\\"myTab\\" role=\\"tablist\\">
+            ",
+    "
+        </ul>
+        <div class=\\"tab-content\\" id=\\"myTabContent\\">
+            ",
+    "
+        </div>
+    ",
+  ],
+  "values": Array [
+    undefined,
+    "nav nav-tabs p-2 left-align ",
+    Array [
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <li class=\\"nav-item\\" role=\\"presentation\\">
+        <button 
+            class=",
+          " 
+            id=",
+          " 
+            type=\\"button\\" 
+            role=\\"tab\\" 
+            data-bs-toggle=\\"tab\\" 
+            data-bs-target=",
+          " 
+            aria-controls=",
+          " 
+            aria-selected=\\"true\\"
+            ?disabled=",
+          " 
+        >
+            ",
+          "
+            ",
+          " 
+        </button>
+    </li>",
+        ],
+        "values": Array [
+          "nav-link d-flex align-items-center active",
+          "Tab-0",
+          "#Tab-0-pane",
+          "Tab-0-pane",
+          true,
+          "Tab Label 1",
+          Symbol(lit-nothing),
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <li class=\\"nav-item\\" role=\\"presentation\\">
+        <button 
+            class=",
+          " 
+            id=",
+          " 
+            type=\\"button\\" 
+            role=\\"tab\\" 
+            data-bs-toggle=\\"tab\\" 
+            data-bs-target=",
+          " 
+            aria-controls=",
+          " 
+            aria-selected=\\"true\\"
+            ?disabled=",
+          " 
+        >
+            ",
+          "
+            ",
+          " 
+        </button>
+    </li>",
+        ],
+        "values": Array [
+          "nav-link d-flex align-items-center ",
+          "Tab-1",
+          "#Tab-1-pane",
+          "Tab-1-pane",
+          true,
+          "Tab Label 2",
+          Symbol(lit-nothing),
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <li class=\\"nav-item\\" role=\\"presentation\\">
+        <button 
+            class=",
+          " 
+            id=",
+          " 
+            type=\\"button\\" 
+            role=\\"tab\\" 
+            data-bs-toggle=\\"tab\\" 
+            data-bs-target=",
+          " 
+            aria-controls=",
+          " 
+            aria-selected=\\"true\\"
+            ?disabled=",
+          " 
+        >
+            ",
+          "
+            ",
+          " 
+        </button>
+    </li>",
+        ],
+        "values": Array [
+          "nav-link d-flex align-items-center ",
+          "Tab-2",
+          "#Tab-2-pane",
+          "Tab-2-pane",
+          true,
+          "Tab Label 3",
+          Symbol(lit-nothing),
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <li class=\\"nav-item\\" role=\\"presentation\\">
+        <button 
+            class=",
+          " 
+            id=",
+          " 
+            type=\\"button\\" 
+            role=\\"tab\\" 
+            data-bs-toggle=\\"tab\\" 
+            data-bs-target=",
+          " 
+            aria-controls=",
+          " 
+            aria-selected=\\"true\\"
+            ?disabled=",
+          " 
+        >
+            ",
+          "
+            ",
+          " 
+        </button>
+    </li>",
+        ],
+        "values": Array [
+          "nav-link d-flex align-items-center ",
+          "Tab-3",
+          "#Tab-3-pane",
+          "Tab-3-pane",
+          true,
+          "Tab Label 4",
+          Symbol(lit-nothing),
+        ],
+      },
+    ],
+    Array [
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <div 
+        class=",
+          " 
+        id=",
+          " 
+        role=\\"tabpanel\\" 
+        aria-labelledby=",
+          "
+    >
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+",
+        ],
+        "values": Array [
+          "tab-pane py-2 ps-4 fade show active",
+          "Tab-0-pane",
+          "Tab-0",
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <div 
+        class=",
+          " 
+        id=",
+          " 
+        role=\\"tabpanel\\" 
+        aria-labelledby=",
+          "
+    >
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+",
+        ],
+        "values": Array [
+          "tab-pane py-2 ps-4 fade show ",
+          "Tab-1-pane",
+          "Tab-1",
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <div 
+        class=",
+          " 
+        id=",
+          " 
+        role=\\"tabpanel\\" 
+        aria-labelledby=",
+          "
+    >
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+",
+        ],
+        "values": Array [
+          "tab-pane py-2 ps-4 fade show ",
+          "Tab-2-pane",
+          "Tab-2",
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <div 
+        class=",
+          " 
+        id=",
+          " 
+        role=\\"tabpanel\\" 
+        aria-labelledby=",
+          "
+    >
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+",
+        ],
+        "values": Array [
+          "tab-pane py-2 ps-4 fade show ",
+          "Tab-3-pane",
+          "Tab-3",
+        ],
+      },
+    ],
+  ],
+}
+`;
+
+exports[`Storyshots Components/Tabs Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+        <script>",
+    "</script>
+        <ul class=",
+    " id=\\"myTab\\" role=\\"tablist\\">
+            ",
+    "
+        </ul>
+        <div class=\\"tab-content\\" id=\\"myTabContent\\">
+            ",
+    "
+        </div>
+    ",
+  ],
+  "values": Array [
+    undefined,
+    "nav nav-tabs p-2 left-align ",
+    Array [
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <li class=\\"nav-item\\" role=\\"presentation\\">
+        <button 
+            class=",
+          " 
+            id=",
+          " 
+            type=\\"button\\" 
+            role=\\"tab\\" 
+            data-bs-toggle=\\"tab\\" 
+            data-bs-target=",
+          " 
+            aria-controls=",
+          " 
+            aria-selected=\\"true\\"
+            ?disabled=",
+          " 
+        >
+            ",
+          "
+            ",
+          " 
+        </button>
+    </li>",
+        ],
+        "values": Array [
+          "nav-link d-flex align-items-center active",
+          "Tab-0",
+          "#Tab-0-pane",
+          "Tab-0-pane",
+          false,
+          "Tab Label 1",
+          Symbol(lit-nothing),
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <li class=\\"nav-item\\" role=\\"presentation\\">
+        <button 
+            class=",
+          " 
+            id=",
+          " 
+            type=\\"button\\" 
+            role=\\"tab\\" 
+            data-bs-toggle=\\"tab\\" 
+            data-bs-target=",
+          " 
+            aria-controls=",
+          " 
+            aria-selected=\\"true\\"
+            ?disabled=",
+          " 
+        >
+            ",
+          "
+            ",
+          " 
+        </button>
+    </li>",
+        ],
+        "values": Array [
+          "nav-link d-flex align-items-center ",
+          "Tab-1",
+          "#Tab-1-pane",
+          "Tab-1-pane",
+          false,
+          "Tab Label 2",
+          Symbol(lit-nothing),
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <li class=\\"nav-item\\" role=\\"presentation\\">
+        <button 
+            class=",
+          " 
+            id=",
+          " 
+            type=\\"button\\" 
+            role=\\"tab\\" 
+            data-bs-toggle=\\"tab\\" 
+            data-bs-target=",
+          " 
+            aria-controls=",
+          " 
+            aria-selected=\\"true\\"
+            ?disabled=",
+          " 
+        >
+            ",
+          "
+            ",
+          " 
+        </button>
+    </li>",
+        ],
+        "values": Array [
+          "nav-link d-flex align-items-center ",
+          "Tab-2",
+          "#Tab-2-pane",
+          "Tab-2-pane",
+          false,
+          "Tab Label 3",
+          Symbol(lit-nothing),
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <li class=\\"nav-item\\" role=\\"presentation\\">
+        <button 
+            class=",
+          " 
+            id=",
+          " 
+            type=\\"button\\" 
+            role=\\"tab\\" 
+            data-bs-toggle=\\"tab\\" 
+            data-bs-target=",
+          " 
+            aria-controls=",
+          " 
+            aria-selected=\\"true\\"
+            ?disabled=",
+          " 
+        >
+            ",
+          "
+            ",
+          " 
+        </button>
+    </li>",
+        ],
+        "values": Array [
+          "nav-link d-flex align-items-center ",
+          "Tab-3",
+          "#Tab-3-pane",
+          "Tab-3-pane",
+          false,
+          "Tab Label 4",
+          Symbol(lit-nothing),
+        ],
+      },
+    ],
+    Array [
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <div 
+        class=",
+          " 
+        id=",
+          " 
+        role=\\"tabpanel\\" 
+        aria-labelledby=",
+          "
+    >
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+",
+        ],
+        "values": Array [
+          "tab-pane py-2 ps-4 fade show active",
+          "Tab-0-pane",
+          "Tab-0",
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <div 
+        class=",
+          " 
+        id=",
+          " 
+        role=\\"tabpanel\\" 
+        aria-labelledby=",
+          "
+    >
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+",
+        ],
+        "values": Array [
+          "tab-pane py-2 ps-4 fade show ",
+          "Tab-1-pane",
+          "Tab-1",
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <div 
+        class=",
+          " 
+        id=",
+          " 
+        role=\\"tabpanel\\" 
+        aria-labelledby=",
+          "
+    >
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+",
+        ],
+        "values": Array [
+          "tab-pane py-2 ps-4 fade show ",
+          "Tab-2-pane",
+          "Tab-2",
+        ],
+      },
+      Object {
+        "_$litType$": 1,
+        "strings": Array [
+          "
+    <div 
+        class=",
+          " 
+        id=",
+          " 
+        role=\\"tabpanel\\" 
+        aria-labelledby=",
+          "
+    >
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+",
+        ],
+        "values": Array [
+          "tab-pane py-2 ps-4 fade show ",
+          "Tab-3-pane",
+          "Tab-3",
+        ],
+      },
+    ],
+  ],
+}
+`;

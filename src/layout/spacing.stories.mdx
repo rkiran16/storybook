@@ -1,0 +1,165 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Layout/Spacing" />
+
+# SPACIAL SYSTEM
+
+spatial system is defined in 8px increments.
+Occasionally, half units of 4px can be utilized for icons and
+small blocks of text.
+
+## Common Building Blocks
+
+Spacing tokens use a 4px scale
+
+The follow values can be used for `margin`, `padding` and `gap`.
+
+`margin` also includes a negative scale and the `auto` keyword.
+
+<table class="table mb-3">
+  <thead>
+    <tr>
+      <th scope="col">key</th>
+      <th scope="col">value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>
+        <div>4px</div>
+        <div class="border d-inline-block bg-info p-1"></div>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>
+        <div>8px</div>
+        <div class="border d-inline-block bg-info p-2"></div>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">
+        <div>16px</div>
+        <div class="border d-inline-block bg-info p-3"></div>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td colspan="2">
+        <div>24px</div>
+        <div class="border d-inline-block bg-info p-4"></div>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td colspan="2">
+        <div>32px</div>
+        <div class="border d-inline-block bg-info p-5"></div>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td colspan="2">
+        <div>40px</div>
+        <div class="border d-inline-block bg-info p-6"></div>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td colspan="2">
+        <div>48px</div>
+        <div class="border d-inline-block bg-info p-7"></div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+## Using spacing tokens
+
+### Margin
+
+<p>Margin controls the spacing on the outside of an element.</p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Classname</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">m-[key], -m-[key]</th>
+      <td>All sides</td>
+    </tr>
+    <tr>
+      <th scope="row">mx-[key],-mx-[key]</th>
+      <td>Left and right</td>
+    </tr>
+    <tr>
+      <th scope="row">my-[key],-my-[key]</th>
+      <td>Top and Bottom</td>
+    </tr>
+    <tr>
+      <th scope="row">mt-[key],-mt-[key]</th>
+      <td>Top</td>
+    </tr>
+    <tr>
+      <th scope="row">mb-[key],-mb-[key]</th>
+      <td>Bottom</td>
+    </tr>
+    <tr>
+      <th scope="row">ms-[key],-ms-[key]</th>
+      <td>Left</td>
+    </tr>
+    <tr>
+      <th scope="row">me-[key],-me-[key]</th>
+      <td>Right</td>
+    </tr>
+  </tbody>
+</table>
+
+### Padding
+
+padding controls the spacing on the inside of an element.
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Classname</th>
+      <th scope="col">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">p-[key]</th>
+      <td>All sides</td>
+    </tr>
+    <tr>
+      <th scope="row">px-[key]</th>
+      <td>Left and right</td>
+    </tr>
+    <tr>
+      <th scope="row">py-[key]</th>
+      <td>Top and Bottom</td>
+    </tr>
+    <tr>
+      <th scope="row">pt-[key]</th>
+      <td>Top</td>
+    </tr>
+    <tr>
+      <th scope="row">pb-[key]</th>
+      <td>Bottom</td>
+    </tr>
+    <tr>
+      <th scope="row">ps-[key]</th>
+      <td>Left</td>
+    </tr>
+    <tr>
+      <th scope="row">pe-[key]</th>
+      <td>Right</td>
+    </tr>
+  </tbody>
+</table>

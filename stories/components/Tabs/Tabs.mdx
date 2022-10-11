@@ -1,0 +1,46 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+# Tabs
+
+<p>
+    The tabs component is a flexible navigational utility. It can accommodate
+    any number of tabs and will scroll upon overflow. Alignment options are left,
+    center and right.
+</p>
+
+<p>
+    Please note that scrolling will not work properly in the <code>center</code> alignment
+    due to part of the child container overflowing past the start of the parent container and part
+    past the end. Because of this, it is necessary for the tabs to align to the left or right at a
+    breakpoint prior to needing to scroll.
+</p>
+
+<p>
+    Javascript is necessary to automate centering the clicked tab if overflow is occurring. This
+    will need to be implemented for each instance of the tab, and can be done so with the following
+    javascript function:
+</p>
+
+<p>
+    <code>scrollIntoView(&#123;block: 'nearest', inline: 'center', behavior: 'smooth'&#125;);</code>
+</p>
+
+## Options
+
+<code>Show Icon</code>
+<p>Allows for an svg icon on each tab</p>
+
+<code>Tab Alignment</code>
+<p>
+    Allows for the alignment of tabs to the left, right, or center of the parent container. Note
+    that if center alignment is used, the tabs will need to align to one side BEFORE the need for
+    scrolling occurs as the screen size moves towards tablet/mobile.
+</p>
+
+<code>White background for active tab</code>
+<p>Optional setting to make the background of the active tab white, for use on non-white backgrounds</p>
+
+
+<Canvas>
+  <Story id="components-tabs--standard" name="Default Modal"></Story>
+</Canvas>

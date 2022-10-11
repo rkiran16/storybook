@@ -1,0 +1,109 @@
+$form-floating-height: add(2.9rem, $input-height-border);
+$form-floating-line-height: 1;
+$form-floating-padding: toRem(16);
+$form-floating-label-padding: toRem(10);
+
+.form-group {
+  :hover {
+    cursor: pointer;
+  }
+
+  position: relative;
+
+  &--icon {
+    .inline-icon--right {
+      position: absolute;
+      top: toRem(13);
+      right: toRem(16);
+    }
+
+    .spinner-border {
+      position: absolute;
+      top: toRem(16);
+      right: toRem(16);
+    }
+  }
+
+  >input {
+    &.form-control {
+      border: 1px solid $dark;
+      color: $black;
+      height: $form-floating-height;
+      line-height: $form-floating-line-height;
+    }
+  }
+
+  >textarea {
+    &.form-control {
+      height: 100%;
+    }
+  }
+
+
+  >label {
+    background-color: $white;
+    padding-right: 6px;
+    padding-left: 6px;
+    position:absolute;
+    left: toRem(11);
+    top: toRem(-13);
+    color: $gray-600;
+    font-size:toRem(16);
+  }
+
+  // stylelint-disable no-duplicate-selectors
+  >.form-control {
+    padding: $form-floating-padding;
+    transition: none;
+
+    &:focus {
+      border-color: $dark;
+      box-shadow: none;
+      outline: 2px dotted $dark;
+      outline-offset: 5px;
+    }
+
+    &.is-invalid {
+      color: $danger;
+      border-color: $danger;
+      background-image: none;
+
+      ~.invalid-feedback {
+        display: flex;
+        align-items: center;
+      }
+
+      ~ label {
+        color: $danger;
+      }
+    }
+
+    &.is-valid {
+      background-image: none;
+    }
+
+    &::placeholder {
+      color: $dark;
+    }
+
+    &:hover, &:active {
+      box-shadow: inset 0px 0px 0px 2px $black;
+      border-color: transparent;
+
+      ~ label {
+        color: $black;
+      }
+
+    }
+
+    &:disabled {
+      pointer-events: none;
+      color: $gray-400;
+      background-color: $gray-200;
+
+      > label {
+        color: $gray-400;
+      }
+    }
+  }
+}

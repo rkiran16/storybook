@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Buttons/IconButtonWithDropdown Organized 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=",
+    " style=",
+    ">
+      <div class=\\"organized-dropdown dropdown\\">
+        <button
+          type=\\"button\\"
+          ?disabled=",
+    "
+          class=",
+    "
+          id=\\"dropdownIconButton\\" 
+          data-bs-toggle=\\"dropdown\\" 
+          aria-expanded=\\"false\\"
+        >
+          <span class=\\"material-icons ",
+    "\\">",
+    "</span>
+          ",
+    "
+        </button>
+        <ul class=\\"dropdown-menu dropdown-menu-end shadow-sm\\" aria-labelledby=\\"dropdownMenuButton\\">
+          <li class=\\"dropdown-header\\" tabindex=\\"-1\\"><h6>Organized list header 1</h6></li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Action</li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Another Action</li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\"><a tabIndex=\\"-1\\" href=\\"#\\">Links work too</a></li>
+          <li class=\\"dropdown-header\\" tabindex=\\"-1\\"><h6>Organized list header 2</h6></li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Action 2</li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Another Action 2</li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\"><a tabIndex=\\"-1\\" href=\\"#\\">Link 2</a></li>
+        </ul>
+      </div>
+    </div>
+  ",
+  ],
+  "values": Array [
+    "d-inline-block p-3",
+    "",
+    false,
+    "dropdown-toggle btn btn-icon btn-icon-w-text  ",
+    "",
+    "more_vert",
+    "Actions",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Buttons/IconButtonWithDropdown Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=",
+    " style=",
+    ">
+      <div class=\\"dropdown\\">
+        <button
+          type=\\"button\\"
+          ?disabled=",
+    "
+          class=",
+    "
+          id=\\"dropdownIconButton\\" 
+          data-bs-toggle=\\"dropdown\\" 
+          aria-expanded=\\"false\\"
+        >
+          <span class=\\"material-icons ",
+    "\\">",
+    "</span>
+          ",
+    "
+        </button>
+        <ul class=\\"dropdown-menu dropdown-menu-end shadow-sm\\" aria-labelledby=\\"dropdownIconButton\\">
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Action </li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\"><a tabIndex=\\"-1\\" href=\\"#\\">Link</a></li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Another Action</li>
+        </ul>
+      </div>
+    </div>
+  ",
+  ],
+  "values": Array [
+    "d-inline-block p-3",
+    "",
+    false,
+    "dropdown-toggle btn btn-icon btn-icon-w-text  ",
+    "",
+    "more_vert",
+    "Actions",
+  ],
+}
+`;

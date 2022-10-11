@@ -1,0 +1,14 @@
+.single-flag {
+  border-radius: toRem(12) 0 toRem(12) 0;
+  padding: toRem(8) toRem(24) toRem(7);
+}
+
+.double-flag-1 {
+  border-radius: toRem(12) 0 0 0;
+  padding: toRem(8) toRem(24) toRem(7);
+}
+
+.double-flag-2 {
+  border-radius: 0 0 toRem(12) 0;
+  padding: toRem(8) toRem(24) toRem(7);
+}

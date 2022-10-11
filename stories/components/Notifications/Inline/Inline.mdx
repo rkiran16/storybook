@@ -1,0 +1,55 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+# Inline
+
+Inline notifications are nondisruptive and confined to a specific area in the UI. Inline notifications display both task-generated and system-generated messages and persist until they are dismissed by the user or the notification is resolved. They are frequently used in conjunction with field-level messages for errors in forms or other input areas.
+
+Message
+
+- Message starts with “Error!”, “Warning!”, “Success!”, or “Info!” Depending on the state of the notification
+- Keep the message under two lines
+- Be descriptive and give users clear next steps
+
+Sizing
+
+- Width varies based on the context and page layout
+- Height is based on the content length
+
+Placement
+
+- Place near their related items
+- Do not cover other content
+- In forms, place at the top or bottom
+
+Dismissal
+
+- Persist until the user dismisses them or takes action that resolves the notification
+- Option for development to have notifications that can’t not be dismissed in a card
+
+<Canvas>
+  <Story id="components-notifications-inline--default"></Story>
+</Canvas>
+
+<Canvas>
+  <Story id="components-notifications-inline--warning"></Story>
+</Canvas>
+
+<Canvas>
+  <Story id="components-notifications-inline--success"></Story>
+</Canvas>
+
+<Canvas>
+  <Story id="components-notifications-inline--info"></Story>
+</Canvas>
+
+<Canvas>
+  <Story id="components-notifications-inline--with-action"></Story>
+</Canvas>
+
+<Canvas>
+  <Story id="components-notifications-inline--with-no-dismissal"></Story>
+</Canvas>
+
+<Canvas>
+  <Story id="components-notifications-inline--two-actions"></Story>
+</Canvas>

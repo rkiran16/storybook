@@ -1,0 +1,24 @@
+.modal {
+   .modal-header {
+      padding: toRem(32) toRem(32) toRem(0) toRem(32);
+      @include media-breakpoint-down(sm) {
+          padding: toRem(20) toRem(20) toRem(0) toRem(20);
+      }
+   }
+   .modal-body {
+     padding: toRem(16) toRem(32) toRem(32) toRem(32);
+     @include media-breakpoint-down(sm) {
+      padding: toRem(16) toRem(20) toRem(0) toRem(20);
+     }
+   }
+   .modal-footer {
+     > * {
+       margin: 0;
+     }
+     padding: toRem(16) toRem(32);
+     @include media-breakpoint-down(sm) {
+       padding: toRem(16) toRem(20) toRem(32) toRem(20);
+     }
+     border-top: 1px solid $gray-300;
+   }
+}

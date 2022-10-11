@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Notifications/Snackbar Default 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "",
+    "",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"alert alert-custom  bg-",
+        " alert-dismissible pe-3 text-white\\"role=\\"alert\\">
+      <div class=\\"d-flex flex-row justify-content-between align-items-start align-items-md-center w-100 \\">
+         <div class=\\"d-flex align-items-start align-items-lg-center me-2\\">",
+        "</div>
+          <div class=\\"d-flex flex-column flex-sm-row align-items-sm-center w-100\\">
+            <span>
+                <strong>",
+        "</strong>
+                <span class=\\"lh-1\\">",
+        "</span>
+            </span>
+            <div class=\\"d-flex justify-content-between align-items-center w-100 mt-2 mt-sm-0\\">
+              ",
+        "
+              ",
+        "
+            </div>
+        </div>
+        <div class=\\"d-flex\\">
+          <button type=\\"button\\" class=\\"btn btn-icon w-auto h-auto text-white\\" data-bs-dismiss=\\"alert\\" aria-label=\\"Close\\">
+            <span class=\\"material-icons\\">close</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        "success",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            " <span class=\\"material-icons\\"> check_circle_outline </span> ",
+          ],
+          "values": Array [],
+        },
+        "Success!",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "",
+        "",
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Notifications/Snackbar Error 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "",
+    "",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"alert alert-custom  bg-",
+        " alert-dismissible pe-3 text-white\\"role=\\"alert\\">
+      <div class=\\"d-flex flex-row justify-content-between align-items-start align-items-md-center w-100 \\">
+         <div class=\\"d-flex align-items-start align-items-lg-center me-2\\">",
+        "</div>
+          <div class=\\"d-flex flex-column flex-sm-row align-items-sm-center w-100\\">
+            <span>
+                <strong>",
+        "</strong>
+                <span class=\\"lh-1\\">",
+        "</span>
+            </span>
+            <div class=\\"d-flex justify-content-between align-items-center w-100 mt-2 mt-sm-0\\">
+              ",
+        "
+              ",
+        "
+            </div>
+        </div>
+        <div class=\\"d-flex\\">
+          <button type=\\"button\\" class=\\"btn btn-icon w-auto h-auto text-white\\" data-bs-dismiss=\\"alert\\" aria-label=\\"Close\\">
+            <span class=\\"material-icons\\">close</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        "danger",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            " <span class=\\"material-icons\\"> error_outline </span> ",
+          ],
+          "values": Array [],
+        },
+        "Error!",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "",
+        "",
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Notifications/Snackbar Info 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "",
+    "",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"alert alert-custom  bg-",
+        " alert-dismissible pe-3 text-white\\"role=\\"alert\\">
+      <div class=\\"d-flex flex-row justify-content-between align-items-start align-items-md-center w-100 \\">
+         <div class=\\"d-flex align-items-start align-items-lg-center me-2\\">",
+        "</div>
+          <div class=\\"d-flex flex-column flex-sm-row align-items-sm-center w-100\\">
+            <span>
+                <strong>",
+        "</strong>
+                <span class=\\"lh-1\\">",
+        "</span>
+            </span>
+            <div class=\\"d-flex justify-content-between align-items-center w-100 mt-2 mt-sm-0\\">
+              ",
+        "
+              ",
+        "
+            </div>
+        </div>
+        <div class=\\"d-flex\\">
+          <button type=\\"button\\" class=\\"btn btn-icon w-auto h-auto text-white\\" data-bs-dismiss=\\"alert\\" aria-label=\\"Close\\">
+            <span class=\\"material-icons\\">close</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        "info",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            " <span class=\\"material-icons\\"> error_outline </span> ",
+          ],
+          "values": Array [],
+        },
+        "Info!",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "",
+        "",
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Notifications/Snackbar Warning 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "",
+    "",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"alert alert-custom  bg-",
+        " alert-dismissible pe-3 text-white\\"role=\\"alert\\">
+      <div class=\\"d-flex flex-row justify-content-between align-items-start align-items-md-center w-100 \\">
+         <div class=\\"d-flex align-items-start align-items-lg-center me-2\\">",
+        "</div>
+          <div class=\\"d-flex flex-column flex-sm-row align-items-sm-center w-100\\">
+            <span>
+                <strong>",
+        "</strong>
+                <span class=\\"lh-1\\">",
+        "</span>
+            </span>
+            <div class=\\"d-flex justify-content-between align-items-center w-100 mt-2 mt-sm-0\\">
+              ",
+        "
+              ",
+        "
+            </div>
+        </div>
+        <div class=\\"d-flex\\">
+          <button type=\\"button\\" class=\\"btn btn-icon w-auto h-auto text-white\\" data-bs-dismiss=\\"alert\\" aria-label=\\"Close\\">
+            <span class=\\"material-icons\\">close</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        "warning",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            " <span class=\\"material-icons\\"> warning_amber </span> ",
+          ],
+          "values": Array [],
+        },
+        "Warning!",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "",
+        "",
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Notifications/Snackbar With Action 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "",
+    "",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"alert alert-custom  bg-",
+        " alert-dismissible pe-3 text-white\\"role=\\"alert\\">
+      <div class=\\"d-flex flex-row justify-content-between align-items-start align-items-md-center w-100 \\">
+         <div class=\\"d-flex align-items-start align-items-lg-center me-2\\">",
+        "</div>
+          <div class=\\"d-flex flex-column flex-sm-row align-items-sm-center w-100\\">
+            <span>
+                <strong>",
+        "</strong>
+                <span class=\\"lh-1\\">",
+        "</span>
+            </span>
+            <div class=\\"d-flex justify-content-between align-items-center w-100 mt-2 mt-sm-0\\">
+              ",
+        "
+              ",
+        "
+            </div>
+        </div>
+        <div class=\\"d-flex\\">
+          <button type=\\"button\\" class=\\"btn btn-icon w-auto h-auto text-white\\" data-bs-dismiss=\\"alert\\" aria-label=\\"Close\\">
+            <span class=\\"material-icons\\">close</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        "success",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            " <span class=\\"material-icons\\"> check_circle_outline </span> ",
+          ],
+          "values": Array [],
+        },
+        "Success!",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<a href=\\"#\\" class=\\"text-white ms-sm-2 inline\\">",
+            "</a>",
+          ],
+          "values": Array [
+            "Link Action",
+          ],
+        },
+        "",
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Notifications/Snackbar With Button 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "",
+    "",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"alert alert-custom  bg-",
+        " alert-dismissible pe-3 text-white\\"role=\\"alert\\">
+      <div class=\\"d-flex flex-row justify-content-between align-items-start align-items-md-center w-100 \\">
+         <div class=\\"d-flex align-items-start align-items-lg-center me-2\\">",
+        "</div>
+          <div class=\\"d-flex flex-column flex-sm-row align-items-sm-center w-100\\">
+            <span>
+                <strong>",
+        "</strong>
+                <span class=\\"lh-1\\">",
+        "</span>
+            </span>
+            <div class=\\"d-flex justify-content-between align-items-center w-100 mt-2 mt-sm-0\\">
+              ",
+        "
+              ",
+        "
+            </div>
+        </div>
+        <div class=\\"d-flex\\">
+          <button type=\\"button\\" class=\\"btn btn-icon w-auto h-auto text-white\\" data-bs-dismiss=\\"alert\\" aria-label=\\"Close\\">
+            <span class=\\"material-icons\\">close</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        "info",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            " <span class=\\"material-icons\\"> error_outline </span> ",
+          ],
+          "values": Array [],
+        },
+        "Info!",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<button type=\\"button\\" class=\\"btn btn-icon btn-icon-w-text horizontal inverse\\">
+              Undo
+              <span class=\\"material-icons me-1\\">replay</span>
+            </button>",
+          ],
+          "values": Array [],
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Notifications/Snackbar With Button And Action 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "",
+    "",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"alert alert-custom  bg-",
+        " alert-dismissible pe-3 text-white\\"role=\\"alert\\">
+      <div class=\\"d-flex flex-row justify-content-between align-items-start align-items-md-center w-100 \\">
+         <div class=\\"d-flex align-items-start align-items-lg-center me-2\\">",
+        "</div>
+          <div class=\\"d-flex flex-column flex-sm-row align-items-sm-center w-100\\">
+            <span>
+                <strong>",
+        "</strong>
+                <span class=\\"lh-1\\">",
+        "</span>
+            </span>
+            <div class=\\"d-flex justify-content-between align-items-center w-100 mt-2 mt-sm-0\\">
+              ",
+        "
+              ",
+        "
+            </div>
+        </div>
+        <div class=\\"d-flex\\">
+          <button type=\\"button\\" class=\\"btn btn-icon w-auto h-auto text-white\\" data-bs-dismiss=\\"alert\\" aria-label=\\"Close\\">
+            <span class=\\"material-icons\\">close</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        "info",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            " <span class=\\"material-icons\\"> error_outline </span> ",
+          ],
+          "values": Array [],
+        },
+        "Info!",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, Lorem ipsum dolor sit amet, consectetur adipiscing elit,Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<a href=\\"#\\" class=\\"text-white ms-sm-2 inline\\">",
+            "</a>",
+          ],
+          "values": Array [
+            "Link Action",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<button type=\\"button\\" class=\\"btn btn-icon btn-icon-w-text horizontal inverse\\">
+              Undo
+              <span class=\\"material-icons me-1\\">replay</span>
+            </button>",
+          ],
+          "values": Array [],
+        },
+      ],
+    },
+  ],
+}
+`;

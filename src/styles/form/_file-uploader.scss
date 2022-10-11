@@ -1,0 +1,31 @@
+.file-uploader {
+   position:relative;
+   input {
+      width: 0.1px;
+      height: 0.1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+   }
+}
+
+.file-chosen {
+  background-color: $gray-100;
+  padding: toRem(16);
+  color: $gray-600;
+  display:flex;
+  max-width: toRem(224);
+  justify-content:space-between;
+  border-radius: 4px;
+  align-items: center;
+
+  &:hover {
+     background-color: $gray-300;
+     cursor: pointer;
+  }
+}
+
+.file-upload-error {
+  max-width: toRem(224);
+}

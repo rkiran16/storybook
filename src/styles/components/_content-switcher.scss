@@ -1,0 +1,122 @@
+.content-switcher {
+  > .btn-check {
+    &:checked + .btn {
+      background-color: $black;
+      color: $white;
+
+      &:after {
+        content: none;
+      }
+      &:before {
+        content: none;
+      }
+    }
+
+    &:not(:checked) + .btn {
+      &:hover:not(.disabled) {
+        background-color: $gray-300;
+        color: $black;
+      }
+    }
+
+    &:focus + .btn {
+      box-shadow: none;
+      outline: 2px dotted $dark;
+      outline-offset: 2px;
+    }
+  }
+
+  .btn {
+    background-color: $gray-100;
+    position: relative;
+    text-decoration: none;
+    font-size: $font-size-sm;
+    line-height: 1.41;
+    padding: 14px 20px;
+
+    &:focus:not(:disabled) {
+      box-shadow: none;
+      outline: 2px dotted $dark;
+      outline-offset: 2px;
+    }
+
+    &:nth-child(2) {
+      &:after {
+        border-right: 1px solid $gray-400;
+        content: "";
+        position: absolute;
+        right: 0.5px;
+        top: 25%;
+        height: 50%;
+      }
+    }
+
+    &:nth-child(6) {
+      &:before {
+        border-right: 1px solid $gray-400;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 25%;
+        height: 50%;
+      }
+    }
+  }
+
+  &--w-icon {
+    .compress {
+      fill: $gray-600;
+    }
+
+    > .btn-check {
+      &:checked + .btn {
+        color: $black;
+        &:not(:last-child) {
+          &:after {
+            content: none;
+          }
+        }
+      }
+
+      &:checked + .btn .compress {
+        fill: black;
+      }
+
+      &:focus + .btn {
+        box-shadow: none;
+        outline: 2px dotted $dark;
+        outline-offset: 2px;
+      }
+
+      &:not(:checked) + .btn {
+        &:hover:not(.disabled) {
+          color: $dark-red;
+        }
+      }
+    }
+    .btn {
+      color: $gray-600;
+      padding: 2px 1rem;
+      border-radius: unset;
+      text-decoration: none;
+
+      &:not(:last-child) {
+        &:after {
+          border-right: 1px solid $gray-400;
+          content: "";
+          position: absolute;
+          right: 0;
+          height: 100%;
+        }
+      }
+
+      &:hover .compress {
+        fill: $dark-red;
+      }
+
+      >i {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

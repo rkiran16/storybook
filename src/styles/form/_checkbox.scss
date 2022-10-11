@@ -1,0 +1,59 @@
+.form-check {
+
+  .form-check-input {
+    &:active {
+      filter: $form-check-input-active-filter;
+    }
+  
+    &:focus {
+      box-shadow: none;
+      outline: 2px dotted $black;
+      outline-offset: 3px;
+    }
+
+    &:checked {
+      background-size: 1.7rem;
+      color: $white;
+    }
+  
+    &:disabled {
+      pointer-events: none;
+      filter: none;
+      opacity: $form-check-input-disabled-opacity;
+      background-color: $gray-300;
+    }
+  
+    // Use disabled attribute in addition of :disabled pseudo-class
+    // See: https://github.com/twbs/bootstrap/issues/28247
+    &[disabled],
+    &:disabled {
+      ~ .form-check-label {
+        opacity: $form-check-label-disabled-opacity;
+      }
+    }
+
+    &:checked:disabled {
+      background-color: $gray-300;
+      color: $gray-400;
+      background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='48' width='48'><path fill='@{color}' stroke='@{color}' d='m20 32.4-7.85-7.85 2.4-2.4L20 27.6l13.45-13.45 2.4 2.4Z'/></svg>");
+    }
+
+    &:indeterminate {
+      background-color: $black;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10.482' height='3' viewBox='0 0 10.482 3'%3E%3Cpath id='Path_80972' data-name='Path 80972' d='M0 0H10.482' transform='translate(0 1.5)' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E");
+      background-size: 60%;
+      border-color: $black;
+    }
+  }
+  
+  .form-check-label {
+    color: $form-check-label-color;
+    cursor: $form-check-label-cursor;
+    margin-left:toRem(6);
+  }
+}
+
+
+
+
+

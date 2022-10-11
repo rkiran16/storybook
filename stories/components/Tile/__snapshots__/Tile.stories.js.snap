@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Tiles/Tile Tile Skeleton 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+        <div class=\\"tile\\">
+            <div class=\\"tile__info\\"  style=\\"height: 300px\\">
+                <div class=\\"tile__info__controls\\">
+                    ",
+    "
+                    <div class=\\"w-100 d-flex justify-content-end tile-control\\">
+                        <button type=\\"button\\" class=\\"btn btn-icon btn-icon-w-text horizontal\\">
+                            Remove
+                            <span class=\\"material-icons-outlined ms-1\\">delete_outline</span>
+                        </button>
+                    </div>
+                </div>
+                <div class=\\"d-flex flex-column w-100\\">
+                    <div class=\\"mb-2\\">
+                        ",
+    "
+                    </div> 
+                    <div class=\\"d-flex flex-column flex-sm-row justify-content-between w-100\\">
+                      <p>REST OF CONTENT GOES HERE
+                    </div> 
+                </div>
+            </div>
+        </div>
+    ",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+            <div class=\\"form-check\\">
+                <input type=\\"checkbox\\" class=\\"form-check-input\\" ?checked=",
+        "  ?disabled=",
+        " id=\\"customCheck111-33\\" />
+                <label class=",
+        " for=\\"customCheck111-33\\">Check this custom checkbox</label>
+            </div>
+        ",
+      ],
+      "values": Array [
+        false,
+        undefined,
+        "form-check-label visually-hidden",
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "<a href=",
+        " class=",
+        " target=",
+        ">",
+        "</a>",
+      ],
+      "values": Array [
+        "http://www.cardinalhealth.com",
+        "inline text-break tile-title",
+        "_self",
+        "Title Goes Here",
+      ],
+    },
+  ],
+}
+`;

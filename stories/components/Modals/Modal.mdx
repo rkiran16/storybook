@@ -1,0 +1,127 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+# MODAL
+
+<p>
+  Modal Component is built using Bootstrap’s JavaScript modal plugin to add
+  dialogs to your site for lightboxes, user notifications, or completely custom
+  content.
+</p>
+
+<p>
+  For more Info .Please follow the Bootstrap Modal{" "}
+  <a href="https://getbootstrap.com/docs/5.0/components/modal/">
+    Documentation
+  </a>
+</p>
+
+## Use Cases
+
+<h5 class="mt-3">
+  <strong>
+    Modals focus the user’s attention exclusively on one task or piece of
+    information via a window that sits on top of the page content.
+  </strong>
+</h5>
+
+<ul class="list-unstyled">
+  <li>
+    Passive: Presents information the user needs to be aware of concerning their
+    current workflow. Contains no actions for the user to take.
+  </li>
+  <li>
+    Transactional: Requires an action to be taken in order for the modal to be
+    completed and closed. Contains a cancel and primary action buttons
+  </li>
+  <li>
+    {" "}
+    Danger: A specific variant of transactional modal used for destructive or irreversible
+    actions.
+  </li>
+  <li>
+    Acknowledgement: System requires an acknowledgement of the information from
+    the user. Contains only a single button, commonly “OK”.
+  </li>
+  <li>
+    Progress: Requires several steps to be completed before it can be closed.
+    Contains a cancel, previous, and next/completion buttons.
+  </li>
+</ul>
+<div class="d-flex w-100">
+  <div class="w-50">
+    <p>
+      <strong>Modals must always include:</strong>
+    </p>
+    <ul class="list-unstyled">
+      <li>Close button in upper right corner.</li>
+      <li>Title</li>
+      <li>Background (Cardinal Black 75%)</li>
+    </ul>
+  </div>
+  <div class="w-25">
+    <p>
+      <strong>DO NOT use modals for:</strong>
+    </p>
+    <ul>
+      <li>Errors in context to an action.</li>
+      <li>Feedback to an action.</li>
+    </ul>
+  </div>
+</div>
+
+<p>
+  <strong>CTA Priorities:</strong>
+</p>
+For accessibility, by default, all modals must have “Cancel” represented as a tertiary
+button.
+
+Most common use cases are represented in the states of each component below. As a guideline, CTA’s should be prioritized in this order when applicable.
+The number of CTA’s in a modal may flex based on the context of the content.
+
+1. “Don’t show again” (checkbox)
+2. Back (Secondary button)
+3. Primary CTA
+4. Cancel (Tertiary button)
+
+<p>
+  <strong>Behaviors:</strong>
+</p>
+
+- For splash pages, modals may appear on page load.
+- For actions, modals may appear after clicking on a tertiary CTA or button.
+- x: Clicking the close x icon in the upper right will close the modal without submitting any data and return the user to its previous context.
+- Click elsewhere: Clicking outside the passive modal area will automatically close the modal.
+- Esc: Press ESC on the keyboard
+
+<p>
+  <strong>Max height:</strong>
+</p>
+
+- Responsive to content and user’s screen size.
+- Desktop: Follow %’s below. Mobile:
+- Full screen height.
+
+<p>
+  <strong>Positioning:</strong>
+</p>
+
+- Responsive to content and user’s screen size.
+- Centered vertically + horizontally.
+
+<p>
+  <strong>Mandatories:</strong>
+</p>
+
+- Headline
+- Must have a close button or cancel/close tertiary cta
+
+<p>
+  <strong>Soft points:</strong>
+</p>
+
+- Icon
+- Content area (can include text, images, input fields, tables, interactive calendars videos, etc.)
+
+<Canvas>
+  <Story id="components-modal--standard" name="Default Modal"></Story>
+</Canvas>

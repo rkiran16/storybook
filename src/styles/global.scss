@@ -1,0 +1,85 @@
+@import "_variables.scss";
+@import "_functions";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Override default bootstrap styles
+
+h1,
+h4,
+.h1,
+.h4 {
+  font-weight: $font-weight-normal;
+}
+
+h2,
+h3,
+h5,
+h6,
+.h2,
+.h3,
+.h5,
+.h6 {
+  font-weight: $font-weight-bold;
+}
+
+.sub-title {
+  font-size: $font-size-base * 1.125;
+  font-weight: $font-weight-normal;
+}
+
+.sub-title-2 {
+  font-size: $font-size-base;
+  font-weight: $font-weight-bold;
+}
+
+.sub-title-3 {
+  font-size: toRem(14.22);
+  font-weight: normal;
+}
+
+.sub-title-4 {
+  font-size: toRem(11.2);
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+#root {
+  width: 100%;
+}
+
+legend {
+  margin-bottom: 0.75rem;
+  font-family: $font-family-sans-serif-medium;
+  font-size: $form-label-font-size;
+}
+
+//Form Elements
+@import "./form/checkbox";
+@import "./form/drag-drop";
+@import "./form/dropdown";
+@import "./form/file-uploader";
+@import "./form/inline-select";
+@import "./form/input-spinner";
+@import "./form/radio";
+@import "./form/text-input";
+
+// Components
+@import "./components/accordion";
+@import "./components/breadcrumbs";
+@import "./components/button";
+@import "./components/calendar-button";
+@import "./components/cards";
+@import "./components/chip";
+@import "./components/content-switcher";
+@import "./components/icon";
+@import "./components/tabs";
+@import "./components/toggle";
+@import "./components/link";
+@import "./components/modal";
+@import "./components/flags";
+@import "./components/tile";
+@import "./components/user_tile";
+@import "./components/product_tile";
+@import "./components/notification";
+@import "./components/slider";
+@import "./components/tooltip";

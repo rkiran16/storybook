@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Buttons/Button Primary Button 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <button type=\\"button\\" ?disabled=",
+    " class=",
+    ">
+      ",
+    "
+      ",
+    "
+    </button>
+  ",
+  ],
+  "values": Array [
+    false,
+    "btn btn-primary  ",
+    "",
+    "Primary Button",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Buttons/Button Secondary Button 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <button type=\\"button\\" ?disabled=",
+    " class=",
+    ">
+      ",
+    "
+      ",
+    "
+    </button>
+  ",
+  ],
+  "values": Array [
+    false,
+    "btn btn-outline-secondary  ",
+    "",
+    "Secondary Button",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Buttons/Button Tertiary Button 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <button type=\\"button\\" ?disabled=",
+    " class=",
+    ">
+      ",
+    "
+      ",
+    "
+    </button>
+  ",
+  ],
+  "values": Array [
+    false,
+    "btn btn-tertiary  ",
+    "",
+    "Tertiary Button",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Buttons/Button Tertiary Button Variations 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+      <div class=\\"d-flex w-100\\">
+        <div class=\\"me-3\\">",
+    "</div>
+        <div class=\\"me-3\\">",
+    "</div>
+        <div class=\\"me-3\\">",
+    "</div>
+        <div class=\\"me-3\\">",
+    "</div>
+      </div>
+   ",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <button type=\\"button\\" ?disabled=",
+        " class=",
+        ">
+      ",
+        "
+      ",
+        "
+    </button>
+  ",
+      ],
+      "values": Array [
+        false,
+        "btn btn-tertiary btn-w-icon d-flex justify-content-center align-items-center ",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<span class=\\"material-icons md-16 me-2\\">",
+            "</span>",
+          ],
+          "values": Array [
+            "file_upload",
+          ],
+        },
+        "Upload button",
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <button type=\\"button\\" ?disabled=",
+        " class=",
+        ">
+      ",
+        "
+      ",
+        "
+    </button>
+  ",
+      ],
+      "values": Array [
+        false,
+        "btn btn-tertiary btn-w-icon d-flex justify-content-center align-items-center ",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<span class=\\"material-icons md-16 me-2\\">",
+            "</span>",
+          ],
+          "values": Array [
+            "file_download",
+          ],
+        },
+        "Download button",
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <button type=\\"button\\" ?disabled=",
+        " class=",
+        ">
+      ",
+        "
+      ",
+        "
+    </button>
+  ",
+      ],
+      "values": Array [
+        false,
+        "btn btn-tertiary btn-w-icon d-flex justify-content-center align-items-center ",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<span class=\\"material-icons md-16 me-2\\">",
+            "</span>",
+          ],
+          "values": Array [
+            "expand_more",
+          ],
+        },
+        "Show more",
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <button type=\\"button\\" ?disabled=",
+        " class=",
+        ">
+      ",
+        "
+      ",
+        "
+    </button>
+  ",
+      ],
+      "values": Array [
+        false,
+        "btn btn-tertiary btn-w-icon d-flex justify-content-center align-items-center ",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<span class=\\"material-icons md-16 me-2\\">",
+            "</span>",
+          ],
+          "values": Array [
+            "expand_less",
+          ],
+        },
+        "Show less",
+      ],
+    },
+  ],
+}
+`;

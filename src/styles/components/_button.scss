@@ -1,0 +1,184 @@
+.btn {
+  &:focus:not(:disabled), &:active {
+    box-shadow: none;
+  }
+
+  &.btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    padding: 0;
+    color: $black;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    border: none;
+
+    &.inverse {
+      color: $white;
+
+      &:hover:not(:disabled) {
+        background-color: $white;
+        color: $black;
+        box-shadow: 0 0 0 2px $white;
+      }
+
+      &:focus {
+        outline: dotted 2px $white;
+      }
+
+      &:disabled {
+        color: $gray-400;
+        opacity: unset;
+      }
+    }
+
+    .material-icons {
+      font-size: 28px;
+    }
+
+    &:hover:not(:disabled) {
+      background-color: $gray-100;
+      box-shadow: 0 0 0 2px $black;
+    }
+
+    &:focus {
+      outline: 2px dotted $black;
+      outline-offset: 3px;
+      border: none;
+    }
+
+    &:disabled {
+      color: $gray-400;
+    }
+  }
+
+  &.btn-icon-w-text {
+    height: toRem(48);
+    width: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    font-size: $font-size-xs;
+    padding: 0 .25rem;
+
+    &.horizontal {
+      flex-direction: row;
+      height: toRem(28);
+    }
+
+    .material-icons {
+      font-size: 24px;
+    }
+  }
+
+  &.btn-stepper {
+    background-color: transparent;
+    border: none;
+    color: $black;
+    height: toRem(48);
+    width: toRem(48);
+
+    &:hover {
+      background-color: none;
+    }
+
+    &:disabled {
+      background-color: transparent;
+    }
+
+    &:focus {
+      outline: 2px dotted $black;
+      outline-offset: -12px;
+    }
+  }
+
+  // .btn-w-icon && .btn-w-icon-sm is used intandem with btn-primary,btn-outline-secondary,.btn-tertiary classes
+  &.btn-w-icon {
+    max-height: toRem(48);
+    padding: toRem(13) toRem(24) toRem(14);
+  }
+
+  &.btn-w-icon-sm {
+    max-height: toRem(32);
+    padding: toRem(5) toRem(32) toRem(6);
+  }
+
+  &.btn-primary {
+     &:hover:not(:disabled) {
+        background-color: $deep-carmine;
+        border-color: $deep-carmine;
+     }
+
+     &:active {
+       background-color: $dark-red;
+       border-color: $dark-red;
+     }
+
+     &:focus:not(:disabled) {
+      outline: 2px dotted $dark;
+      outline-offset: 3px;
+     }
+
+     &:disabled {
+       background-color: $gray-100;
+       border: none;
+       color: $gray-600; 
+     }
+  }
+
+  &.btn-outline-secondary {
+    &:hover:not(:disabled):not(:active) {
+      background-color: $gray-100;
+      border-color: $black;
+      box-shadow: inset 0px 0px 0px 1px $black;
+      color: $black;
+   }
+
+   &:active {
+     background-color: rgba(39, 37, 31, 0.1);
+     border-color: $black;
+     box-shadow: inset 0px 0px 0px 1px $black;
+     box-shadow:none;
+     color: $black;
+   }
+
+   &:focus:not(:disabled) {
+      outline: 2px dotted $dark;
+      outline-offset: 3px;
+      background-color: $white;
+      color: $black;
+   }
+
+   &:disabled {
+     background-color: $gray-400;
+     border-color: $gray-300;
+     color: $gray-600; 
+   }
+  }
+
+  &.btn-tertiary {
+      color: #20728b;
+      border:none;
+      padding:0;
+      height:fit-content;
+
+      &:hover:not(:disabled) {
+        color: #164f61;
+      }
+
+      &:active {
+        color: #0c2d37;
+      }
+
+      &:focus:not(:disabled) {
+          outline: 2px dotted $dark;
+          outline-offset: 5px;
+      }
+
+      &:disabled {
+        color: #6b7070; 
+      }
+  }
+}

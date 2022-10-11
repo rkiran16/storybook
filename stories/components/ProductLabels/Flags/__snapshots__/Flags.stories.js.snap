@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/ProductLabels/Flags Double 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+      <span
+        class=\\"sub-title-4 badge bg-info double-flag-1 text-uppercase fw-normal\\"
+        >",
+    "</span
+      >
+      <span
+        class=\\"sub-title-4 badge bg-info double-flag-2 text-uppercase fw-normal\\"
+        >",
+    "</span
+      >
+    ",
+  ],
+  "values": Array [
+    "New",
+    "Recommended",
+  ],
+}
+`;
+
+exports[`Storyshots Components/ProductLabels/Flags Single 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+      <span
+        class=\\"sub-title-4 single-flag badge bg-info text-uppercase fw-normal\\"
+        >",
+    "</span
+      >
+    ",
+  ],
+  "values": Array [
+    "Recommended",
+  ],
+}
+`;

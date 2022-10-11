@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/ProductLabels/StockStatus Alert Badge 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div>
+      <span
+        class=\\"sub-title-3 rounded-pill p-1 ",
+    " bg-",
+    " text-white \\"
+        >",
+    "</span
+      >
+      <span class=",
+    ">",
+    "</span>
+    </div>
+  ",
+  ],
+  "values": Array [
+    "px-2",
+    "info",
+    7,
+    "sub-title-3 text-info",
+    "",
+  ],
+}
+`;
+
+exports[`Storyshots Components/ProductLabels/StockStatus In Stock 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div>
+      <span
+        class=\\"sub-title-3 rounded-pill p-1 ",
+    " bg-",
+    " text-white \\"
+        >",
+    "</span
+      >
+      <span class=",
+    ">",
+    "</span>
+    </div>
+  ",
+  ],
+  "values": Array [
+    "",
+    "success",
+    378,
+    "sub-title-3 text-success",
+    "IN STOCK",
+  ],
+}
+`;
+
+exports[`Storyshots Components/ProductLabels/StockStatus Low Stock 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div>
+      <span
+        class=\\"sub-title-3 rounded-pill p-1 ",
+    " bg-",
+    " text-white \\"
+        >",
+    "</span
+      >
+      <span class=",
+    ">",
+    "</span>
+    </div>
+  ",
+  ],
+  "values": Array [
+    "",
+    "warning",
+    18,
+    "sub-title-3 text-warning",
+    "LOW STOCK",
+  ],
+}
+`;
+
+exports[`Storyshots Components/ProductLabels/StockStatus Out Of Stock 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div>
+      <span
+        class=\\"sub-title-3 rounded-pill p-1 ",
+    " bg-",
+    " text-white \\"
+        >",
+    "</span
+      >
+      <span class=",
+    ">",
+    "</span>
+    </div>
+  ",
+  ],
+  "values": Array [
+    "px-2",
+    "danger",
+    0,
+    "sub-title-3 text-danger",
+    "OUT OF STOCK",
+  ],
+}
+`;

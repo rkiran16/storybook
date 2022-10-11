@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/ProductLabels/Misc/Returnable Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+      <span class=\\"position-relative me-2 d-flex align-items-center\\">
+        <span class=\\"m-2 material-icons\\">done</span>
+        <strong class=\\"sub-title-3 fw-bold\\">RETURNABLE</strong>
+      </span>
+    ",
+  ],
+  "values": Array [],
+}
+`;

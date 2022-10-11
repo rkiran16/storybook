@@ -1,0 +1,1389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Tiles/UserTile Hide Check Box 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=\\"tile user-tile\\">
+      ",
+    "
+      ",
+    "
+    </div>
+   ",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"tile__info\\">
+        <div class=\\"tile__info__controls\\">
+            ",
+        "
+            <div class=\\"w-100 d-flex justify-content-end tile-control\\">
+              ",
+        "
+            </div>
+        </div>
+        <div class=\\"d-flex flex-column w-100\\">
+          ",
+        "
+        </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        "",
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=",
+            " style=",
+            ">
+      <div class=\\"dropdown\\">
+        <button
+          type=\\"button\\"
+          ?disabled=",
+            "
+          class=",
+            "
+          id=\\"dropdownIconButton\\" 
+          data-bs-toggle=\\"dropdown\\" 
+          aria-expanded=\\"false\\"
+        >
+          <span class=\\"material-icons ",
+            "\\">",
+            "</span>
+          ",
+            "
+        </button>
+        <ul class=\\"dropdown-menu dropdown-menu-end shadow-sm\\" aria-labelledby=\\"dropdownIconButton\\">
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Action </li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\"><a tabIndex=\\"-1\\" href=\\"#\\">Link</a></li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Another Action</li>
+        </ul>
+      </div>
+    </div>
+  ",
+          ],
+          "values": Array [
+            "d-inline-block p-0",
+            "",
+            false,
+            "dropdown-toggle btn btn-icon btn-icon-w-text horizontal flex-row-reverse ",
+            "ms-1",
+            "more_vert",
+            "Actions",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=\\"user-info\\">
+        ",
+            "
+        <div class=\\"user-info__details\\">
+          ",
+            "
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">Role:</span>
+            <span class=\\"d-inline-flex align-items-center\\">
+              Admin
+              <span class=\\"material-icons ms-2\\">info</span>
+            </span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User ID:</span>
+            <span>Chris_Falcom</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">Last Modified:</span>
+            <span>12/14/2022</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+        </div>
+    </div>
+   ",
+          ],
+          "values": Array [
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    ",
+                "
+   ",
+              ],
+              "values": Array [
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "<img class=\\"user-img-placeholder rounded-circle\\" src=",
+                    " />",
+                  ],
+                  "values": Array [
+                    "file-stub",
+                  ],
+                },
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "<a href=",
+                " class=",
+                " target=",
+                ">",
+                "</a>",
+              ],
+              "values": Array [
+                "http://www.cardinalhealth.com",
+                "inline mb-3 text-break tile-title",
+                "_self",
+                "Hubert Blaine Wolfeschlegelsteinhausenbergerdorff Sr",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"accordion accordion-small user-tile__more-section accordion-no-border\\" id=\\"accordionNoBorder\\">
+        <div class=\\"accordion-item\\">
+          <h5 class=\\"accordion-header\\" id=\\"headingOne\\">
+            <button type=\\"button\\" data-bs-toggle=\\"collapse\\" class=\\"accordion-button collapsed\\" data-bs-target=\\"#AccordionNoBorderContainer\\" aria-expanded=\\"false\\" aria-controls=\\"AccordionNoBorderContainer\\">
+              Show more
+            </button>
+          </h5>
+          <div aria-labelledby=\\"headingOne\\" id=\\"AccordionNoBorderContainer\\" class=\\"accordion-collapse collapse \\" data-bs-parent=\\"#accordionNoBorder\\">
+            <div class=\\"accordion-body p-0 pt-3\\">
+              ",
+        "
+              ",
+        "
+              ",
+        "
+              ",
+        "
+              ",
+        "
+            </div>
+          </div>
+        </div>
+      </div>
+   ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+   <div class=\\"d-flex flex-column mb-3\\">
+     <div class=\\"d-flex mb-2 align-items-center\\">
+       <span class=\\"material-icons-outlined me-3\\">",
+            "</span>
+       <span class=\\"text-muted\\">",
+            "</span>
+     </div>
+     <div class=\\"d-flex flex-column ms-0 ms-sm-6\\">
+       ",
+            "
+     </div>
+   </div>
+  ",
+          ],
+          "values": Array [
+            "switch_account",
+            "Assigned accounts:",
+            Array [
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5555 ext.55555",
+                ],
+              },
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5556 ext.55556",
+                ],
+              },
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5557 ext.55557",
+                ],
+              },
+            ],
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+   <div class=\\"d-flex flex-column mb-3\\">
+     <div class=\\"d-flex mb-2 align-items-center\\">
+       <span class=\\"material-icons-outlined me-3\\">",
+            "</span>
+       <span class=\\"text-muted\\">",
+            "</span>
+     </div>
+     <div class=\\"d-flex flex-column ms-0 ms-sm-6\\">
+       ",
+            "
+     </div>
+   </div>
+  ",
+          ],
+          "values": Array [
+            "mail",
+            "Primary email:",
+            Array [
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "Anthony_Stark@lakewoodPharmacy.com",
+                ],
+              },
+            ],
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+   <div class=\\"d-flex flex-column mb-3\\">
+     <div class=\\"d-flex mb-2 align-items-center\\">
+       <span class=\\"material-icons-outlined me-3\\">",
+            "</span>
+       <span class=\\"text-muted\\">",
+            "</span>
+     </div>
+     <div class=\\"d-flex flex-column ms-0 ms-sm-6\\">
+       ",
+            "
+     </div>
+   </div>
+  ",
+          ],
+          "values": Array [
+            "phone",
+            "Primary phone number:",
+            Array [
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5555 ext.55555",
+                ],
+              },
+            ],
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+   <div class=\\"d-flex flex-column mb-3\\">
+     <div class=\\"d-flex mb-2 align-items-center\\">
+       <span class=\\"material-icons-outlined me-3\\">",
+            "</span>
+       <span class=\\"text-muted\\">",
+            "</span>
+     </div>
+     <div class=\\"d-flex flex-column ms-0 ms-sm-6\\">
+       ",
+            "
+     </div>
+   </div>
+  ",
+          ],
+          "values": Array [
+            "phone_iphone",
+            "Mobile phone number:",
+            Array [
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5555 ext.55555",
+                ],
+              },
+            ],
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+   <div class=\\"d-flex flex-column mb-3\\">
+     <div class=\\"d-flex mb-2 align-items-center\\">
+       <span class=\\"material-icons-outlined me-3\\">",
+            "</span>
+       <span class=\\"text-muted\\">",
+            "</span>
+     </div>
+     <div class=\\"d-flex flex-column ms-0 ms-sm-6\\">
+       ",
+            "
+     </div>
+   </div>
+  ",
+          ],
+          "values": Array [
+            "phone_iphone",
+            "Mobile phone number:",
+            Array [
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5555 ext.55555",
+                ],
+              },
+            ],
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Tiles/UserTile Hide View More 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=\\"tile user-tile\\">
+      ",
+    "
+      ",
+    "
+    </div>
+   ",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"tile__info\\">
+        <div class=\\"tile__info__controls\\">
+            ",
+        "
+            <div class=\\"w-100 d-flex justify-content-end tile-control\\">
+              ",
+        "
+            </div>
+        </div>
+        <div class=\\"d-flex flex-column w-100\\">
+          ",
+        "
+        </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+            <div class=\\"form-check\\">
+                <input type=\\"checkbox\\" class=\\"form-check-input\\" ?checked=",
+            "  ?disabled=",
+            " id=\\"customCheck111-33\\" />
+                <label class=",
+            " for=\\"customCheck111-33\\">Check this custom checkbox</label>
+            </div>
+        ",
+          ],
+          "values": Array [
+            false,
+            undefined,
+            "form-check-label visually-hidden",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=",
+            " style=",
+            ">
+      <div class=\\"dropdown\\">
+        <button
+          type=\\"button\\"
+          ?disabled=",
+            "
+          class=",
+            "
+          id=\\"dropdownIconButton\\" 
+          data-bs-toggle=\\"dropdown\\" 
+          aria-expanded=\\"false\\"
+        >
+          <span class=\\"material-icons ",
+            "\\">",
+            "</span>
+          ",
+            "
+        </button>
+        <ul class=\\"dropdown-menu dropdown-menu-end shadow-sm\\" aria-labelledby=\\"dropdownIconButton\\">
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Action </li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\"><a tabIndex=\\"-1\\" href=\\"#\\">Link</a></li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Another Action</li>
+        </ul>
+      </div>
+    </div>
+  ",
+          ],
+          "values": Array [
+            "d-inline-block p-0",
+            "",
+            false,
+            "dropdown-toggle btn btn-icon btn-icon-w-text horizontal flex-row-reverse ",
+            "ms-1",
+            "more_vert",
+            "Actions",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=\\"user-info\\">
+        ",
+            "
+        <div class=\\"user-info__details\\">
+          ",
+            "
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">Role:</span>
+            <span class=\\"d-inline-flex align-items-center\\">
+              Admin
+              <span class=\\"material-icons ms-2\\">info</span>
+            </span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User ID:</span>
+            <span>Chris_Falcom</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">Last Modified:</span>
+            <span>12/14/2022</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+        </div>
+    </div>
+   ",
+          ],
+          "values": Array [
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    ",
+                "
+   ",
+              ],
+              "values": Array [
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "<img class=\\"user-img-placeholder rounded-circle\\" src=",
+                    " />",
+                  ],
+                  "values": Array [
+                    "file-stub",
+                  ],
+                },
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "<a href=",
+                " class=",
+                " target=",
+                ">",
+                "</a>",
+              ],
+              "values": Array [
+                "http://www.cardinalhealth.com",
+                "inline mb-3 text-break tile-title",
+                "_self",
+                "Hubert Blaine Wolfeschlegelsteinhausenbergerdorff Sr",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    "",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Tiles/UserTile No Avatar 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=\\"tile user-tile\\">
+      ",
+    "
+      ",
+    "
+    </div>
+   ",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"tile__info\\">
+        <div class=\\"tile__info__controls\\">
+            ",
+        "
+            <div class=\\"w-100 d-flex justify-content-end tile-control\\">
+              ",
+        "
+            </div>
+        </div>
+        <div class=\\"d-flex flex-column w-100\\">
+          ",
+        "
+        </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+            <div class=\\"form-check\\">
+                <input type=\\"checkbox\\" class=\\"form-check-input\\" ?checked=",
+            "  ?disabled=",
+            " id=\\"customCheck111-33\\" />
+                <label class=",
+            " for=\\"customCheck111-33\\">Check this custom checkbox</label>
+            </div>
+        ",
+          ],
+          "values": Array [
+            false,
+            undefined,
+            "form-check-label visually-hidden",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=",
+            " style=",
+            ">
+      <div class=\\"dropdown\\">
+        <button
+          type=\\"button\\"
+          ?disabled=",
+            "
+          class=",
+            "
+          id=\\"dropdownIconButton\\" 
+          data-bs-toggle=\\"dropdown\\" 
+          aria-expanded=\\"false\\"
+        >
+          <span class=\\"material-icons ",
+            "\\">",
+            "</span>
+          ",
+            "
+        </button>
+        <ul class=\\"dropdown-menu dropdown-menu-end shadow-sm\\" aria-labelledby=\\"dropdownIconButton\\">
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Action </li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\"><a tabIndex=\\"-1\\" href=\\"#\\">Link</a></li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Another Action</li>
+        </ul>
+      </div>
+    </div>
+  ",
+          ],
+          "values": Array [
+            "d-inline-block p-0",
+            "",
+            false,
+            "dropdown-toggle btn btn-icon btn-icon-w-text horizontal flex-row-reverse ",
+            "ms-1",
+            "more_vert",
+            "Actions",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=\\"user-info\\">
+        ",
+            "
+        <div class=\\"user-info__details\\">
+          ",
+            "
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">Role:</span>
+            <span class=\\"d-inline-flex align-items-center\\">
+              Admin
+              <span class=\\"material-icons ms-2\\">info</span>
+            </span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User ID:</span>
+            <span>Chris_Falcom</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">Last Modified:</span>
+            <span>12/14/2022</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+        </div>
+    </div>
+   ",
+          ],
+          "values": Array [
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    ",
+                "
+   ",
+              ],
+              "values": Array [
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "<span class=",
+                    ">
+    <span class=\\"fs-3 fw-bold text-uppercase text-white\\">as</span> 
+ </span>",
+                  ],
+                  "values": Array [
+                    "user-img-placeholder rounded-circle bg-danger",
+                  ],
+                },
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "<a href=",
+                " class=",
+                " target=",
+                ">",
+                "</a>",
+              ],
+              "values": Array [
+                "http://www.cardinalhealth.com",
+                "inline mb-3 text-break tile-title",
+                "_self",
+                "Hubert Blaine Wolfeschlegelsteinhausenbergerdorff Sr",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    "",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Tiles/UserTile Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=\\"tile user-tile\\">
+      ",
+    "
+      ",
+    "
+    </div>
+   ",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"tile__info\\">
+        <div class=\\"tile__info__controls\\">
+            ",
+        "
+            <div class=\\"w-100 d-flex justify-content-end tile-control\\">
+              ",
+        "
+            </div>
+        </div>
+        <div class=\\"d-flex flex-column w-100\\">
+          ",
+        "
+        </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+            <div class=\\"form-check\\">
+                <input type=\\"checkbox\\" class=\\"form-check-input\\" ?checked=",
+            "  ?disabled=",
+            " id=\\"customCheck111-33\\" />
+                <label class=",
+            " for=\\"customCheck111-33\\">Check this custom checkbox</label>
+            </div>
+        ",
+          ],
+          "values": Array [
+            false,
+            undefined,
+            "form-check-label visually-hidden",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=",
+            " style=",
+            ">
+      <div class=\\"dropdown\\">
+        <button
+          type=\\"button\\"
+          ?disabled=",
+            "
+          class=",
+            "
+          id=\\"dropdownIconButton\\" 
+          data-bs-toggle=\\"dropdown\\" 
+          aria-expanded=\\"false\\"
+        >
+          <span class=\\"material-icons ",
+            "\\">",
+            "</span>
+          ",
+            "
+        </button>
+        <ul class=\\"dropdown-menu dropdown-menu-end shadow-sm\\" aria-labelledby=\\"dropdownIconButton\\">
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Action </li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\"><a tabIndex=\\"-1\\" href=\\"#\\">Link</a></li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Another Action</li>
+        </ul>
+      </div>
+    </div>
+  ",
+          ],
+          "values": Array [
+            "d-inline-block p-0",
+            "",
+            false,
+            "dropdown-toggle btn btn-icon btn-icon-w-text horizontal flex-row-reverse ",
+            "ms-1",
+            "more_vert",
+            "Actions",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=\\"user-info\\">
+        ",
+            "
+        <div class=\\"user-info__details\\">
+          ",
+            "
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">Role:</span>
+            <span class=\\"d-inline-flex align-items-center\\">
+              Admin
+              <span class=\\"material-icons ms-2\\">info</span>
+            </span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User ID:</span>
+            <span>Chris_Falcom</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">Last Modified:</span>
+            <span>12/14/2022</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+          <p class=\\"mb-1\\">
+            <span class=\\"text-muted\\">User Properties:</span>
+            <span>Value</span>
+          </p>
+        </div>
+    </div>
+   ",
+          ],
+          "values": Array [
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    ",
+                "
+   ",
+              ],
+              "values": Array [
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "<img class=\\"user-img-placeholder rounded-circle\\" src=",
+                    " />",
+                  ],
+                  "values": Array [
+                    "file-stub",
+                  ],
+                },
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "<a href=",
+                " class=",
+                " target=",
+                ">",
+                "</a>",
+              ],
+              "values": Array [
+                "http://www.cardinalhealth.com",
+                "inline mb-3 text-break tile-title",
+                "_self",
+                "Hubert Blaine Wolfeschlegelsteinhausenbergerdorff Sr",
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"accordion accordion-small user-tile__more-section accordion-no-border\\" id=\\"accordionNoBorder\\">
+        <div class=\\"accordion-item\\">
+          <h5 class=\\"accordion-header\\" id=\\"headingOne\\">
+            <button type=\\"button\\" data-bs-toggle=\\"collapse\\" class=\\"accordion-button collapsed\\" data-bs-target=\\"#AccordionNoBorderContainer\\" aria-expanded=\\"false\\" aria-controls=\\"AccordionNoBorderContainer\\">
+              Show more
+            </button>
+          </h5>
+          <div aria-labelledby=\\"headingOne\\" id=\\"AccordionNoBorderContainer\\" class=\\"accordion-collapse collapse \\" data-bs-parent=\\"#accordionNoBorder\\">
+            <div class=\\"accordion-body p-0 pt-3\\">
+              ",
+        "
+              ",
+        "
+              ",
+        "
+              ",
+        "
+              ",
+        "
+            </div>
+          </div>
+        </div>
+      </div>
+   ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+   <div class=\\"d-flex flex-column mb-3\\">
+     <div class=\\"d-flex mb-2 align-items-center\\">
+       <span class=\\"material-icons-outlined me-3\\">",
+            "</span>
+       <span class=\\"text-muted\\">",
+            "</span>
+     </div>
+     <div class=\\"d-flex flex-column ms-0 ms-sm-6\\">
+       ",
+            "
+     </div>
+   </div>
+  ",
+          ],
+          "values": Array [
+            "switch_account",
+            "Assigned accounts:",
+            Array [
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5555 ext.55555",
+                ],
+              },
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5556 ext.55556",
+                ],
+              },
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5557 ext.55557",
+                ],
+              },
+            ],
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+   <div class=\\"d-flex flex-column mb-3\\">
+     <div class=\\"d-flex mb-2 align-items-center\\">
+       <span class=\\"material-icons-outlined me-3\\">",
+            "</span>
+       <span class=\\"text-muted\\">",
+            "</span>
+     </div>
+     <div class=\\"d-flex flex-column ms-0 ms-sm-6\\">
+       ",
+            "
+     </div>
+   </div>
+  ",
+          ],
+          "values": Array [
+            "mail",
+            "Primary email:",
+            Array [
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "Anthony_Stark@lakewoodPharmacy.com",
+                ],
+              },
+            ],
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+   <div class=\\"d-flex flex-column mb-3\\">
+     <div class=\\"d-flex mb-2 align-items-center\\">
+       <span class=\\"material-icons-outlined me-3\\">",
+            "</span>
+       <span class=\\"text-muted\\">",
+            "</span>
+     </div>
+     <div class=\\"d-flex flex-column ms-0 ms-sm-6\\">
+       ",
+            "
+     </div>
+   </div>
+  ",
+          ],
+          "values": Array [
+            "phone",
+            "Primary phone number:",
+            Array [
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5555 ext.55555",
+                ],
+              },
+            ],
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+   <div class=\\"d-flex flex-column mb-3\\">
+     <div class=\\"d-flex mb-2 align-items-center\\">
+       <span class=\\"material-icons-outlined me-3\\">",
+            "</span>
+       <span class=\\"text-muted\\">",
+            "</span>
+     </div>
+     <div class=\\"d-flex flex-column ms-0 ms-sm-6\\">
+       ",
+            "
+     </div>
+   </div>
+  ",
+          ],
+          "values": Array [
+            "phone_iphone",
+            "Mobile phone number:",
+            Array [
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5555 ext.55555",
+                ],
+              },
+            ],
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+   <div class=\\"d-flex flex-column mb-3\\">
+     <div class=\\"d-flex mb-2 align-items-center\\">
+       <span class=\\"material-icons-outlined me-3\\">",
+            "</span>
+       <span class=\\"text-muted\\">",
+            "</span>
+     </div>
+     <div class=\\"d-flex flex-column ms-0 ms-sm-6\\">
+       ",
+            "
+     </div>
+   </div>
+  ",
+          ],
+          "values": Array [
+            "phone_iphone",
+            "Mobile phone number:",
+            Array [
+              Object {
+                "_$litType$": 1,
+                "strings": Array [
+                  "<span class=\\"text-break\\">",
+                  "</span>",
+                ],
+                "values": Array [
+                  "+1 (513) 555-5555 ext.55555",
+                ],
+              },
+            ],
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;
+
+exports[`Storyshots Components/Tiles/UserTile User Image 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+     <div class=\\"d-flex\\">
+      <div class=\\"me-2\\">",
+    "</div> 
+      <div class=\\"me-2\\">",
+    "</div> 
+      <div class=\\"me-2\\">",
+    "</div> 
+      <div class=\\"me-2\\">",
+    "</div> 
+      <div class=\\"me-2\\">",
+    "</div> 
+      <div class=\\"me-2\\">",
+    "</div> 
+      <div class=\\"me-2\\">",
+    "</div> 
+      <div class=\\"me-2\\">",
+    "</div>
+     </div> 
+   ",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    ",
+        "
+   ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<img class=\\"user-img-placeholder rounded-circle\\" src=",
+            " />",
+          ],
+          "values": Array [
+            "file-stub",
+          ],
+        },
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    ",
+        "
+   ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<span class=",
+            ">
+    <span class=\\"fs-3 fw-bold text-uppercase text-white\\">as</span> 
+ </span>",
+          ],
+          "values": Array [
+            "user-img-placeholder rounded-circle bg-primary",
+          ],
+        },
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    ",
+        "
+   ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<span class=",
+            ">
+    <span class=\\"fs-3 fw-bold text-uppercase text-white\\">as</span> 
+ </span>",
+          ],
+          "values": Array [
+            "user-img-placeholder rounded-circle bg-secondary",
+          ],
+        },
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    ",
+        "
+   ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<span class=",
+            ">
+    <span class=\\"fs-3 fw-bold text-uppercase text-white\\">as</span> 
+ </span>",
+          ],
+          "values": Array [
+            "user-img-placeholder rounded-circle bg-success",
+          ],
+        },
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    ",
+        "
+   ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<span class=",
+            ">
+    <span class=\\"fs-3 fw-bold text-uppercase text-white\\">as</span> 
+ </span>",
+          ],
+          "values": Array [
+            "user-img-placeholder rounded-circle bg-warning",
+          ],
+        },
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    ",
+        "
+   ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<span class=",
+            ">
+    <span class=\\"fs-3 fw-bold text-uppercase text-white\\">as</span> 
+ </span>",
+          ],
+          "values": Array [
+            "user-img-placeholder rounded-circle bg-info",
+          ],
+        },
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    ",
+        "
+   ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<span class=",
+            ">
+    <span class=\\"fs-3 fw-bold text-uppercase text-white\\">as</span> 
+ </span>",
+          ],
+          "values": Array [
+            "user-img-placeholder rounded-circle bg-danger",
+          ],
+        },
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    ",
+        "
+   ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<span class=",
+            ">
+    <span class=\\"fs-3 fw-bold text-uppercase text-white\\">as</span> 
+ </span>",
+          ],
+          "values": Array [
+            "user-img-placeholder rounded-circle bg-dark",
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;

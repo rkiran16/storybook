@@ -1,0 +1,49 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+# Snackbar
+
+Snackbars are non-modal, time-based window elements used to display short messages. They are more disruptive than inline notifications and are best used with system-generated messages that do not correspond to a specific section of the UI. Their color and icon should correspond with the message intent.
+
+Message
+
+- Keep messages clear and concise (not to exceed 3 lines)
+
+Sizing
+
+- Fixed width 8 columns centered on desktop (1064px) and should not be expanded to fit the content area
+- Height expands to fit second line of copy
+
+Placement
+
+- Snackbars should be visible no matter where a user is on the screen. Snackbars are center-aligned 24px from the top edge of the screen.
+- They do cover content
+- If multiple snackbars are needed, snackbars stack with 8px between them and the most recent appears on top.
+
+Dismissal
+
+- Snackbars timeout automatically after 20 seconds on the screen with the ability for the development to change the timing within their page level work
+  -They can include a close button so users can dismiss them sooner
+
+Common uses
+
+- confirmation that an action has taken place
+  - new cart created
+  - new list created
+  - deletion of an item
+- action not able to be completed (user tries to complete an action and something on the backend prevents it from happening)
+
+How to handle batch actions
+If one action effects multiple items (ex: deleting multiple lists), use one success message for all.
+
+Snackbars with actions
+Sometimes an action needs to be included in a snacker. This action should not be imperative to the user as the snack bar times out after 20 seconds with the ability for the development to change the timing within their page level work . Links and tertiary buttons should be no more than three words.
+
+<Canvas>
+  <Story id="components-notifications-snackbar--default"></Story>
+  <Story id="components-notifications-snackbar--with-action"></Story>
+  <Story id="components-notifications-snackbar--error"></Story>
+  <Story id="components-notifications-snackbar--warning"></Story>
+  <Story id="components-notifications-snackbar--info"></Story>
+  <Story id="components-notifications-snackbar--with-button"></Story>
+  <Story id="components-notifications-snackbar--with-button-and-action"></Story>
+</Canvas>

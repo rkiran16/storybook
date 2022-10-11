@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Card Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=\\"container\\">
+        <div class=\\"row\\">
+          <div class=",
+    ">
+              ",
+    "
+          </div>
+        </div>
+    </div>
+  ",
+  ],
+  "values": Array [
+    "col-md-12 col-lg-6",
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"card\\">
+      <div class=\\"card-header d-flex justify-content-between\\">
+          <div>
+            <h5 class=\\"card-title\\">Lorem Ipsum Dolor</h5>
+            <p class=\\"mb-0\\">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          </div>
+          ",
+        "
+      </div>
+      <div class=\\"card-body\\">
+        <p class=\\"card-text pb-4\\">
+           
+        </p>
+      </div>
+      <div class=\\"card-footer\\">
+       ",
+        "
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=",
+            " style=",
+            ">
+      <div class=\\"dropdown\\">
+        <button
+          type=\\"button\\"
+          ?disabled=",
+            "
+          class=",
+            "
+          id=\\"dropdownIconButton\\" 
+          data-bs-toggle=\\"dropdown\\" 
+          aria-expanded=\\"false\\"
+        >
+          <span class=\\"material-icons ",
+            "\\">",
+            "</span>
+          ",
+            "
+        </button>
+        <ul class=\\"dropdown-menu dropdown-menu-end shadow-sm\\" aria-labelledby=\\"dropdownIconButton\\">
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Action </li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\"><a tabIndex=\\"-1\\" href=\\"#\\">Link</a></li>
+          <li tabIndex=\\"-1\\" class=\\"dropdown-item\\">Another Action</li>
+        </ul>
+      </div>
+    </div>
+  ",
+          ],
+          "values": Array [
+            "d-inline-block p-0",
+            "",
+            false,
+            "dropdown-toggle btn btn-icon btn-icon-w-text horizontal flex-row-reverse ",
+            "ms-1",
+            "more_vert",
+            "Actions",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<a href=",
+            " target=",
+            ">",
+            "</a>",
+          ],
+          "values": Array [
+            "http://www.cardinalhealth.com",
+            "_self",
+            "Link action",
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;

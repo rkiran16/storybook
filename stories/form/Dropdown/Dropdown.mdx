@@ -1,0 +1,54 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+# Drop Down
+
+<p>
+  Dropdown component is built using Choices.js library. Choices.js is a
+  lightweight, configurable select box/text input plugin. Similar to Select2 and
+  Selectize but without the jQuery dependency.
+</p>
+
+<p>
+  For all config options, visit the{" "}
+  <a href="https://github.com/Choices-js/Choices">GitHub repo</a>.
+</p>
+
+## Setup
+
+<Canvas isColumn>
+  <code>
+    <div>const element = document.querySelector('.js-choice');</div>
+    <div>const choices = new Choices(element);</div>
+  </code>
+</Canvas>
+
+## Input Types
+
+Choices works with the following input types, referenced in the documentation as noted.
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">HTML Element</th>
+      <th scope="col">Documentation "Input Type"</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>input text</td>
+      <td>text</td>
+    </tr>
+    <tr>
+      <td>
+        <code>select</code>
+      </td>
+      <td>select-one</td>
+    </tr>
+    <tr>
+      <td>
+        <code>select multiple</code>
+      </td>
+      <td>select-multiple</td>
+    </tr>
+  </tbody>
+</table>

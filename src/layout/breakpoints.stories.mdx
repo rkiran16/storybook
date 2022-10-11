@@ -1,0 +1,85 @@
+import { Meta, Canvas } from "@storybook/addon-docs";
+
+<Meta title="Layout/BreakPoints" />
+
+# Breakpoints
+
+Breakpoints are customizable widths that determine how your responsive layout behaves across device or viewport sizes
+
+## Core concepts
+
+<ul>
+  <li>
+    <b>Breakpoints are the building blocks of responsive design</b> Use them to
+    control when your layout can be adapted at a particular viewport or device
+    size.
+  </li>
+  <li>
+    <b>Mobile first, responsive design is the goal</b>. Aims to apply the bare
+    minimum of styles to make a layout work at the smallest breakpoint, and then
+    layers on styles to adjust that design for larger devices. This optimizes
+    your CSS, improves rendering time, and provides a great experience for your
+    visitors.
+  </li>
+</ul>
+
+# Available Breakpoints
+
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Breakpoint</th>
+      <th scope="col">Class</th>
+      <th scope="col">Dimensions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>X-small</td>
+      <td>None</td>
+      <td>&#60; 576px</td>
+    </tr>
+    <tr>
+      <td>Small</td>
+      <td>sm</td>
+      <td>&#62; 576px</td>
+    </tr>
+    <tr>
+      <td>Medium</td>
+      <td>md</td>
+      <td>&#62; 768px</td>
+    </tr>
+    <tr>
+      <td>Large</td>
+      <td>lg</td>
+      <td>&#62; 992px</td>
+    </tr>
+    <tr>
+      <td>Extra large</td>
+      <td>xl</td>
+      <td>&#62; 1200px</td>
+    </tr>
+    <tr>
+      <td>Extra extra large</td>
+      <td>xxl</td>
+      <td>&#62; 1400px</td>
+    </tr>
+    <tr>
+      <td>Extra extra extra large</td>
+      <td>xxxl</td>
+      <td>&#62; 1792px</td>
+    </tr>
+  </tbody>
+</table>
+
+<br />
+<br />
+
+These breakpoints are customizable via Sass—you’ll find them in a Sass map in our `_variables.scss` stylesheet.
+
+<Canvas isColumn>
+  <code>
+    $grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px,
+    xxl: 1440px, xxxl: 1792px ) !default;
+  </code>
+</Canvas>

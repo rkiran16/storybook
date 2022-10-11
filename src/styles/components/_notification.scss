@@ -1,0 +1,13 @@
+.global-notification {
+  min-height: toRem(73);
+}
+
+.snackbar-notification {
+  width: 100%;
+  max-width: toRem(1064);
+}
+
+.snackbar-notification-undo-text {
+  margin-left: toRem(10.6);
+  font-size: toRem(12.6);
+}

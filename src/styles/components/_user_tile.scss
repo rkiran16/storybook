@@ -1,0 +1,39 @@
+.user-tile {
+   &__more-section {
+       padding: toRem(16) toRem(18);
+       border-top: 1px solid $gray-600;
+
+       @include media-breakpoint-up(sm) {
+         padding: toRem(16) toRem(24);
+      }
+   }
+}
+
+.user-img-placeholder {
+    min-width: toRem(75);
+    height: toRem(75);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.user-info {
+    display:flex;
+    flex-direction:row;
+
+    &__details {
+       margin-left: toRem(16); 
+       margin-right: toRem(8);
+       .title {
+         display:block;
+         font-size: toRem(18);
+         font-weight: 500;
+         text-decoration:underline;
+         margin-bottom: toRem(12);
+  
+         @include media-breakpoint-up(sm) {
+            font-size: toRem(25.6);
+         }
+       }
+    }
+}

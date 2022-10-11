@@ -1,0 +1,58 @@
+.tile {
+  border: 1px solid $black;
+  border-radius: 16px;
+  display:flex;
+  flex-direction:column;
+  background-color: $white;
+
+  &__info {
+    padding: toRem(18);
+    position:relative;
+    flex-direction:column;
+    display:flex;
+
+    @include media-breakpoint-up(sm) {
+       flex-direction: row;
+       padding: toRem(24);
+    }
+
+    &__controls {
+       display:flex;
+       justify-content:space-between;
+       align-items:center;
+       width:100%;
+       margin-bottom: toRem(16);
+
+       .form-check {
+         margin-right: 0;
+       }
+
+      @include media-breakpoint-up(sm) {
+        margin-bottom: 0;
+        width:auto;
+        align-items:baseline;
+
+        .form-check {
+           margin-right: toRem(24);
+        }
+
+        .tile-control {
+          position:absolute;
+          right: toRem(24);
+          top: toRem(10);
+        }
+      }
+    }
+
+    .tile-title {
+        display:block;
+        font-size: toRem(18);
+        font-weight: 500;
+        line-height: 1;
+ 
+        @include media-breakpoint-up(sm) {
+           font-size: toRem(25.6);
+        }
+    }
+  }
+}

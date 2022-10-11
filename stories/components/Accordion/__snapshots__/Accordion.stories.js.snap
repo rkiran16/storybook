@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Accordion Always Open 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=",
+    " id=",
+    ">
+      <div class=\\"accordion-item\\">
+        <h5 class=\\"accordion-header\\" id=\\"headingOne\\">
+          <button class=",
+    " ?disabled=",
+    " type=\\"button\\" data-bs-toggle=\\"collapse\\" 
+                  data-bs-target=",
+    " aria-expanded=",
+    " aria-controls=",
+    " >
+            ",
+    "
+          </button>
+        </h5>
+        <div id=",
+    " class=",
+    " 
+             aria-labelledby=\\"headingOne\\" data-bs-parent=",
+    ">
+          <div class=\\"accordion-body\\">
+             <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo mauris, scelerisque quis condimentum sed, blandit convallis lacus. 
+                Phasellus consequat, nibh sed vestibulum posuere, ipsum nunc consequat tortor, 
+                nec scelerisque ligula dolor nec neque. Integer faucibus nunc non consequat venenatis.
+             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  ",
+  ],
+  "values": Array [
+    "accordion  ",
+    "accordionOpen",
+    "accordion-button ",
+    false,
+    "#AccordionTwo",
+    true,
+    "AccordionTwo",
+    "Accordion label",
+    "AccordionTwo",
+    "accordion-collapse collapse show",
+    "#accordionOpen",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Accordion Multiple Accordion Items 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+   <div class=",
+    " id=\\"accordionPanelsStayOpenExample\\">
+   <div class=\\"accordion-item\\">
+     <h5 class=\\"accordion-header\\" id=\\"panelsStayOpen-headingOne\\">
+       <button class=\\"accordion-button\\" ?disabled=",
+    " type=\\"button\\" data-bs-toggle=\\"collapse\\" data-bs-target=\\"#panelsStayOpen-collapseOne\\" aria-expanded=\\"true\\" aria-controls=\\"panelsStayOpen-collapseOne\\">
+         Accordion Item #1
+       </button>
+     </h5>
+     <div id=\\"panelsStayOpen-collapseOne\\" class=\\"accordion-collapse collapse show\\" aria-labelledby=\\"panelsStayOpen-headingOne\\">
+       <div class=\\"accordion-body\\">
+          Accordion Body Goes Here
+       </div>
+     </div>
+   </div>
+   <div class=\\"accordion-item\\">
+     <h5 class=\\"accordion-header\\" id=\\"panelsStayOpen-headingTwo\\">
+       <button class=\\"accordion-button collapsed\\" ?disabled=",
+    " type=\\"button\\" data-bs-toggle=\\"collapse\\" data-bs-target=\\"#panelsStayOpen-collapseTwo\\" aria-expanded=\\"false\\" aria-controls=\\"panelsStayOpen-collapseTwo\\">
+         Accordion Item #2
+       </button>
+     </h5>
+     <div id=\\"panelsStayOpen-collapseTwo\\" class=\\"accordion-collapse collapse\\" aria-labelledby=\\"panelsStayOpen-headingTwo\\">
+       <div class=\\"accordion-body\\">
+         Accordion Body Goes Here
+       </div>
+     </div>
+   </div>
+   <div class=\\"accordion-item\\">
+     <h5 class=\\"accordion-header\\" id=\\"panelsStayOpen-headingThree\\">
+       <button class=\\"accordion-button collapsed\\" ?disabled=",
+    " type=\\"button\\" data-bs-toggle=\\"collapse\\" data-bs-target=\\"#panelsStayOpen-collapseThree\\" aria-expanded=\\"false\\" aria-controls=\\"panelsStayOpen-collapseThree\\">
+         Accordion Item #3
+       </button>
+     </h5>
+     <div id=\\"panelsStayOpen-collapseThree\\" class=\\"accordion-collapse collapse\\" aria-labelledby=\\"panelsStayOpen-headingThree\\">
+       <div class=\\"accordion-body\\">
+          Accordion Body Goes Here
+       </div>
+     </div>
+   </div>
+ </div>
+   ",
+  ],
+  "values": Array [
+    "accordion ",
+    false,
+    false,
+    false,
+  ],
+}
+`;
+
+exports[`Storyshots Components/Accordion No Border 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=",
+    " id=",
+    ">
+      <div class=\\"accordion-item\\">
+        <h5 class=\\"accordion-header\\" id=\\"headingOne\\">
+          <button class=",
+    " ?disabled=",
+    " type=\\"button\\" data-bs-toggle=\\"collapse\\" 
+                  data-bs-target=",
+    " aria-expanded=",
+    " aria-controls=",
+    " >
+            ",
+    "
+          </button>
+        </h5>
+        <div id=",
+    " class=",
+    " 
+             aria-labelledby=\\"headingOne\\" data-bs-parent=",
+    ">
+          <div class=\\"accordion-body\\">
+             <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo mauris, scelerisque quis condimentum sed, blandit convallis lacus. 
+                Phasellus consequat, nibh sed vestibulum posuere, ipsum nunc consequat tortor, 
+                nec scelerisque ligula dolor nec neque. Integer faucibus nunc non consequat venenatis.
+             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  ",
+  ],
+  "values": Array [
+    "accordion accordion-small accordion-no-border",
+    "accordionNoBorder",
+    "accordion-button collapsed",
+    false,
+    "#AccordionNoBorderContainer",
+    false,
+    "AccordionNoBorderContainer",
+    "Accordion label",
+    "AccordionNoBorderContainer",
+    "accordion-collapse collapse ",
+    "#accordionNoBorder",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Accordion Small 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=",
+    " id=",
+    ">
+      <div class=\\"accordion-item\\">
+        <h5 class=\\"accordion-header\\" id=\\"headingOne\\">
+          <button class=",
+    " ?disabled=",
+    " type=\\"button\\" data-bs-toggle=\\"collapse\\" 
+                  data-bs-target=",
+    " aria-expanded=",
+    " aria-controls=",
+    " >
+            ",
+    "
+          </button>
+        </h5>
+        <div id=",
+    " class=",
+    " 
+             aria-labelledby=\\"headingOne\\" data-bs-parent=",
+    ">
+          <div class=\\"accordion-body\\">
+             <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo mauris, scelerisque quis condimentum sed, blandit convallis lacus. 
+                Phasellus consequat, nibh sed vestibulum posuere, ipsum nunc consequat tortor, 
+                nec scelerisque ligula dolor nec neque. Integer faucibus nunc non consequat venenatis.
+             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  ",
+  ],
+  "values": Array [
+    "accordion accordion-small ",
+    "accordionSmall",
+    "accordion-button collapsed",
+    false,
+    "#AccordionThree",
+    false,
+    "AccordionThree",
+    "Accordion label",
+    "AccordionThree",
+    "accordion-collapse collapse ",
+    "#accordionSmall",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Accordion Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=",
+    " id=",
+    ">
+      <div class=\\"accordion-item\\">
+        <h5 class=\\"accordion-header\\" id=\\"headingOne\\">
+          <button class=",
+    " ?disabled=",
+    " type=\\"button\\" data-bs-toggle=\\"collapse\\" 
+                  data-bs-target=",
+    " aria-expanded=",
+    " aria-controls=",
+    " >
+            ",
+    "
+          </button>
+        </h5>
+        <div id=",
+    " class=",
+    " 
+             aria-labelledby=\\"headingOne\\" data-bs-parent=",
+    ">
+          <div class=\\"accordion-body\\">
+             <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce leo mauris, scelerisque quis condimentum sed, blandit convallis lacus. 
+                Phasellus consequat, nibh sed vestibulum posuere, ipsum nunc consequat tortor, 
+                nec scelerisque ligula dolor nec neque. Integer faucibus nunc non consequat venenatis.
+             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  ",
+  ],
+  "values": Array [
+    "accordion  ",
+    "AccordionOne",
+    "accordion-button collapsed",
+    false,
+    "#AccordionExample",
+    false,
+    "AccordionExample",
+    "Accordion label",
+    "AccordionExample",
+    "accordion-collapse collapse ",
+    "#AccordionOne",
+  ],
+}
+`;

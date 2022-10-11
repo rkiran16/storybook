@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Forms/RadioButton Disabled 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+            <div class=\\"custom-control custom-radio\\">
+                <input type=\\"radio\\" class=\\"form-check-input\\" ?checked=",
+    " ?disabled=",
+    " id=\\"customCheck111-33\\" />
+                <label class=\\"form-check-label\\" for=\\"customCheck111-33\\">",
+    "</label>
+            </div> 
+        ",
+  ],
+  "values": Array [
+    false,
+    true,
+    "Check this custom radio",
+  ],
+}
+`;
+
+exports[`Storyshots Forms/RadioButton Disabled Selected 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+            <div class=\\"custom-control custom-radio\\">
+                <input type=\\"radio\\" class=\\"form-check-input\\" ?checked=",
+    " ?disabled=",
+    " id=\\"customCheck111-33\\" />
+                <label class=\\"form-check-label\\" for=\\"customCheck111-33\\">",
+    "</label>
+            </div> 
+        ",
+  ],
+  "values": Array [
+    true,
+    true,
+    "Check this custom radio",
+  ],
+}
+`;
+
+exports[`Storyshots Forms/RadioButton Group 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+            <div style=\\"width: 300px;\\">
+                <fieldset>
+                    <legend>Group Label</legend>
+                    <div class=\\"custom-control custom-radio\\">
+                        <input type=\\"radio\\" class=\\"form-check-input\\" ?checked=",
+    " ?disabled=",
+    " id=\\"customCheck111-34\\" name=\\"group\\" />
+                        <label class=\\"form-check-label\\" for=\\"customCheck111-34\\">",
+    "</label>
+                    </div>
+                    <div class=\\"custom-control custom-radio\\">
+                        <input type=\\"radio\\" class=\\"form-check-input\\" ?checked=",
+    " ?disabled=",
+    " id=\\"customCheck111-35\\"name=\\"group\\" />
+                        <label class=\\"form-check-label\\" for=\\"customCheck111-35\\">Check this custom radio</label>
+                    </div>
+                    <div class=\\"custom-control custom-radio\\">
+                        <input type=\\"radio\\" class=\\"form-check-input\\" ?checked=",
+    " ?disabled=",
+    " id=\\"customCheck111-36\\" name=\\"group\\"/>
+                        <label class=\\"form-check-label\\" for=\\"customCheck111-36\\">This is a custom radio label that wraps to the next line</label>
+                    </div>
+                </fieldset>
+            </div>
+        ",
+  ],
+  "values": Array [
+    false,
+    false,
+    "Check this custom radio",
+    false,
+    false,
+    false,
+    false,
+  ],
+}
+`;
+
+exports[`Storyshots Forms/RadioButton Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+            <div class=\\"custom-control custom-radio\\">
+                <input type=\\"radio\\" class=\\"form-check-input\\" ?checked=",
+    " ?disabled=",
+    " id=\\"customCheck111-33\\" />
+                <label class=\\"form-check-label\\" for=\\"customCheck111-33\\">",
+    "</label>
+            </div> 
+        ",
+  ],
+  "values": Array [
+    false,
+    false,
+    "Check this custom radio",
+  ],
+}
+`;

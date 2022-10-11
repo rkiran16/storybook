@@ -1,0 +1,85 @@
+<!-- Colors.stories.mdx -->
+
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs";
+
+<Meta title="DesignTokens/Colors" />
+
+# Colors
+
+<br />
+
+## Brand Colors
+
+<ColorPalette>
+  <ColorItem
+    title="Primary Colors"
+    colors={{ "Red": "#E41F35", "White": "#FFFFFF" }}
+  />
+  <ColorItem
+    title="Secondary"
+    colors={{
+      "Blue": "#BBDDE6",
+      "Grey": "#EFEFEF",
+      "Dark Grey": "#948A85",
+      "Black": "#27251F",
+    }}
+  />
+  <ColorItem
+    title="UI"
+    colors={{
+      "Light Grey": "#F4F6F6",
+      "Mid Grey": "#E2E9EA",
+      "Medium Grey": "#B8BBBA",
+      "Dark Grey": "#6B7070",
+      "Text Red AA": "#D51A30",
+      "Dark Red": "#6D151F",
+      "Light Blue": "#E7F5F7",
+      Purple: "#8C5F95",
+    }}
+  />
+  <ColorItem
+    title="Semantic"
+    colors={{
+      Error: "#B13590",
+      Warning: "#916603",
+      Success: "#067F47",
+      Information: "#1274BF",
+      Disabled: "#B8BBBA",
+      "Text Grey AA": "#6B7070",
+    }}
+  />
+</ColorPalette>
+
+<br />
+<br />
+
+## Sass Variables (for developers)
+
+<ColorPalette>
+  <ColorItem
+    title="greyscale"
+    colors={{
+      white: "#FFFFFF",
+      "$gray-100": "#F4F6F6",
+      "$gray-200": "#EFEFEF",
+      "$gray-300": "#E2E9EA",
+      "$gray-400": "#B8BBBA",
+      "$gray-500": "#948A85",
+      "$gray-600": "#6B7070",
+    }}
+  />
+  <ColorItem
+    title="Theme Colors"
+    colors={{
+      $primary: "#E41F35",
+      $secondary: "#27251F",
+      $success: "#067F47",
+      $info: "#1274BF",
+      $warning: "#916603",
+      $danger: "#B13590",
+      $light: "#F4F6F6",
+      $dark: "#6B7070",
+    }}
+  />
+</ColorPalette>
+

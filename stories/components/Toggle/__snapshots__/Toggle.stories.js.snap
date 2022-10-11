@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Toggle Large 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=",
+    ">
+        <input class=\\"form-check-input\\" ?disabled=",
+    " ?checked=",
+    " type=\\"checkbox\\" id=\\"flexSwitchCheckDefault\\" aria-label=\\"Toggle Switch\\" aria-hidden=\\"true\\">
+        ",
+    " 
+    </div>
+   ",
+  ],
+  "values": Array [
+    "form-check form-switch toggle toggle--large",
+    false,
+    false,
+    "",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Toggle Selected 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=",
+    ">
+        <input class=\\"form-check-input\\" ?disabled=",
+    " ?checked=",
+    " type=\\"checkbox\\" id=\\"flexSwitchCheckDefault\\" aria-label=\\"Toggle Switch\\" aria-hidden=\\"true\\">
+        ",
+    " 
+    </div>
+   ",
+  ],
+  "values": Array [
+    "form-check form-switch toggle",
+    false,
+    true,
+    "",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Toggle Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=",
+    ">
+        <input class=\\"form-check-input\\" ?disabled=",
+    " ?checked=",
+    " type=\\"checkbox\\" id=\\"flexSwitchCheckDefault\\" aria-label=\\"Toggle Switch\\" aria-hidden=\\"true\\">
+        ",
+    " 
+    </div>
+   ",
+  ],
+  "values": Array [
+    "form-check form-switch toggle",
+    false,
+    false,
+    "",
+  ],
+}
+`;
+
+exports[`Storyshots Components/Toggle With Label 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=",
+    ">
+        <input class=\\"form-check-input\\" ?disabled=",
+    " ?checked=",
+    " type=\\"checkbox\\" id=\\"flexSwitchCheckDefault\\" aria-label=\\"Toggle Switch\\" aria-hidden=\\"true\\">
+        ",
+    " 
+    </div>
+   ",
+  ],
+  "values": Array [
+    "form-check form-switch toggle",
+    false,
+    false,
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "<label class=\\"form-check-label\\" for=\\"flexSwitchCheckDefault\\">",
+        "</label>",
+      ],
+      "values": Array [
+        "Toggle Switch",
+      ],
+    },
+  ],
+}
+`;

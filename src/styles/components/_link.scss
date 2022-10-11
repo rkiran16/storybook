@@ -1,0 +1,31 @@
+a {
+  font-weight:500;
+
+  &.inline {
+     color: $black;
+     font-weight:normal;
+
+     &:hover:not(:disabled) {
+        color: $deep-carmine;
+     }
+  }
+
+  //Pseudo Classes 
+  &:active {
+     color: #6d151f; // This color is not part of color palette
+  }
+
+  &:focus {
+    outline: 2px dotted $dark;
+    outline-offset: 3px;
+  }
+
+  &:disabled {
+     pointer-events:none;
+     color: $gray-600;
+  }
+
+  &:visited {
+     color: #6f4977; // This color is not part of color palette
+  }
+}

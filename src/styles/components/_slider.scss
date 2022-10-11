@@ -1,0 +1,60 @@
+.slider {
+    p {
+        padding: 0 1rem;
+        margin: 0;
+    }
+
+    .left-label {
+        padding-left: 0;
+    }
+
+    .textInput {
+        width: 100px;
+        
+        .form-control {
+            text-align: center;
+        }
+    }
+
+    &.disabled {
+        .form-range {
+            &::-webkit-slider-runnable-track {
+                background: $gray-400;
+            }
+    
+            &::-webkit-slider-thumb{
+                background: $gray-400;
+            }
+        }
+
+        label, p {
+            color: $gray-400;
+        }
+    }
+
+    .form-range {
+        &::-webkit-slider-thumb {
+            background: #27251F;
+            box-shadow: 0 0 0 3px white;
+        }
+
+        &::-webkit-slider-runnable-track {
+            background: #6b7070;
+            border-radius: 0;
+        }
+
+        &:hover::-webkit-slider-thumb {
+            box-shadow: 0 0 0 3px white, 0 0 0 15px rgba(39, 37, 32, 0.15);
+        }
+
+        &:focus::-webkit-slider-thumb {
+            border-color: $dark;
+            outline: 1.5px dotted $dark;
+            outline-offset: 3px;
+        }
+    }
+
+    .textInput {
+        padding: 0 4px;
+    }
+}

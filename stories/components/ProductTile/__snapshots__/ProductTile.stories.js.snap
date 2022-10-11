@@ -1,0 +1,1580 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Tiles/ProductTile Standard 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <div class=\\"tile product-tile position-relative\\">
+      <div class=\\"product-tile__flags\\">
+        <span class=\\"sub-title-4 badge bg-info double-flag-1 text-uppercase\\">New</span>
+        <span class=\\"sub-title-4 badge bg-info double-flag-2 text-uppercase\\">Recommended</span>
+      </div>  
+      ",
+    "
+      ",
+    "
+    </div>
+  ",
+  ],
+  "values": Array [
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+    <div class=\\"tile__info\\">
+      <div class=\\"tile__info__controls\\">
+        ",
+        "
+        <div class=\\"w-100 d-flex justify-content-end tile-control\\">
+          <button type=\\"button\\" class=\\"btn btn-icon btn-icon-w-text horizontal\\">
+            Remove
+            <span class=\\"material-icons ms-1\\">delete</span>
+          </button>
+        </div>
+      </div>
+      <div class=\\"d-flex flex-column w-100\\">
+          <div class=\\"d-flex w-100\\">
+            ",
+        "
+            <div class=\\"d-flex align-items-center justify-content-between w-100\\">
+              <div class=\\"title-section\\">
+                ",
+        "
+                ",
+        "
+              </div>
+              <div class=\\"d-none d-sm-flex mt-4\\">",
+        "</div>
+            </div>
+          </div>
+          <div class=\\"product-details\\">
+            <div class=\\"product-details__info\\">",
+        "</div>
+            <div class=\\"product-details__info-mobile\\">",
+        "</div>
+            <div class=\\"product-details__controls\\">",
+        "</div>
+          </div>
+          <div class=\\"mt-4\\">",
+        "</div>
+      </div>
+    </div>
+  ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+            <div class=\\"form-check\\">
+                <input type=\\"checkbox\\" class=\\"form-check-input\\" ?checked=",
+            "  ?disabled=",
+            " id=\\"customCheck111-33\\" />
+                <label class=",
+            " for=\\"customCheck111-33\\">Check this custom checkbox</label>
+            </div>
+        ",
+          ],
+          "values": Array [
+            false,
+            undefined,
+            "form-check-label visually-hidden",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<img src=",
+            " class=\\"product-thumbnail\\" alt=\\"alt text goes here\\"/>",
+          ],
+          "values": Array [
+            "file-stub",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+      <span class=",
+            ">
+        ",
+            " 
+        <strong class=\\"pt-1\\">",
+            "</strong>
+      </span>
+   ",
+          ],
+          "values": Array [
+            "d-flex align-items-center text-danger",
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <span class=\\"position-relative me-2 d-flex align-items-center\\">
+      <label class=\\"position-absolute top-50 start-50 sub-title-4 translate-middle text-white lh-1\\">8</label>
+      <svg role=\\"img\\" aria-labelledby=\\"count\\" xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">
+        <title id=\\"count\\">8</title>
+        <path fill=\\"currentColor\\" d=\\"m25 12.955-2.662-3.044.371-4.025-3.938-.895L16.709 1.5 13 3.093 9.291 1.5 7.229 4.98l-3.938.884.371 4.036L1 12.955 3.662 16l-.371 4.036 3.938.895 2.062 3.48L13 22.805l3.709 1.595 2.062-3.48 3.938-.895L22.338 16Z\\"/>
+      </svg>
+    </span>
+   ",
+              ],
+              "values": Array [],
+            },
+            "Apexes generics portfolio b",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "<a href=",
+            " class=",
+            " target=",
+            ">",
+            "</a>",
+          ],
+          "values": Array [
+            "http://www.cardinalhealth.com",
+            "inline mt-2 text-break tile-title",
+            "_self",
+            "Heparin Sodium 5000 units/0.5 mL Preservative-Free CarpujectTM Syringe, 0.5 mL x 50 EA",
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=\\"product-price\\">
+      <span class=\\"sub-title-3 text-muted text-uppercase\\">invoice cost</span>
+      <span class=\\"h5 mb-1 lh-1\\">$999.99</span>
+      <span class=\\"lh-1\\"><span class=\\"text-uppercase text-muted\\">UOI: </span>$99.9999</span>
+    </div>
+   ",
+          ],
+          "values": Array [],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=\\"product-info\\">
+      <div class=\\"d-flex justify-content-between\\">
+        <div class=\\"d-flex flex-column me-5\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">CIN:</span>
+            <span>999999</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Net cost:</span>
+            <span>$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">MFR:</span>
+            <span class=\\"text-uppercase\\">astellas pharma</span>
+          </span>
+        </div>
+        <div class=\\"d-flex flex-column me-5\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">NDC:</span>
+            <span>99999-999-99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Net UOI:</span>
+            <span>$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">AB Rating:</span>
+            <span class=\\"text-uppercase\\">ZB</span>
+          </span>
+        </div>
+        <div class=\\"d-flex flex-column\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">UPC:</span>
+            <span>999999-999999</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Retail:</span>
+            <span>$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Unit dose:</span>
+            <span class=\\"text-uppercase\\">UD</span>
+          </span>
+        </div>
+      </div>
+      <div class=\\"d-flex mt-4 justify-content-md-between justify-content-lg-start\\">
+            <span class=\\"position-relative d-flex align-items-center w-25 me-5\\">
+              <span class=\\"me-2 material-icons\\">check</span>
+              <strong class=\\"sub-title-3 fw-bold\\">DROP SHIP</strong>
+            </span>
+            <span class=\\"position-relative  d-flex align-items-center\\">
+              <span class=\\"me-2 material-icons\\">done</span>
+              <strong class=\\"sub-title-3 fw-bold\\">RETURNABLE</strong>
+            </span>
+            <span class=\\"d-none  d-md-flex d-lg-none\\">
+              <span class=\\"text-muted me-1\\">Last Ordered:</span>
+              <span>10/11/21</span>
+            </span>
+        </div>
+        <div class=\\"d-flex d-md-none d-lg-flex mt-sm-3 mt-lg-5\\">
+            <span class=\\"d-flex\\">
+              <span class=\\"text-muted me-1\\">Last Ordered:</span>
+              <span>10/11/21</span>
+            </span>
+        </div>
+    </div>
+   ",
+          ],
+          "values": Array [],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=\\"d-flex flex-column\\">
+      <div class=\\"d-flex justify-content-between\\">
+        <div class=\\"d-flex flex-column\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"sub-title-3 text-muted me-1\\">CIN:</span>
+            <span class=\\"sub-title-3\\">999999</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"sub-title-3 text-muted me-1\\">Net cost:</span>
+            <span class=\\"sub-title-3\\">$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"sub-title-3 text-muted me-1\\">MFR:</span>
+            <span class=\\"sub-title-3 text-uppercase\\">astellas pharma</span>
+          </span>
+        </div>
+        ",
+            "
+      </div>
+      <div class=\\"accordion accordion-small accordion-no-border\\" id=\\"productInfoMobile\\">
+        <div class=\\"accordion-item\\">
+          <h5 class=\\"accordion-header\\" id=\\"headingOne\\">
+            <button type=\\"button\\" data-bs-toggle=\\"collapse\\" class=\\"accordion-button collapsed\\" data-bs-target=\\"#productInfoMobileContainer\\" aria-expanded=\\"false\\" aria-controls=\\"productInfoMobileContainer\\">
+              See more
+            </button>
+          </h5>
+          <div aria-labelledby=\\"headingOne\\" id=\\"productInfoMobileContainer\\" class=\\"accordion-collapse collapse \\" data-bs-parent=\\"#productInfoMobile\\">
+            <div class=\\"accordion-body p-0 pt-3\\">
+              <div class=\\"d-flex flex-column\\">
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">NDC:</span>
+                  <span>99999-999-99</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">Net UOI:</span>
+                  <span>$99,999.99</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">AB Rating:</span>
+                  <span class=\\"text-uppercase\\">ZB</span>
+                </span>
+              </div>
+              <div class=\\"d-flex flex-column\\">
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">UPC:</span>
+                  <span>999999-999999</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">Retail:</span>
+                  <span>$99,999.99</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">Unit dose:</span>
+                  <span class=\\"text-uppercase\\">UD</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   ",
+          ],
+          "values": Array [
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div class=\\"product-price\\">
+      <span class=\\"sub-title-3 text-muted text-uppercase\\">invoice cost</span>
+      <span class=\\"h5 mb-1 lh-1\\">$999.99</span>
+      <span class=\\"lh-1\\"><span class=\\"text-uppercase text-muted\\">UOI: </span>$99.9999</span>
+    </div>
+   ",
+              ],
+              "values": Array [],
+            },
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=\\"d-flex flex-column\\">
+      ",
+            "
+      <span class=\\"sub-title-4 mt-2\\">Up to 900 available, additional express charges may apply.</span>
+      <div class=\\"d-block mt-2 d-sm-none\\">",
+            "</div>
+      <div class=\\"d-none mt-3 d-sm-block\\">",
+            "</div>
+      <div class=\\"d-flex mt-3 justify-content-between align-items-center w-100\\">
+        <div class=\\"form-check form-switch toggle\\">
+          <input class=\\"form-check-input\\" type=\\"checkbox\\" checked id=\\"flexSwitchCheckDefault\\" aria-label=\\"Toggle Switch\\">
+          <label class=\\"form-check-label sub-title-4\\" for=\\"flexSwitchCheckDefault\\">Allow substitutions</label> 
+        </div>
+        <button type=\\"button\\" class=\\"btn btn-tertiary btn-w-icon d-flex justify-content-center align-items-center \\">
+          <span class=\\"material-icons md-16 me-2\\">add</span>
+          Add to list
+        </button>
+      </div>
+    </div>
+  ",
+          ],
+          "values": Array [
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div>
+      <span
+        class=\\"sub-title-3 rounded-pill p-1 ",
+                " bg-",
+                " text-white \\"
+        >",
+                "</span
+      >
+      <span class=",
+                ">",
+                "</span>
+    </div>
+  ",
+              ],
+              "values": Array [
+                "",
+                "success",
+                378,
+                "sub-title-3 text-success",
+                "IN STOCK",
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div class=\\"d-flex w-100 justify-content-between\\">
+      ",
+                "
+      <button type=\\"button\\" class=\\"btn ms-2 w-100 btn-outline-secondary\\">Buy now</button>
+    </div>
+    <button type=\\"button\\" class=\\"btn w-100 mt-2 btn-primary\\">Add to cart</button>
+  ",
+              ],
+              "values": Array [
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <div class=",
+                    " for=\\"quantity\\">
+      <button ?disabled=",
+                    " onclick=\\"\\" class=\\"btn icon-button left\\">
+        <span class=\\"material-icons\\">
+          remove
+        </span>
+      </button>
+      <input ?disabled=",
+                    " class=\\"quantity\\" id=\\"quantity\\" value=\\"0\\" min=\\"0\\" max=\\"9999\\" name=\\"quantity\\" type=\\"number\\">
+      <label for=\\"quantity\\">Qty</label>
+      <button ?disabled=",
+                    " onclick=\\"\\" class=\\"btn icon-button right\\">
+        <span class=\\"material-icons\\">
+          add
+        </span>
+      </button>
+    </div>
+  ",
+                  ],
+                  "values": Array [
+                    "input-spinner ",
+                    undefined,
+                    undefined,
+                    undefined,
+                  ],
+                },
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div class=\\"d-flex justify-content-between align-items-center\\">
+      ",
+                "
+      <button type=\\"button\\" class=\\"btn mx-3 w-100 btn-primary\\">Add to cart</button>
+      <button type=\\"button\\" class=\\"btn w-100 btn-outline-secondary bg-white\\">Buy now</button>
+    </div>
+   ",
+              ],
+              "values": Array [
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <div class=",
+                    " for=\\"quantity\\">
+      <button ?disabled=",
+                    " onclick=\\"\\" class=\\"btn icon-button left\\">
+        <span class=\\"material-icons\\">
+          remove
+        </span>
+      </button>
+      <input ?disabled=",
+                    " class=\\"quantity\\" id=\\"quantity\\" value=\\"0\\" min=\\"0\\" max=\\"9999\\" name=\\"quantity\\" type=\\"number\\">
+      <label for=\\"quantity\\">Qty</label>
+      <button ?disabled=",
+                    " onclick=\\"\\" class=\\"btn icon-button right\\">
+        <span class=\\"material-icons\\">
+          add
+        </span>
+      </button>
+    </div>
+  ",
+                  ],
+                  "values": Array [
+                    "input-spinner ",
+                    undefined,
+                    undefined,
+                    undefined,
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+      <div
+        class=\\"alert alert-",
+            " border-",
+            " alert-dismissible d-flex justify-content-between align-items-center \\"
+        role=\\"alert\\"
+      >
+
+          <div class=\\"d-flex\\">
+
+          ",
+            "
+          <div class=\\"ms-2\\">
+          <span>
+            <strong class=\\"text-",
+            "\\">",
+            "</strong>
+            <span class=\\"text-black text-break\\"> ",
+            "</span>
+            <span class=\\"ps-2\\">
+              ",
+            "
+            </span>
+            <span class=\\"ps-2 \\">
+              ",
+            "
+            </span>
+            </span>
+            </div>
+          </div>
+ ",
+            "
+         
+        </div>
+      </div>
+  ",
+          ],
+          "values": Array [
+            "danger",
+            "danger",
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                " <span class=\\"material-icons \\"> error_outline </span> ",
+              ],
+              "values": Array [],
+            },
+            "danger",
+            "Error!",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            null,
+            null,
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                " <button
+         type=\\"button\\"
+         class=\\"btn-close\\"
+         data-bs-dismiss=\\"alert\\"
+         aria-label=\\"Close\\"
+       ></button>",
+              ],
+              "values": Array [],
+            },
+          ],
+        },
+      ],
+    },
+    Object {
+      "_$litType$": 1,
+      "strings": Array [
+        "
+   <div class=\\"accordion accordion-small product-tile__view-alternatives accordion-no-border\\" id=\\"accordionNoBorder\\">
+       <div class=\\"accordion-item bg-transparent\\">
+         <h5 class=\\"accordion-header px-4 py-3\\" id=\\"headingOne\\">
+           <button type=\\"button\\" data-bs-toggle=\\"collapse\\" class=\\"accordion-button collapsed\\" data-bs-target=\\"#AccordionNoBorderContainer\\" aria-expanded=\\"false\\" aria-controls=\\"AccordionNoBorderContainer\\">
+             View Alternatives
+           </button>
+         </h5>
+         <div aria-labelledby=\\"headingOne\\" id=\\"AccordionNoBorderContainer\\" class=\\"accordion-collapse collapse \\" data-bs-parent=\\"#accordionNoBorder\\">
+           <div class=\\"accordion-body p-0\\">
+              ",
+        "
+              <hr />
+              ",
+        "
+           </div>
+         </div>
+       </div>
+     </div>
+  ",
+      ],
+      "values": Array [
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=\\"tile__info\\">
+      <div class=\\"tile__info__controls\\">
+        ",
+            "
+        <div class=\\"w-100 d-flex justify-content-end tile-control\\">
+          <button type=\\"button\\" class=\\"btn btn-icon btn-icon-w-text horizontal\\">
+            Remove
+            <span class=\\"material-icons ms-1\\">delete</span>
+          </button>
+        </div>
+      </div>
+      <div class=\\"d-flex flex-column w-100\\">
+          <div class=\\"d-flex w-100\\">
+            ",
+            "
+            <div class=\\"d-flex align-items-center justify-content-between w-100\\">
+              <div class=\\"title-section\\">
+                ",
+            "
+                ",
+            "
+              </div>
+              <div class=\\"d-none d-sm-flex mt-4\\">",
+            "</div>
+            </div>
+          </div>
+          <div class=\\"product-details\\">
+            <div class=\\"product-details__info\\">",
+            "</div>
+            <div class=\\"product-details__info-mobile\\">",
+            "</div>
+            <div class=\\"product-details__controls\\">",
+            "</div>
+          </div>
+          <div class=\\"mt-4\\">",
+            "</div>
+      </div>
+    </div>
+  ",
+          ],
+          "values": Array [
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+            <div class=\\"form-check\\">
+                <input type=\\"checkbox\\" class=\\"form-check-input\\" ?checked=",
+                "  ?disabled=",
+                " id=\\"customCheck111-33\\" />
+                <label class=",
+                " for=\\"customCheck111-33\\">Check this custom checkbox</label>
+            </div>
+        ",
+              ],
+              "values": Array [
+                false,
+                undefined,
+                "form-check-label visually-hidden",
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "<img src=",
+                " class=\\"product-thumbnail\\" alt=\\"alt text goes here\\"/>",
+              ],
+              "values": Array [
+                "file-stub",
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+      <span class=",
+                ">
+        ",
+                " 
+        <strong class=\\"pt-1\\">",
+                "</strong>
+      </span>
+   ",
+              ],
+              "values": Array [
+                "d-flex align-items-center text-danger",
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <span class=\\"position-relative me-2 d-flex align-items-center\\">
+      <label class=\\"position-absolute top-50 start-50 sub-title-4 translate-middle text-white lh-1\\">8</label>
+      <svg role=\\"img\\" aria-labelledby=\\"count\\" xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">
+        <title id=\\"count\\">8</title>
+        <path fill=\\"currentColor\\" d=\\"m25 12.955-2.662-3.044.371-4.025-3.938-.895L16.709 1.5 13 3.093 9.291 1.5 7.229 4.98l-3.938.884.371 4.036L1 12.955 3.662 16l-.371 4.036 3.938.895 2.062 3.48L13 22.805l3.709 1.595 2.062-3.48 3.938-.895L22.338 16Z\\"/>
+      </svg>
+    </span>
+   ",
+                  ],
+                  "values": Array [],
+                },
+                "Apexes generics portfolio b",
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "<a href=",
+                " class=",
+                " target=",
+                ">",
+                "</a>",
+              ],
+              "values": Array [
+                "http://www.cardinalhealth.com",
+                "inline mt-2 text-break tile-title",
+                "_self",
+                "Heparin Sodium 5000 units/0.5 mL Preservative-Free CarpujectTM Syringe, 0.5 mL x 50 EA",
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div class=\\"product-price\\">
+      <span class=\\"sub-title-3 text-muted text-uppercase\\">invoice cost</span>
+      <span class=\\"h5 mb-1 lh-1\\">$999.99</span>
+      <span class=\\"lh-1\\"><span class=\\"text-uppercase text-muted\\">UOI: </span>$99.9999</span>
+    </div>
+   ",
+              ],
+              "values": Array [],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div class=\\"product-info\\">
+      <div class=\\"d-flex justify-content-between\\">
+        <div class=\\"d-flex flex-column me-5\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">CIN:</span>
+            <span>999999</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Net cost:</span>
+            <span>$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">MFR:</span>
+            <span class=\\"text-uppercase\\">astellas pharma</span>
+          </span>
+        </div>
+        <div class=\\"d-flex flex-column me-5\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">NDC:</span>
+            <span>99999-999-99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Net UOI:</span>
+            <span>$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">AB Rating:</span>
+            <span class=\\"text-uppercase\\">ZB</span>
+          </span>
+        </div>
+        <div class=\\"d-flex flex-column\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">UPC:</span>
+            <span>999999-999999</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Retail:</span>
+            <span>$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Unit dose:</span>
+            <span class=\\"text-uppercase\\">UD</span>
+          </span>
+        </div>
+      </div>
+      <div class=\\"d-flex mt-4 justify-content-md-between justify-content-lg-start\\">
+            <span class=\\"position-relative d-flex align-items-center w-25 me-5\\">
+              <span class=\\"me-2 material-icons\\">check</span>
+              <strong class=\\"sub-title-3 fw-bold\\">DROP SHIP</strong>
+            </span>
+            <span class=\\"position-relative  d-flex align-items-center\\">
+              <span class=\\"me-2 material-icons\\">done</span>
+              <strong class=\\"sub-title-3 fw-bold\\">RETURNABLE</strong>
+            </span>
+            <span class=\\"d-none  d-md-flex d-lg-none\\">
+              <span class=\\"text-muted me-1\\">Last Ordered:</span>
+              <span>10/11/21</span>
+            </span>
+        </div>
+        <div class=\\"d-flex d-md-none d-lg-flex mt-sm-3 mt-lg-5\\">
+            <span class=\\"d-flex\\">
+              <span class=\\"text-muted me-1\\">Last Ordered:</span>
+              <span>10/11/21</span>
+            </span>
+        </div>
+    </div>
+   ",
+              ],
+              "values": Array [],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div class=\\"d-flex flex-column\\">
+      <div class=\\"d-flex justify-content-between\\">
+        <div class=\\"d-flex flex-column\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"sub-title-3 text-muted me-1\\">CIN:</span>
+            <span class=\\"sub-title-3\\">999999</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"sub-title-3 text-muted me-1\\">Net cost:</span>
+            <span class=\\"sub-title-3\\">$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"sub-title-3 text-muted me-1\\">MFR:</span>
+            <span class=\\"sub-title-3 text-uppercase\\">astellas pharma</span>
+          </span>
+        </div>
+        ",
+                "
+      </div>
+      <div class=\\"accordion accordion-small accordion-no-border\\" id=\\"productInfoMobile\\">
+        <div class=\\"accordion-item\\">
+          <h5 class=\\"accordion-header\\" id=\\"headingOne\\">
+            <button type=\\"button\\" data-bs-toggle=\\"collapse\\" class=\\"accordion-button collapsed\\" data-bs-target=\\"#productInfoMobileContainer\\" aria-expanded=\\"false\\" aria-controls=\\"productInfoMobileContainer\\">
+              See more
+            </button>
+          </h5>
+          <div aria-labelledby=\\"headingOne\\" id=\\"productInfoMobileContainer\\" class=\\"accordion-collapse collapse \\" data-bs-parent=\\"#productInfoMobile\\">
+            <div class=\\"accordion-body p-0 pt-3\\">
+              <div class=\\"d-flex flex-column\\">
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">NDC:</span>
+                  <span>99999-999-99</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">Net UOI:</span>
+                  <span>$99,999.99</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">AB Rating:</span>
+                  <span class=\\"text-uppercase\\">ZB</span>
+                </span>
+              </div>
+              <div class=\\"d-flex flex-column\\">
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">UPC:</span>
+                  <span>999999-999999</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">Retail:</span>
+                  <span>$99,999.99</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">Unit dose:</span>
+                  <span class=\\"text-uppercase\\">UD</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   ",
+              ],
+              "values": Array [
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <div class=\\"product-price\\">
+      <span class=\\"sub-title-3 text-muted text-uppercase\\">invoice cost</span>
+      <span class=\\"h5 mb-1 lh-1\\">$999.99</span>
+      <span class=\\"lh-1\\"><span class=\\"text-uppercase text-muted\\">UOI: </span>$99.9999</span>
+    </div>
+   ",
+                  ],
+                  "values": Array [],
+                },
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div class=\\"d-flex flex-column\\">
+      ",
+                "
+      <span class=\\"sub-title-4 mt-2\\">Up to 900 available, additional express charges may apply.</span>
+      <div class=\\"d-block mt-2 d-sm-none\\">",
+                "</div>
+      <div class=\\"d-none mt-3 d-sm-block\\">",
+                "</div>
+      <div class=\\"d-flex mt-3 justify-content-between align-items-center w-100\\">
+        <div class=\\"form-check form-switch toggle\\">
+          <input class=\\"form-check-input\\" type=\\"checkbox\\" checked id=\\"flexSwitchCheckDefault\\" aria-label=\\"Toggle Switch\\">
+          <label class=\\"form-check-label sub-title-4\\" for=\\"flexSwitchCheckDefault\\">Allow substitutions</label> 
+        </div>
+        <button type=\\"button\\" class=\\"btn btn-tertiary btn-w-icon d-flex justify-content-center align-items-center \\">
+          <span class=\\"material-icons md-16 me-2\\">add</span>
+          Add to list
+        </button>
+      </div>
+    </div>
+  ",
+              ],
+              "values": Array [
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <div>
+      <span
+        class=\\"sub-title-3 rounded-pill p-1 ",
+                    " bg-",
+                    " text-white \\"
+        >",
+                    "</span
+      >
+      <span class=",
+                    ">",
+                    "</span>
+    </div>
+  ",
+                  ],
+                  "values": Array [
+                    "",
+                    "success",
+                    378,
+                    "sub-title-3 text-success",
+                    "IN STOCK",
+                  ],
+                },
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <div class=\\"d-flex w-100 justify-content-between\\">
+      ",
+                    "
+      <button type=\\"button\\" class=\\"btn ms-2 w-100 btn-outline-secondary\\">Buy now</button>
+    </div>
+    <button type=\\"button\\" class=\\"btn w-100 mt-2 btn-primary\\">Add to cart</button>
+  ",
+                  ],
+                  "values": Array [
+                    Object {
+                      "_$litType$": 1,
+                      "strings": Array [
+                        "
+    <div class=",
+                        " for=\\"quantity\\">
+      <button ?disabled=",
+                        " onclick=\\"\\" class=\\"btn icon-button left\\">
+        <span class=\\"material-icons\\">
+          remove
+        </span>
+      </button>
+      <input ?disabled=",
+                        " class=\\"quantity\\" id=\\"quantity\\" value=\\"0\\" min=\\"0\\" max=\\"9999\\" name=\\"quantity\\" type=\\"number\\">
+      <label for=\\"quantity\\">Qty</label>
+      <button ?disabled=",
+                        " onclick=\\"\\" class=\\"btn icon-button right\\">
+        <span class=\\"material-icons\\">
+          add
+        </span>
+      </button>
+    </div>
+  ",
+                      ],
+                      "values": Array [
+                        "input-spinner ",
+                        undefined,
+                        undefined,
+                        undefined,
+                      ],
+                    },
+                  ],
+                },
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <div class=\\"d-flex justify-content-between align-items-center\\">
+      ",
+                    "
+      <button type=\\"button\\" class=\\"btn mx-3 w-100 btn-primary\\">Add to cart</button>
+      <button type=\\"button\\" class=\\"btn w-100 btn-outline-secondary bg-white\\">Buy now</button>
+    </div>
+   ",
+                  ],
+                  "values": Array [
+                    Object {
+                      "_$litType$": 1,
+                      "strings": Array [
+                        "
+    <div class=",
+                        " for=\\"quantity\\">
+      <button ?disabled=",
+                        " onclick=\\"\\" class=\\"btn icon-button left\\">
+        <span class=\\"material-icons\\">
+          remove
+        </span>
+      </button>
+      <input ?disabled=",
+                        " class=\\"quantity\\" id=\\"quantity\\" value=\\"0\\" min=\\"0\\" max=\\"9999\\" name=\\"quantity\\" type=\\"number\\">
+      <label for=\\"quantity\\">Qty</label>
+      <button ?disabled=",
+                        " onclick=\\"\\" class=\\"btn icon-button right\\">
+        <span class=\\"material-icons\\">
+          add
+        </span>
+      </button>
+    </div>
+  ",
+                      ],
+                      "values": Array [
+                        "input-spinner ",
+                        undefined,
+                        undefined,
+                        undefined,
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+      <div
+        class=\\"alert alert-",
+                " border-",
+                " alert-dismissible d-flex justify-content-between align-items-center \\"
+        role=\\"alert\\"
+      >
+
+          <div class=\\"d-flex\\">
+
+          ",
+                "
+          <div class=\\"ms-2\\">
+          <span>
+            <strong class=\\"text-",
+                "\\">",
+                "</strong>
+            <span class=\\"text-black text-break\\"> ",
+                "</span>
+            <span class=\\"ps-2\\">
+              ",
+                "
+            </span>
+            <span class=\\"ps-2 \\">
+              ",
+                "
+            </span>
+            </span>
+            </div>
+          </div>
+ ",
+                "
+         
+        </div>
+      </div>
+  ",
+              ],
+              "values": Array [
+                "danger",
+                "danger",
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    " <span class=\\"material-icons \\"> error_outline </span> ",
+                  ],
+                  "values": Array [],
+                },
+                "danger",
+                "Error!",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                null,
+                null,
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    " <button
+         type=\\"button\\"
+         class=\\"btn-close\\"
+         data-bs-dismiss=\\"alert\\"
+         aria-label=\\"Close\\"
+       ></button>",
+                  ],
+                  "values": Array [],
+                },
+              ],
+            },
+          ],
+        },
+        Object {
+          "_$litType$": 1,
+          "strings": Array [
+            "
+    <div class=\\"tile__info\\">
+      <div class=\\"tile__info__controls\\">
+        ",
+            "
+        <div class=\\"w-100 d-flex justify-content-end tile-control\\">
+          <button type=\\"button\\" class=\\"btn btn-icon btn-icon-w-text horizontal\\">
+            Remove
+            <span class=\\"material-icons ms-1\\">delete</span>
+          </button>
+        </div>
+      </div>
+      <div class=\\"d-flex flex-column w-100\\">
+          <div class=\\"d-flex w-100\\">
+            ",
+            "
+            <div class=\\"d-flex align-items-center justify-content-between w-100\\">
+              <div class=\\"title-section\\">
+                ",
+            "
+                ",
+            "
+              </div>
+              <div class=\\"d-none d-sm-flex mt-4\\">",
+            "</div>
+            </div>
+          </div>
+          <div class=\\"product-details\\">
+            <div class=\\"product-details__info\\">",
+            "</div>
+            <div class=\\"product-details__info-mobile\\">",
+            "</div>
+            <div class=\\"product-details__controls\\">",
+            "</div>
+          </div>
+          <div class=\\"mt-4\\">",
+            "</div>
+      </div>
+    </div>
+  ",
+          ],
+          "values": Array [
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+            <div class=\\"form-check\\">
+                <input type=\\"checkbox\\" class=\\"form-check-input\\" ?checked=",
+                "  ?disabled=",
+                " id=\\"customCheck111-33\\" />
+                <label class=",
+                " for=\\"customCheck111-33\\">Check this custom checkbox</label>
+            </div>
+        ",
+              ],
+              "values": Array [
+                false,
+                undefined,
+                "form-check-label visually-hidden",
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "<img src=",
+                " class=\\"product-thumbnail\\" alt=\\"alt text goes here\\"/>",
+              ],
+              "values": Array [
+                "file-stub",
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+      <span class=",
+                ">
+        ",
+                " 
+        <strong class=\\"pt-1\\">",
+                "</strong>
+      </span>
+   ",
+              ],
+              "values": Array [
+                "d-flex align-items-center text-danger",
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <span class=\\"position-relative me-2 d-flex align-items-center\\">
+      <label class=\\"position-absolute top-50 start-50 sub-title-4 translate-middle text-white lh-1\\">8</label>
+      <svg role=\\"img\\" aria-labelledby=\\"count\\" xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"24\\" height=\\"24\\" viewBox=\\"0 0 24 24\\">
+        <title id=\\"count\\">8</title>
+        <path fill=\\"currentColor\\" d=\\"m25 12.955-2.662-3.044.371-4.025-3.938-.895L16.709 1.5 13 3.093 9.291 1.5 7.229 4.98l-3.938.884.371 4.036L1 12.955 3.662 16l-.371 4.036 3.938.895 2.062 3.48L13 22.805l3.709 1.595 2.062-3.48 3.938-.895L22.338 16Z\\"/>
+      </svg>
+    </span>
+   ",
+                  ],
+                  "values": Array [],
+                },
+                "Apexes generics portfolio b",
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "<a href=",
+                " class=",
+                " target=",
+                ">",
+                "</a>",
+              ],
+              "values": Array [
+                "http://www.cardinalhealth.com",
+                "inline mt-2 text-break tile-title",
+                "_self",
+                "Heparin Sodium 5000 units/0.5 mL Preservative-Free CarpujectTM Syringe, 0.5 mL x 50 EA",
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div class=\\"product-price\\">
+      <span class=\\"sub-title-3 text-muted text-uppercase\\">invoice cost</span>
+      <span class=\\"h5 mb-1 lh-1\\">$999.99</span>
+      <span class=\\"lh-1\\"><span class=\\"text-uppercase text-muted\\">UOI: </span>$99.9999</span>
+    </div>
+   ",
+              ],
+              "values": Array [],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div class=\\"product-info\\">
+      <div class=\\"d-flex justify-content-between\\">
+        <div class=\\"d-flex flex-column me-5\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">CIN:</span>
+            <span>999999</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Net cost:</span>
+            <span>$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">MFR:</span>
+            <span class=\\"text-uppercase\\">astellas pharma</span>
+          </span>
+        </div>
+        <div class=\\"d-flex flex-column me-5\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">NDC:</span>
+            <span>99999-999-99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Net UOI:</span>
+            <span>$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">AB Rating:</span>
+            <span class=\\"text-uppercase\\">ZB</span>
+          </span>
+        </div>
+        <div class=\\"d-flex flex-column\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">UPC:</span>
+            <span>999999-999999</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Retail:</span>
+            <span>$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"text-muted me-1\\">Unit dose:</span>
+            <span class=\\"text-uppercase\\">UD</span>
+          </span>
+        </div>
+      </div>
+      <div class=\\"d-flex mt-4 justify-content-md-between justify-content-lg-start\\">
+            <span class=\\"position-relative d-flex align-items-center w-25 me-5\\">
+              <span class=\\"me-2 material-icons\\">check</span>
+              <strong class=\\"sub-title-3 fw-bold\\">DROP SHIP</strong>
+            </span>
+            <span class=\\"position-relative  d-flex align-items-center\\">
+              <span class=\\"me-2 material-icons\\">done</span>
+              <strong class=\\"sub-title-3 fw-bold\\">RETURNABLE</strong>
+            </span>
+            <span class=\\"d-none  d-md-flex d-lg-none\\">
+              <span class=\\"text-muted me-1\\">Last Ordered:</span>
+              <span>10/11/21</span>
+            </span>
+        </div>
+        <div class=\\"d-flex d-md-none d-lg-flex mt-sm-3 mt-lg-5\\">
+            <span class=\\"d-flex\\">
+              <span class=\\"text-muted me-1\\">Last Ordered:</span>
+              <span>10/11/21</span>
+            </span>
+        </div>
+    </div>
+   ",
+              ],
+              "values": Array [],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div class=\\"d-flex flex-column\\">
+      <div class=\\"d-flex justify-content-between\\">
+        <div class=\\"d-flex flex-column\\">
+          <span class=\\"d-flex\\">
+            <span class=\\"sub-title-3 text-muted me-1\\">CIN:</span>
+            <span class=\\"sub-title-3\\">999999</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"sub-title-3 text-muted me-1\\">Net cost:</span>
+            <span class=\\"sub-title-3\\">$99,999.99</span>
+          </span>
+          <span class=\\"d-flex\\">
+            <span class=\\"sub-title-3 text-muted me-1\\">MFR:</span>
+            <span class=\\"sub-title-3 text-uppercase\\">astellas pharma</span>
+          </span>
+        </div>
+        ",
+                "
+      </div>
+      <div class=\\"accordion accordion-small accordion-no-border\\" id=\\"productInfoMobile\\">
+        <div class=\\"accordion-item\\">
+          <h5 class=\\"accordion-header\\" id=\\"headingOne\\">
+            <button type=\\"button\\" data-bs-toggle=\\"collapse\\" class=\\"accordion-button collapsed\\" data-bs-target=\\"#productInfoMobileContainer\\" aria-expanded=\\"false\\" aria-controls=\\"productInfoMobileContainer\\">
+              See more
+            </button>
+          </h5>
+          <div aria-labelledby=\\"headingOne\\" id=\\"productInfoMobileContainer\\" class=\\"accordion-collapse collapse \\" data-bs-parent=\\"#productInfoMobile\\">
+            <div class=\\"accordion-body p-0 pt-3\\">
+              <div class=\\"d-flex flex-column\\">
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">NDC:</span>
+                  <span>99999-999-99</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">Net UOI:</span>
+                  <span>$99,999.99</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">AB Rating:</span>
+                  <span class=\\"text-uppercase\\">ZB</span>
+                </span>
+              </div>
+              <div class=\\"d-flex flex-column\\">
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">UPC:</span>
+                  <span>999999-999999</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">Retail:</span>
+                  <span>$99,999.99</span>
+                </span>
+                <span class=\\"d-flex\\">
+                  <span class=\\"text-muted me-1\\">Unit dose:</span>
+                  <span class=\\"text-uppercase\\">UD</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   ",
+              ],
+              "values": Array [
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <div class=\\"product-price\\">
+      <span class=\\"sub-title-3 text-muted text-uppercase\\">invoice cost</span>
+      <span class=\\"h5 mb-1 lh-1\\">$999.99</span>
+      <span class=\\"lh-1\\"><span class=\\"text-uppercase text-muted\\">UOI: </span>$99.9999</span>
+    </div>
+   ",
+                  ],
+                  "values": Array [],
+                },
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+    <div class=\\"d-flex flex-column\\">
+      ",
+                "
+      <span class=\\"sub-title-4 mt-2\\">Up to 900 available, additional express charges may apply.</span>
+      <div class=\\"d-block mt-2 d-sm-none\\">",
+                "</div>
+      <div class=\\"d-none mt-3 d-sm-block\\">",
+                "</div>
+      <div class=\\"d-flex mt-3 justify-content-between align-items-center w-100\\">
+        <div class=\\"form-check form-switch toggle\\">
+          <input class=\\"form-check-input\\" type=\\"checkbox\\" checked id=\\"flexSwitchCheckDefault\\" aria-label=\\"Toggle Switch\\">
+          <label class=\\"form-check-label sub-title-4\\" for=\\"flexSwitchCheckDefault\\">Allow substitutions</label> 
+        </div>
+        <button type=\\"button\\" class=\\"btn btn-tertiary btn-w-icon d-flex justify-content-center align-items-center \\">
+          <span class=\\"material-icons md-16 me-2\\">add</span>
+          Add to list
+        </button>
+      </div>
+    </div>
+  ",
+              ],
+              "values": Array [
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <div>
+      <span
+        class=\\"sub-title-3 rounded-pill p-1 ",
+                    " bg-",
+                    " text-white \\"
+        >",
+                    "</span
+      >
+      <span class=",
+                    ">",
+                    "</span>
+    </div>
+  ",
+                  ],
+                  "values": Array [
+                    "",
+                    "success",
+                    378,
+                    "sub-title-3 text-success",
+                    "IN STOCK",
+                  ],
+                },
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <div class=\\"d-flex w-100 justify-content-between\\">
+      ",
+                    "
+      <button type=\\"button\\" class=\\"btn ms-2 w-100 btn-outline-secondary\\">Buy now</button>
+    </div>
+    <button type=\\"button\\" class=\\"btn w-100 mt-2 btn-primary\\">Add to cart</button>
+  ",
+                  ],
+                  "values": Array [
+                    Object {
+                      "_$litType$": 1,
+                      "strings": Array [
+                        "
+    <div class=",
+                        " for=\\"quantity\\">
+      <button ?disabled=",
+                        " onclick=\\"\\" class=\\"btn icon-button left\\">
+        <span class=\\"material-icons\\">
+          remove
+        </span>
+      </button>
+      <input ?disabled=",
+                        " class=\\"quantity\\" id=\\"quantity\\" value=\\"0\\" min=\\"0\\" max=\\"9999\\" name=\\"quantity\\" type=\\"number\\">
+      <label for=\\"quantity\\">Qty</label>
+      <button ?disabled=",
+                        " onclick=\\"\\" class=\\"btn icon-button right\\">
+        <span class=\\"material-icons\\">
+          add
+        </span>
+      </button>
+    </div>
+  ",
+                      ],
+                      "values": Array [
+                        "input-spinner ",
+                        undefined,
+                        undefined,
+                        undefined,
+                      ],
+                    },
+                  ],
+                },
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    "
+    <div class=\\"d-flex justify-content-between align-items-center\\">
+      ",
+                    "
+      <button type=\\"button\\" class=\\"btn mx-3 w-100 btn-primary\\">Add to cart</button>
+      <button type=\\"button\\" class=\\"btn w-100 btn-outline-secondary bg-white\\">Buy now</button>
+    </div>
+   ",
+                  ],
+                  "values": Array [
+                    Object {
+                      "_$litType$": 1,
+                      "strings": Array [
+                        "
+    <div class=",
+                        " for=\\"quantity\\">
+      <button ?disabled=",
+                        " onclick=\\"\\" class=\\"btn icon-button left\\">
+        <span class=\\"material-icons\\">
+          remove
+        </span>
+      </button>
+      <input ?disabled=",
+                        " class=\\"quantity\\" id=\\"quantity\\" value=\\"0\\" min=\\"0\\" max=\\"9999\\" name=\\"quantity\\" type=\\"number\\">
+      <label for=\\"quantity\\">Qty</label>
+      <button ?disabled=",
+                        " onclick=\\"\\" class=\\"btn icon-button right\\">
+        <span class=\\"material-icons\\">
+          add
+        </span>
+      </button>
+    </div>
+  ",
+                      ],
+                      "values": Array [
+                        "input-spinner ",
+                        undefined,
+                        undefined,
+                        undefined,
+                      ],
+                    },
+                  ],
+                },
+              ],
+            },
+            Object {
+              "_$litType$": 1,
+              "strings": Array [
+                "
+      <div
+        class=\\"alert alert-",
+                " border-",
+                " alert-dismissible d-flex justify-content-between align-items-center \\"
+        role=\\"alert\\"
+      >
+
+          <div class=\\"d-flex\\">
+
+          ",
+                "
+          <div class=\\"ms-2\\">
+          <span>
+            <strong class=\\"text-",
+                "\\">",
+                "</strong>
+            <span class=\\"text-black text-break\\"> ",
+                "</span>
+            <span class=\\"ps-2\\">
+              ",
+                "
+            </span>
+            <span class=\\"ps-2 \\">
+              ",
+                "
+            </span>
+            </span>
+            </div>
+          </div>
+ ",
+                "
+         
+        </div>
+      </div>
+  ",
+              ],
+              "values": Array [
+                "danger",
+                "danger",
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    " <span class=\\"material-icons \\"> error_outline </span> ",
+                  ],
+                  "values": Array [],
+                },
+                "danger",
+                "Error!",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+                null,
+                null,
+                Object {
+                  "_$litType$": 1,
+                  "strings": Array [
+                    " <button
+         type=\\"button\\"
+         class=\\"btn-close\\"
+         data-bs-dismiss=\\"alert\\"
+         aria-label=\\"Close\\"
+       ></button>",
+                  ],
+                  "values": Array [],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+}
+`;

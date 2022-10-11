@@ -1,0 +1,398 @@
+import {
+  Meta,
+  Title,
+  IconGallery,
+  IconItem,
+  Canvas,
+} from "@storybook/addon-docs";
+
+<Meta title="DesignTokens/Iconography" />
+
+<style>{`
+  .icon {
+    font-family: 'Material Icons' !important ;
+  }
+
+  .icon-outline {
+    font-family: 'Material Icons Outlined' !important;
+  }
+  
+`}</style>
+
+# ICON
+
+<p>Icons help communicate meaning, actions, status, or feedback.</p>
+
+## About the icon component
+
+Icons are a simple, easily graspable way to add visual emphasis or interest, signal an action, or indicate a feedback state — all while reducing a user’s cognitive load.
+
+Using a consistent set of icons helps establish a familiar look and feel across a site or service, while using individual icons
+consistently establishes a reliable relationship between the image and a specific concept or action.
+
+We use <b>"Material Icons"</b> to populate Icons. Here is the list of Icons <a href="https://fonts.google.com/icons?icon.set=Material+Icons">https://fonts.google.com/icons?icon.set=Material+Icons</a>
+
+# Zeplin 
+
+Here is Icon system link on Zeplin <a href="https://app.zeplin.io/project/62902a463701ffb0e532df2b/screen/631f4a8251fc4a873216e28f">https://app.zeplin.io/project/62902a463701ffb0e532df2b/screen/631f4a8251fc4a873216e28f</a>
+
+# SYSTEM ICON SIZE
+
+**Material Default Size:** `24 x 24px`
+
+<Canvas>
+  <span class="material-icons">shopping_cart</span>
+</Canvas>
+
+## ADDITIONAL ICON SIZE
+
+<p>
+  Material icons look best at 24px, but if an icon needs to be displayed in an
+  alternative size, using the above CSS rules can help:
+</p>
+
+<Canvas>
+  <div class="container">
+    <div class="row border">
+      <div class="col-4 p-3 justify-content-center d-flex bg-light">
+        <span class="material-icons md-16">face</span>
+      </div>
+      <div class="col-8 p-3 ">
+        <code translate="no" dir="ltr">
+          &lt;span class="material-icons md-16"&gt;face&lt;/span&gt;
+        </code>
+      </div>
+    </div>
+    <div class="row border">
+      <div class="col-4 p-3 justify-content-center d-flex bg-light">
+        <span class="material-icons md-18">face</span>
+      </div>
+      <div class="col-8 p-3 ">
+        <code translate="no" dir="ltr">
+          &lt;span class="material-icons md-18"&gt;face&lt;/span&gt;
+        </code>
+      </div>
+    </div>
+    <div class="row border">
+      <div class="col-4 p-3 justify-content-center d-flex bg-light">
+        <span class="material-icons md-24">face</span>
+      </div>
+      <div class="col-8 p-3 ">
+        <code translate="no" dir="ltr">
+          &lt;span class="material-icons md-24"&gt;face&lt;/span&gt;
+        </code>
+      </div>
+    </div>
+    <div class="row border">
+      <div class="col-4 p-3 justify-content-center d-flex bg-light">
+        <span class="material-icons md-32">face</span>
+      </div>
+      <div class="col-8 p-3 ">
+        <code translate="no" dir="ltr">
+          &lt;span class="material-icons md-32"&gt;face&lt;/span&gt;
+        </code>
+      </div>
+    </div>
+    <div class="row border">
+      <div class="col-4 p-3 justify-content-center d-flex bg-light">
+        <span class="material-icons md-48">face</span>
+      </div>
+      <div class="col-8 p-3 ">
+        <code translate="no" dir="ltr">
+          &lt;span class="material-icons md-48"&gt;face&lt;/span&gt;
+        </code>
+      </div>
+    </div>
+  </div>
+</Canvas>
+
+## Colored Icons
+
+<Canvas>
+  <span class="material-icons text-primary">shopping_cart</span>
+  <span class="material-icons text-secondary">shopping_cart</span>
+  <span class="material-icons text-success">shopping_cart</span>
+  <span class="material-icons text-danger">shopping_cart</span>
+  <span class="material-icons text-warning">shopping_cart</span>
+  <span class="material-icons text-info">shopping_cart</span>
+</Canvas>
+
+# Iconography
+
+## Navigation
+
+<IconGallery>
+  <IconItem name="menu">
+    <span class="material-icons icon">menu</span>
+  </IconItem>
+  <IconItem name="person">
+    <span class="material-icons icon">person</span>
+  </IconItem>
+  <IconItem name="notifications">
+    <span class="material-icons icon">notifications</span>
+  </IconItem>
+  <IconItem name="shoppingcart">
+    <span class="material-icons icon">shopping_cart</span>
+  </IconItem>
+</IconGallery>
+
+## Task Bar
+
+<IconGallery>
+  <IconItem name="search">
+    <span class="material-icons icon">search</span>
+  </IconItem>
+  <IconItem name="Photo Camera">
+    <span class="material-icons icon">photo_camera</span>
+  </IconItem>
+  <IconItem name="mic">
+    <span class="material-icons icon">mic</span>
+  </IconItem>
+  <IconItem name="store">
+    <span class="material-icons icon">store</span>
+  </IconItem>
+  <IconItem name="switch account">
+    <span class="material-icons icon">switch_account</span>
+  </IconItem>
+</IconGallery>
+
+## Product
+
+<IconGallery>
+  <IconItem name="medication">
+    <span class="material-icons icon-outline">medication</span>
+  </IconItem>
+  <IconItem name="water drop">
+    <span class="material-icons icon-outline">water_drop</span>
+  </IconItem>
+  <IconItem name="healing">
+    <span class="material-icons icon-outline">healing</span>
+  </IconItem>
+  <IconItem name="bloodtype">
+    <span class="material-icons icon-outline">bloodtype</span>
+  </IconItem>
+  <IconItem name="masks">
+    <span class="material-icons icon-outline">masks</span>
+  </IconItem>
+  <IconItem name="device thermostat">
+    <span class="material-icons icon-outline">device_thermostat</span>
+  </IconItem>
+  <IconItem name="local pharmacy">
+    <span class="material-icons icon-outline">local_pharmacy</span>
+  </IconItem>
+  <IconItem name="local hospital">
+    <span class="material-icons icon-outline">local_hospital</span>
+  </IconItem>
+  <IconItem name="medical services">
+    <span class="material-icons icon-outline">medical_services</span>
+  </IconItem>
+  <IconItem name="health and safety">
+    <span class="material-icons icon-outline">health_and_safety</span>
+  </IconItem>
+  <IconItem name="sanitizer">
+    <span class="material-icons icon-outline">sanitizer</span>
+  </IconItem>
+</IconGallery>
+
+## User Journey
+
+<IconGallery>
+  <IconItem name="cached">
+    <span class="material-icons icon">cached</span>
+  </IconItem>
+  <IconItem name="list">
+    <span class="material-icons icon">list</span>
+  </IconItem>
+  <IconItem name="print">
+    <span class="material-icons icon-outline">print</span>
+  </IconItem>
+  <IconItem name="More Vert">
+    <span class="material-icons icon">more_vert</span>
+  </IconItem>
+  <IconItem name="chevron left">
+    <span class="material-icons icon">chevron_left</span>
+  </IconItem>
+  <IconItem name="chevron right">
+    <span class="material-icons icon">chevron_right</span>
+  </IconItem>
+  <IconItem name="expand less">
+    <span class="material-icons icon">expand_less</span>
+  </IconItem>
+  <IconItem name="expand more">
+    <span class="material-icons icon">expand_more</span>
+  </IconItem>
+  <IconItem name="format list bullted">
+    <span class="material-icons icon">format_list_bulleted</span>
+  </IconItem>
+  <IconItem name="apps">
+    <span class="material-icons icon">apps</span>
+  </IconItem>
+  <IconItem name="filter alt">
+    <span class="material-icons icon">filter_alt</span>
+  </IconItem>
+  <IconItem name="playlist add">
+    <span class="material-icons icon">playlist_add</span>
+  </IconItem>
+  <IconItem name="arrow back">
+    <span class="material-icons icon">arrow_back</span>
+  </IconItem>
+  <IconItem name="arrow forward">
+    <span class="material-icons icon">arrow_forward</span>
+  </IconItem>
+  <IconItem name="arrow upward">
+    <span class="material-icons icon">arrow_upward</span>
+  </IconItem>
+  <IconItem name="arrow downward">
+    <span class="material-icons icon">expand_less</span>
+  </IconItem>
+  <IconItem name="sort">
+    <span class="material-icons icon">sort</span>
+  </IconItem>
+  <IconItem name="more horizontal">
+    <span class="material-icons icon">more_horiz</span>
+  </IconItem>
+  <IconItem name="arrow left">
+    <span class="material-icons icon">arrow_left</span>
+  </IconItem>
+  <IconItem name="arrow right">
+    <span class="material-icons icon">arrow_right</span>
+  </IconItem>
+  <IconItem name="arrow down">
+    <span class="material-icons icon">arrow_drop_down</span>
+  </IconItem>
+  <IconItem name="arrow up">
+    <span class="material-icons icon">arrow_drop_up</span>
+  </IconItem>
+  <IconItem name="unfold more">
+    <span class="material-icons icon">unfold_more</span>
+  </IconItem>
+  <IconItem name="close">
+    <span class="material-icons icon">close</span>
+  </IconItem>
+  <IconItem name="verified">
+    <span class="material-icons icon">verified</span>
+  </IconItem>
+  <IconItem name="zoom in">
+    <span class="material-icons icon">zoom_in</span>
+  </IconItem>
+  <IconItem name="paid">
+    <span class="material-icons icon-outline">paid</span>
+  </IconItem>
+  <IconItem name="add business">
+    <span class="material-icons icon">add_business</span>
+  </IconItem>
+  <IconItem name="check circle">
+    <span class="material-icons icon">check_circle</span>
+  </IconItem>
+  <IconItem name="check circle outline">
+    <span class="material-icons-outlined icon-outline">check_circle</span>
+  </IconItem>
+  <IconItem name="error">
+    <span class="material-icons icon">error</span>
+  </IconItem>
+  <IconItem name="error outline">
+    <span class="material-icons-outlined icon-outline">error</span>
+  </IconItem>
+  <IconItem name="add">
+    <span class="material-icons icon">add</span>
+  </IconItem>
+  <IconItem name="remove">
+    <span class="material-icons icon">remove</span>
+  </IconItem>
+  <IconItem name="history">
+    <span class="material-icons icon">history</span>
+  </IconItem>
+  <IconItem name="navigation">
+    <span class="material-icons icon-outline">navigation</span>
+  </IconItem>
+  <IconItem name="swipe left">
+    <span class="material-icons icon-outline">swipe_left</span>
+  </IconItem>
+  <IconItem name="schedule">
+    <span class="material-icons icon">schedule</span>
+  </IconItem>
+  <IconItem name="table rows">
+    <span class="material-icons icon-outline">table_rows</span>
+  </IconItem>
+  <IconItem name="dashboard customize">
+    <span class="material-icons icon-outline">dashboard_customize</span>
+  </IconItem>
+  <IconItem name="edit note">
+    <span class="material-icons icon-outline">edit_note</span>
+  </IconItem>
+  <IconItem name="edit">
+    <span class="material-icons icon">edit</span>
+  </IconItem>
+  <IconItem name="receipt long">
+    <span class="material-icons icon-outline">receipt_long</span>
+  </IconItem>
+  <IconItem name="tune">
+    <span class="material-icons icon-outline">tune</span>
+  </IconItem>
+  <IconItem name="import export">
+    <span class="material-icons icon">import_export</span>
+  </IconItem>
+  <IconItem name="file upload">
+    <span class="material-icons icon-outline">file_upload</span>
+  </IconItem>
+  <IconItem name="videocam">
+    <span class="material-icons icon">videocam</span>
+  </IconItem>
+  <IconItem name="play arrow">
+    <span class="material-icons icon">play_arrow</span>
+  </IconItem>
+  <IconItem name="play circle">
+    <span class="material-icons icon">play_circle</span>
+  </IconItem>
+  <IconItem name="pause">
+    <span class="material-icons icon">pause</span>
+  </IconItem>
+  <IconItem name="stop">
+    <span class="material-icons icon">stop</span>
+  </IconItem>
+  <IconItem name="volume up">
+    <span class="material-icons icon">volume_up</span>
+  </IconItem>
+  <IconItem name="skip previous">
+    <span class="material-icons icon">skip_previous</span>
+  </IconItem>
+  <IconItem name="skip next">
+    <span class="material-icons icon">skip_next</span>
+  </IconItem>
+  <IconItem name="subtitles">
+    <span class="material-icons icon">subtitles</span>
+  </IconItem>
+  <IconItem name="forward 10">
+    <span class="material-icons icon">forward_10</span>
+  </IconItem>
+  <IconItem name="replay 10">
+    <span class="material-icons icon">replay_10</span>
+  </IconItem>
+  <IconItem name="video settings">
+    <span class="material-icons icon">video_settings</span>
+  </IconItem>
+  <IconItem name="photo library">
+    <span class="material-icons icon">photo_library</span>
+  </IconItem>
+  <IconItem name="inventory 2">
+    <span class="material-icons icon-outline">inventory_2</span>
+  </IconItem>
+  <IconItem name="document scanner">
+    <span class="material-icons icon-outline">document_scanner</span>
+  </IconItem>
+  <IconItem name="settings">
+    <span class="material-icons icon">settings</span>
+  </IconItem>
+  <IconItem name="fax">
+    <span class="material-icons icon-outline">fax</span>
+  </IconItem>
+  <IconItem name="swap">
+    <span class="material-icons icon-outline">swap_horiz</span>
+  </IconItem>
+  <IconItem name="export">
+    <span class="material-icons icon-outline">exit_to_app</span>
+  </IconItem>
+  <IconItem name="Favorite">
+    <span class="material-icons icon-outline">favorite</span>
+  </IconItem>
+</IconGallery>

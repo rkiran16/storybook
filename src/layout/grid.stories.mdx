@@ -1,0 +1,243 @@
+import { Meta, Canvas } from "@storybook/addon-docs";
+
+<Meta title="Layout/Grid" />
+
+# GRID
+
+The grid layout type enables columns to be defined for layout.
+This is useful for controlling the spacing of items within a container as well as responsive layout.
+Spacing, alignments and gap between items can all be configured with the component.
+The grid layout by default is a 12 column grid. Gap values are t-shirt size `[xxs, xs, sm, md, lg, xl, xxl]` and align with the Layout Spacing Tokens.
+
+## Layout Grid
+
+<Canvas>
+  <div class="container">
+    <div class="row">
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          1
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          2
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          3
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          4
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          5
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          6
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          7
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          8
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          9
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          10
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          11
+        </div>
+      </div>
+      <div class="col-1">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          12
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-2">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          2
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          2
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          2
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          2
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          2
+        </div>
+      </div>
+      <div class="col-2">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          2
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-3">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          3
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          3
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          3
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          3
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-4">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          4
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          4
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          4
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-6">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          6
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          6
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-12">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          12
+        </div>
+      </div>
+    </div>
+  </div>
+</Canvas>
+
+## Column Wrap
+
+By default columns will automatically wrap if they total larger than the 12 columns
+defined.
+
+<Canvas>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          1
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          1
+        </div>
+      </div>
+      <div class="col-6 mt-2">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          1
+        </div>
+      </div>
+      <div class="col-6 mt-2">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          1
+        </div>
+      </div>
+    </div>
+  </div>
+</Canvas>
+
+## Auto Column
+
+To have each column automatically span and fill its layout container, add any number
+of unit-less classes for each breakpoint you need and every column will be the same
+width.
+
+<Canvas>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          Col
+        </div>
+      </div>
+      <div class="col">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          Col
+        </div>
+      </div>
+    </div>
+  </div>
+</Canvas>
+
+## Explicit Responsive Columns
+
+<Canvas>
+  <div class="container">
+    <div class="row">
+      <div class="col-4">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          Col-4
+        </div>
+      </div>
+      <div class="col">
+        <div class="bg-info p-2 d-flex justify-content-center text-white">
+          Col-8
+        </div>
+      </div>
+    </div>
+  </div>
+</Canvas>

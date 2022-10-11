@@ -1,0 +1,62 @@
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+# GLOBAL NOTIFICATIONS
+
+Banners take over the top of an interface to show general notifications for the product or system, not a specific task.  
+
+Message
+- Messages should be short and succinct.
+- Example messages: 
+   1) Inform users of site-wide issues (ex: site down for maintenance)
+   2) Display warnings or errors that will directly impact users’ ability to
+complete certain tasks (ex: license expired)
+- Only show one banner at a time.
+
+Sizing
+- Full width of viewport
+
+Placement
+- Do not cover other content with a banner notification.
+- Place banner directly below the main navigation task bar. 16px between banner and the breadcrumbs.
+- Banners are not sticky and should scroll with the other content on the page.
+
+Dismissal
+- Include an ‘X’ in the upper right corner to allow users to close the banner.
+- They persist until they are dismissed by the user or the user takes action that resolves the notification.
+- Banners may persist across multiple sessions.
+
+### Default
+
+<Canvas>
+    <Story id="components-notifications-global--default"></Story>
+</Canvas>
+
+### With Action
+
+<Canvas>
+      <Story id="components-notifications-global--default-with-action"></Story>
+</Canvas>
+
+### Error
+
+<Canvas>
+      <Story id="components-notifications-global--error"></Story>
+</Canvas>
+
+### Warning 
+
+<Canvas>
+      <Story id="components-notifications-global--warning"></Story>
+</Canvas>
+
+### Success
+
+<Canvas>
+      <Story id="components-notifications-global--success"></Story>
+</Canvas>
+
+### Info 
+
+<Canvas>
+      <Story id="components-notifications-global--information"></Story>
+</Canvas>

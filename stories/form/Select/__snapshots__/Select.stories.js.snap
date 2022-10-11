@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Forms/Select Default 1`] = `
+Object {
+  "_$litType$": 1,
+  "strings": Array [
+    "
+    <form class=\\"d-flex align-items-center\\">
+        <label class=\\"my-1 me-2\\" for=\\"inlineFormCustomSelectPref\\">Select label</label>
+        <select class=\\"form-select w-25\\"  id=\\"inlineFormCustomSelectPref\\">
+        <option value=\\"1\\">10MG</option>
+        <option value=\\"2\\">20MG</option>
+        <option value=\\"3\\">30MG</option>
+        </select>
+    </form>
+    ",
+  ],
+  "values": Array [],
+}
+`;

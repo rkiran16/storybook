@@ -1,0 +1,291 @@
+//Override default bootstrap styles
+/**
+  * @tokens Fonts
+  * @presenter FontFamily
+  */
+
+//Fonts
+$font-family-sans-serif: "Roboto",sans-serif;
+$font-family-sans-serif-medium: "Roboto-Medium", sans-serif;
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+
+$font-size-root:              1rem;
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-xs:                $font-size-base * .7875; //12.6px
+$font-size-sm:                $font-size-base * .875;
+$font-size-lg:                $font-size-base * 1.25;
+
+// HEADING
+$h1-font-size:                $font-size-base * 3.247; //51.952px (all assuming 16px)
+$h2-font-size:                $font-size-base * 2.887; //46.192px
+$h3-font-size:                $font-size-base * 2.281; //36.496px
+$h4-font-size:                $font-size-base * 1.802; //28.832px
+$h5-font-size:                $font-size-base * 1.602; //25.632px
+$h6-font-size:                $font-size-base * 1.125; //18px
+
+$font-weight-lighter:         lighter;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            500;
+$font-weight-bolder:          bolder;
+
+
+ /**
+  * @tokens Colors
+  * @presenter Color
+  */
+
+// GRAY SCALE
+$white    : #FFFFFF;
+$gray-100 : #F4F6F6;
+$gray-200 : #EFEFEF;
+$gray-300 : #E2E9EA;
+$gray-400 : #B8BBBA;
+$gray-500 : #948A85;
+$gray-600 : #6B7070;
+$black    : #27251F;  
+
+// COLORS 
+$blue:    #1274BF;
+$purple:  #8C5F95;
+$red:     #E41F35;
+$orange:  #916603;
+$green:   #067F47;
+$cyan:    #E7F5F7;
+$text-red : #D51A30;
+$dark-red : #6D151F;
+$light-cyan : #BBDDE6;
+$deep-carmine: #B22233;
+$magenta: #6F4977;
+
+// THEME COLORS
+$primary:       $red;
+$secondary:     $black;
+$success:       $green;
+$info:          $blue;
+$warning:       $orange;
+$danger:        #B13590;
+$light:         $gray-100;
+$dark:          $gray-600;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+) !default;
+
+ /**
+  * @tokens Others
+  */
+
+// BODY
+
+// Settings for the `<body>` element.
+$body-bg:                   $white;
+$body-color:                $black;
+
+
+// Grid breakpoints
+//
+// Define the minimum dimensions at which your layout will change,
+// adapting to different screen sizes, for use in media queries.
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1792px
+) !default;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1608px,
+) !default;
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 1.5rem !default;
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem !default;
+$spacers: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+    (0: 0,
+        1: ($spacer * .25), //4px
+        2: ($spacer * .5),  //8px
+        3: $spacer,         //16px
+        4: ($spacer * 1.5), //24px
+        5: ($spacer * 2),   //32px
+        6: ($spacer * 2.5), //40px
+        7: ($spacer * 3),   //48px
+    ),
+    $spacers);
+
+// ENABLE NEGATIVE MARGINS
+$enable-negative-margins: true;
+
+// COMPONENTS
+
+// ACCORDION
+$accordion-bg:                            $white;
+$accordion-border-color:                  transparent;
+$accordion-border-radius:                 unset;
+$accordion-inner-border-radius:           unset;
+$accordion-padding-y:                     1rem;
+$accordion-padding-x:                     1rem;
+$accordion-button-focus-border-color:     transparent;
+$accordion-button-focus-box-shadow:       none;
+$accordion-icon-active-color:             $black !important;
+$accordion-icon-width:                    2rem;
+$accordion-button-icon:                   url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='48' width='48'><path d='m24 30.75-12-12 2.15-2.15L24 26.5l9.85-9.85L36 18.8Z'/></svg>");
+
+
+//BREADCRUMBS
+
+$breadcrumb-font-size:              $font-size-sm;
+$breadcrumb-padding-y:              0;
+$breadcrumb-padding-x:              0;
+$breadcrumb-item-padding-x:         .62rem;
+$breadcrumb-margin-bottom:          1rem;
+$breadcrumb-bg:                     null;
+$breadcrumb-divider-color:          $gray-600;
+$breadcrumb-active-color:           $black;
+$breadcrumb-divider:                quote("/");
+$breadcrumb-divider-flipped:        $breadcrumb-divider;
+
+//BUTTON
+$btn-padding-y:               13px;
+$btn-padding-x:               32px;
+$btn-line-height:             normal;
+$btn-white-space:             null; // Set to `nowrap` to prevent text wrapping
+$btn-box-shadow:              none !default;
+$btn-focus-width:             none;
+$btn-focus-box-shadow:        none;
+$btn-active-box-shadow:       none;
+$btn-border-radius:           4px;
+$btn-padding-y-sm:            5px;
+$btn-padding-x-sm:            32px;
+
+//LINK
+$link-color:                              $text-red;
+$link-decoration:                         underline !default;
+$link-hover-color:                        $deep-carmine;
+$link-hover-decoration:                   underline !default;
+$link-shade-percentage:                   0;
+
+// FORM ELEMENTS
+
+// CHECKBOX AND RADIO
+$form-check-input-width:                  1.25rem;
+$form-check-min-height:                   1.25rem;
+$form-check-padding-start:                1.5em;
+$form-check-input-border:                 1px solid $black;
+$form-check-input-checked-bg-color:       $black;
+$form-check-input-focus-box-shadow:       none;
+$form-check-input-focus-border:           $black;
+$form-label-font-size: 1rem;
+$form-check-input-checked-color:          $white;
+//SVG below is Material icon "small check" at weight 500
+$form-check-input-checked-bg-image:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' height='48' width='48'><path fill='#{$form-check-input-checked-color}' stroke='#{$form-check-input-checked-color}' d='m20 32.4-7.85-7.85 2.4-2.4L20 27.6l13.45-13.45 2.4 2.4Z'/></svg>");
+
+
+// SELECT
+
+// Custom Range 
+$custom-range-track-border-radius: 0 !default;
+$custom-range-thumb-bg: $black !default;
+$custom-range-thumb-focus-box-shadow: none !default;
+$custom-range-thumb-active-bg: $dark-red !default;
+$custom-range-track-height: 0.25rem !default;
+$custom-range-thumb-disabled-bg: $gray-400 !default;
+
+// Badges
+
+$badge-font-size: 90% !default;
+$badge-font-weight: $font-weight-bold !default;
+$badge-padding-y: .83em !default;
+$badge-padding-x: 1.1em !default;
+$badge-focus-width: .2rem !default;
+$badge-pill-padding-x: 1.1em !default;
+
+// TOOLTIP
+$tooltip-font-size:                 $font-size-sm;
+$tooltip-max-width:                 200px;
+$tooltip-color:                     $black;
+$tooltip-bg:                        $white;
+$tooltip-opacity:                   .9;
+$tooltip-padding-y:                 $spacer * .5;
+$tooltip-padding-x:                 $spacer * .5;
+$tooltip-margin:                    0;
+
+$tooltip-arrow-width:               .8rem;
+$tooltip-arrow-height:              .4rem;
+$tooltip-arrow-color:               $tooltip-bg;
+
+// POPOVER
+$popover-body-padding-y:            $spacer; // 1rem
+$popover-body-padding-x:            $spacer; // 1rem
+
+// Alert 
+$alert-bg-scale:                -95%;
+$alert-border-scale:            -90%;
+$alert-color-scale:             50%;
+
+// TOASTS
+$toast-padding-x:                   1rem;
+$toast-padding-y:                   1rem;
+$toast-background-color:            $white;
+$toast-header-color:                $black;
+$toast-header-background-color:     $white;
+$toast-header-border-color:         transparent;
+
+// SPINNER
+$spinner-width:           5.25rem;
+$spinner-height:          $spinner-width;
+$spinner-vertical-align:  -.125em;
+$spinner-border-width:    .5em;
+$spinner-animation-speed: .60s;
+
+$spinner-width-sm:        1rem;
+$spinner-height-sm:       $spinner-width-sm;
+$spinner-border-width-sm: .2em;
+
+$min-contrast-ratio: 2.5;
+
+$border-radius: 4px;
+
+// MODAL
+
+$modal-sm:                          520px !default;
+$modal-md:                          792px !default;
+$modal-lg:                          1064px !default;
+$modal-xl:                          1336px !default;
+
+$modal-header-border-width:         none !default;
+$modal-content-border-radius:       none !default;
+$modal-title-line-height:           1;
