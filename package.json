@@ -4,15 +4,13 @@
   "path": "storybook-static",
   "description": "Starter kit for implementing branded atomic design system through tokenized theming",
   "scripts": {
-    "start": "npm run storybook",
+    "start": "start-storybook -p 6006 -s public",
     "build": "node --version && gulp sass && build-storybook",
-    "storybook": "start-storybook -p 9000",
-    "build-storybook": "build-storybook -s storybook-static",
+    "build-storybook": "build-storybook -s public",
     "serve-storybook": "serve storybook-static",
     "test": "jest --coverage",
     "test:update": "jest --update-snapshot",
-    "scss": "gulp sass",
-    "chromatic": "npx chromatic --project-token=da0d7ad03a97"
+    "scss": "gulp sass"
   },
   "repository": {
     "type": "git",
